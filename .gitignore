@@ -1,0 +1,14 @@
+# Environment / secrets
+.env
+*.env.local
+
+# macOS
+.DS_Store
+
+# Data files (raw sensor logs — too large for git, use git-lfs or exclude)
+data/raw/
+data/*.csv
+
+# Editor
+.vscode/
+*.swp
