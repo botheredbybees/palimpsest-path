@@ -12,7 +12,7 @@ Each stream runs from a different start point but all extend through to at least
 
 | Stream | Type | Starts | Primary Question |
 |--------|------|--------|-----------------|
-| **ESP32 Dwell Times** | Quantitative | Phase 0 (pure baseline) | Do walkers slow down and linger more during the intervention? |
+| **Pico W Dwell Times** | Quantitative | Phase 0 (pure baseline) | Do walkers slow down and linger more during the intervention? |
 | **Happiness Index** | Quantitative + Visual | Week 3 (alongside first prompt) | Do self-reported happiness levels change over the intervention arc? |
 | **Photo-Narrative Archive** | Qualitative | Week 1 | What themes, connections and patterns emerge in community contributions? |
 
@@ -20,9 +20,9 @@ A fourth covariate dataset — the rain event log — runs throughout and is use
 
 ---
 
-## 8.2 Stream 1: ESP32 Dwell-Time Analysis
+## 8.2 Stream 1: Pico W Dwell-Time Analysis
 
-### Dataset A — ESP32 Infrared Sensor Logs
+### Dataset A — Pico W Infrared Sensor Logs
 
 | Parameter | Value |
 |-----------|-------|
@@ -109,11 +109,11 @@ For each week: median bar height across all valid weekdays, mean participant cou
 **Step 3: Longitudinal comparison**
 
 - Plot median weekly happiness score across all 8 weeks as a line chart.
-- Overlay on the ESP32 dwell-time chart: do happiness scores and dwell times track together?
+- Overlay on the Pico W dwell-time chart: do happiness scores and dwell times track together?
 - Note weeks where the graph was reset by rain — natural before/after comparison.
 - Compare early weeks (3–4) against later weeks (6–8): does median daily happiness increase as community co-authorship deepens?
 
-> **Methodological honesty note:** The happiness index has significant self-selection bias — only walkers who choose to engage with the chalk contribute. It is not a representative sample of all boardwalk users. The ESP32 data provides the population-level behavioural measure; the happiness index provides the self-reported affective measure from the engaged subset. Both are valid and complementary.
+> **Methodological honesty note:** The happiness index has significant self-selection bias — only walkers who choose to engage with the chalk contribute. It is not a representative sample of all boardwalk users. The Pico W sensor data provides the population-level behavioural measure; the happiness index provides the self-reported affective measure from the engaged subset. Both are valid and complementary.
 
 ---
 
@@ -172,7 +172,7 @@ The SROI analysis translates the project's documented outcomes into a framework 
 | Component | Details |
 |-----------|---------|
 | **Inputs (costs)** | Project budget: ~$228 AUD. Project lead time: estimated 3–4 hours/week × 10 weeks = ~35 hours at student/volunteer rate. |
-| **Outputs (measurable)** | Number of pedestrian passes recorded (ESP32 total count). Number of engagement events (Pause + Dwell classifications). Number of chalk contributions (photo-narrative count). Number of happiness index bars drawn. Number of QR code scans (WordPress analytics). |
+| **Outputs (measurable)** | Number of pedestrian passes recorded (Pico W total count). Number of engagement events (Pause + Dwell classifications). Number of chalk contributions (photo-narrative count). Number of happiness index bars drawn. Number of QR code scans (WordPress analytics). |
 | **Outcomes (inferred)** | Reduction in parallel isolation (dwell-time increase + social connection evidence in photo archive). Improved subjective wellbeing (happiness index trend). Increased sense of community (thematic analysis of narrative contributions). |
 | **Proxy values** | One meaningful social interaction: ~$30 AUD (after Fancourt & Finn, 2019). One unit increase in happiness score (0–10) per participant: ~$15 AUD proxy value. These proxies should be treated as illustrative, not precise. State assumptions explicitly. |
 
@@ -183,7 +183,7 @@ The SROI analysis translates the project's documented outcomes into a framework 
 The following limitations should be stated explicitly in the evaluation report. Naming them is not a weakness — it demonstrates methodological rigour and academic honesty.
 
 - **Self-selection bias** in the happiness index: only participants who choose to engage with the chalk contribute bars. The sample is not representative of all boardwalk users.
-- **No control site:** without a comparable boardwalk running simultaneously without intervention, causal claims are limited. The ESP32 baseline is a within-site comparison.
+- **No control site:** without a comparable boardwalk running simultaneously without intervention, causal claims are limited. The Pico W baseline is a within-site comparison.
 - **Small sample size:** Cygnet is a small community. Daily engagement numbers may be low. Frame findings as a pilot study, not a statistically powered trial.
 - **Researcher presence effect:** the daily audit means the project lead is a visible presence on the boardwalk, which may itself influence walker behaviour.
 - **Weather dependency:** extended rain periods create gaps in all three datasets. Document all gaps and exclude affected days from statistical comparisons rather than interpolating.

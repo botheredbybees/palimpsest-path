@@ -30,7 +30,7 @@ palimpsest-path/
 │   ├── section-07-risk-matrix.md     # Risk register and ethics framework
 │   ├── section-08-data-analysis.md   # Data streams and analytical framework
 │   ├── section-09-evaluation.md      # Evaluation instruments (print-ready)
-│   └── technical-appendix.md        # ESP32/Pico hardware and firmware spec
+│   └── technical-appendix.md        # Pico W hardware and firmware spec
 │
 ├── site/                             # WordPress page content (source of truth)
 │   ├── home.md                       # Home page

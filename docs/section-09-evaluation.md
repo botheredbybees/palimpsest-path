@@ -14,7 +14,7 @@ This section contains six evaluation instruments. The qualitative instruments (9
 | **9.3** | Thematic Analysis Register | Print / hand-fill | From Week 4 onward | Running record of emergent narrative themes |
 | **9.4** | QR Signage Plain Language Statement | Print-ready text | Phase 0 — print before Week 1 | Consent and privacy statement for boardwalk signage |
 | **9.5** | Participant Photo Submission Consent | WordPress form text | Phase 0 — install on site | Consent text for QR gallery upload form |
-| **xlsx** | ESP32 Daily Log | Excel (digital) | Daily, Phase 0 – Week 8+ | Sensor data entry, walker classification, weekly aggregation |
+| **xlsx** | Pico W Daily Log | Excel (digital) | Daily, Phase 0 – Week 8+ | Sensor data entry, walker classification, weekly aggregation |
 | **xlsx** | Happiness Index Coding Log | Excel (digital) | Daily, Weeks 3–8 | Daily photograph coding, weekly summary, rain reset flags |
 
 ---

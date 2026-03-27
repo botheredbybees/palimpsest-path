@@ -26,7 +26,7 @@ To transform a 100-metre section of the Cygnet Boardwalk from a transient thorou
 
 ## 3. Technical Infrastructure (The "Attention Tracker")
 
-**Hardware:** Distributed ESP32 or Raspberry Pi Pico W units.
+**Hardware:** Raspberry Pi Pico W units.
 
 **Sensors:** Dual infrared (IR) beam counters at the start and end of the "gallery" section.
 
