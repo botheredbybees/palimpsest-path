@@ -19,6 +19,10 @@ Chalk dance steps — outlines of shoes arranged in old-time sequence dance patt
 
 Rain washes the surface clean. Within 24 hours, the dance steps are re-seeded, and the cycle begins again. This is not a failure — it is the design. The ephemeral nature of chalk reduces the stakes of participation. You cannot make a permanent mistake. You cannot ruin anything. You can only add to a surface that is always already in the process of becoming something new.
 
+## Project status
+
+The Palimpsest Path is currently in its planning and approvals phase. The project requires a permit from Huon Valley Council for ephemeral public art on the boardwalk, and confirmation of academic oversight from the University of Tasmania's FXA301 Arts in the Community programme. Both are expected to be granted, and the project will not commence until written approvals are in hand. If you have questions or would like to express support, please use the [contact page](/contact).
+
 ## Why chalk? Why a boardwalk?
 
 Community arts interventions that target public outdoor spaces are rare, partly because of the regulatory complexity of permanent installation and partly because of the perceived risk of vandalism or conflict. Chalk on a boardwalk sidesteps both problems. It is non-toxic, non-permanent, and leaves no residue. The rain takes care of removal. There is nothing to damage, because impermanence is built in.

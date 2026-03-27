@@ -15,9 +15,9 @@ The archive is organised by week. Each photograph is a complete daily snapshot �
 
 ---
 
-*The project begins in [Phase 0 / Month Year]. The gallery will be populated as the project runs.*
+*The project has not yet started — it is currently awaiting Huon Valley Council permit approval and University of Tasmania academic oversight confirmation. The gallery will be populated once the project begins.*
 
-*Check back soon — or come down to the boardwalk and see it in person.*
+*Check back here for updates, or [get in touch](/contact) if you'd like to be notified at launch.*
 
 ---
 

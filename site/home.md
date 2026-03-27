@@ -9,33 +9,32 @@ order: 1
 
 **A community chalk art project on the Cygnet Boardwalk**
 
-Something is happening on the boardwalk.
+> **Project status: pending approvals.** The Palimpsest Path is currently in its planning phase. The project will proceed once Huon Valley Council permit approval and University of Tasmania (FXA301) academic oversight confirmation are in hand. Both are expected to be granted. This page will be updated as soon as a start date is confirmed.
 
-Follow the steps. Pick up some chalk. Add your story. Come back tomorrow and see what's changed.
+Something is about to happen on the boardwalk.
 
----
-
-## How it works
-
-Chalk dance steps mark a 100-metre section of the Cygnet Boardwalk. At the chalk station, you'll find coloured chalk and an invitation to follow the steps, respond to this week's question, or simply add a mark — a word, a drawing, a ribbon connecting your story to someone else's.
-
-Rain washes it clean. And then it begins again.
-
-That's the point. There is no pressure to make something permanent or beautiful. What you add matters now, in this moment, to whoever walks past next. The surface remembers everything, and forgets everything, in its own time.
+The Palimpsest Path is a community chalk art project planned for a 100-metre section of the Cygnet Boardwalk. Walkers will be invited to follow chalk dance steps, respond to weekly prompts, and add their own marks to an ever-changing shared surface. Rain washes it clean. And then it begins again.
 
 ---
 
-## This week's prompt
+## How it will work
 
-> *What do you notice on the water today?*
+Chalk dance steps will mark a 100-metre section of the Cygnet Boardwalk. At the chalk station, you'll find coloured chalk and an invitation to follow the steps, respond to that week's question, or simply add a mark — a word, a drawing, a ribbon connecting your story to someone else's.
 
-Pick up some chalk at the station and leave your answer on the boardwalk. Or just follow the dance steps and see where they take you.
+There will be no pressure to make something permanent or beautiful. What you add will matter in that moment, to whoever walks past next. The surface remembers everything, and forgets everything, in its own time.
+
+---
+
+## Coming soon
+
+The project has not yet started. Once council and university approvals are confirmed, a start date will be announced here. If you'd like to be notified when the project launches, please [get in touch](/contact).
 
 ---
 
 ## Find out more
 
 - [About the project](/about) — what it is, why it's here, and who's behind it
-- [Participate](/participate) — how to get involved, including submitting a photo
-- [Gallery](/gallery) — see contributions from the community
-- [Privacy](/privacy) — how the project collects and uses data
+- [Participate](/participate) — how to get involved when the project begins
+- [Gallery](/gallery) — the photo archive (will be populated once the project starts)
+- [Privacy](/privacy) — how the project will collect and use data
+- [Contact](/contact) — questions, expressions of support, or media enquiries
