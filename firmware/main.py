@@ -386,6 +386,12 @@ def _cleanup_stale():
 # ── Boot sequence ─────────────────────────────────────────────────────────────
 sd_mount()
 
+# Verify RTC communication on boot.
+# rtc_iso() returns "" and blinks LED_ERR_RTC if the DS3231 is unreachable
+# (lost coin cell, wiring fault, wrong I²C address).  The result is discarded;
+# the purpose is the early-warning blink and confirming the bus is live.
+_ = rtc_iso()
+
 # Single short heartbeat blink confirms successful boot
 _led.on()
 utime.sleep_ms(500)
