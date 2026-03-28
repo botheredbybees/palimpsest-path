@@ -1,10 +1,7 @@
 name: Deploy site content to WordPress
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'site/**'
+  workflow_dispatch:  # manual trigger only — automated deploy disabled (Bluehost ModSecurity blocks REST API POSTs)
 
 jobs:
   deploy:
