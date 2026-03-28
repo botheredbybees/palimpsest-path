@@ -35,6 +35,16 @@ API_BASE = f"{WP_BASE_URL}/wp-json/wp/v2"
 AUTH = (WP_USERNAME, WP_APP_PASSWORD)
 SITE_DIR = Path(__file__).parent.parent.parent / "site"
 
+SESSION = requests.Session()
+SESSION.headers.update({
+    "Accept": "application/json",
+    "User-Agent": (
+        "Mozilla/5.0 (X11; Linux x86_64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+})
+
 
 def parse_front_matter(text):
     """Extract YAML-style front matter and body from a markdown string."""
@@ -55,10 +65,10 @@ def get_existing_pages():
     pages = {}
     page = 1
     while True:
-        r = requests.get(
+        r = SESSION.get(
             f"{API_BASE}/pages",
             auth=AUTH,
-            params={"per_page": 100, "page": page, "status": "any"},
+            params={"per_page": 100, "page": page, "status": "publish,draft,pending,private"},
         )
         if r.status_code == 400:
             break
@@ -87,10 +97,10 @@ def deploy_page(front, html_content, existing_pages):
 
     if slug in existing_pages:
         page_id = existing_pages[slug]
-        r = requests.post(f"{API_BASE}/pages/{page_id}", auth=AUTH, json=payload)
+        r = SESSION.post(f"{API_BASE}/pages/{page_id}", auth=AUTH, json=payload)
         action = "Updated"
     else:
-        r = requests.post(f"{API_BASE}/pages", auth=AUTH, json=payload)
+        r = SESSION.post(f"{API_BASE}/pages", auth=AUTH, json=payload)
         action = "Created"
 
     r.raise_for_status()

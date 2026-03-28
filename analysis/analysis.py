@@ -61,14 +61,27 @@ PHASE_ORDER = [
 
 def classify_walker(transit_ms):
     """
-    Classify a single-sensor beam-break by how long the beam was blocked.
+    Classify a pedestrian by single-sensor beam-break duration.
 
-    transit_ms is the duration in milliseconds that ONE sensor beam was
-    interrupted. A solo walker typically blocks the beam for 200–600 ms.
-    A group blocks it for longer due to consecutive bodies crossing.
-    A cyclist or jogger passes very quickly.
+    Parameters
+    ----------
+    transit_ms : int
+        Duration in milliseconds that the sensor beam was continuously blocked.
+        A solo walker typically reads 200–600 ms; a group of people trailing
+        across reads longer due to consecutive bodies; a jogger or cyclist
+        reads shorter.
 
-    Returns: "jogger", "regular_walker", or "slow_walker"
+    Returns
+    -------
+    str
+        ``"jogger"`` if transit_ms < 800,
+        ``"regular_walker"`` if 800 ≤ transit_ms ≤ 2500,
+        ``"slow_walker"`` if transit_ms > 2500.
+
+    Notes
+    -----
+    Thresholds are defined in the project specification (section 8.2).
+    Joggers should be excluded from all engagement analyses downstream.
     """
     if transit_ms < 800:
         return "jogger"          # cyclist / runner — exclude from engagement analysis
@@ -80,11 +93,27 @@ def classify_walker(transit_ms):
 
 def classify_dwell(dwell_s):
     """
-    Classify a matched gallery traversal by total dwell time.
+    Classify a matched gallery traversal by total gallery dwell time.
 
-    dwell_time_s = UNIT_B exit timestamp − UNIT_A entry timestamp.
+    Parameters
+    ----------
+    dwell_s : float
+        Elapsed seconds between the UNIT_A entry timestamp and the matched
+        UNIT_B exit timestamp.
 
-    Returns: "Transit", "Pause", or "Dwell"
+    Returns
+    -------
+    str
+        ``"Transit"`` if dwell_s < 30,
+        ``"Pause"`` if 30 ≤ dwell_s ≤ 120,
+        ``"Dwell"`` if dwell_s > 120.
+
+    Notes
+    -----
+    Thresholds are defined in the project specification (section 8.2).
+    ``"Dwell"`` indicates probable active engagement with the artwork;
+    ``"Pause"`` indicates brief curiosity; ``"Transit"`` is a straight-through
+    pass with no visible engagement.
     """
     if dwell_s < 30:
         return "Transit"   # walked straight through
@@ -98,11 +127,32 @@ def classify_dwell(dwell_s):
 
 def load_unit(data_dir, unit_id):
     """
-    Load all daily CSV files for one unit into a single DataFrame.
+    Load all daily CSV files for one sensor unit into a single DataFrame.
 
-    Expects files matching: data_dir/unit_id/*_unit_id.csv
-    Parses timestamps, sorts chronologically, drops rows with missing
-    timestamps (from RTC failures), and converts transit_ms to int.
+    Parameters
+    ----------
+    data_dir : str
+        Parent directory containing per-unit subdirectories (e.g.
+        ``"data/raw"`` which holds ``data/raw/UNIT_A/``).
+    unit_id : str
+        Unit identifier matching both the subdirectory name and the filename
+        suffix (e.g. ``"UNIT_A"``).  Files matching
+        ``data_dir/unit_id/*_unit_id.csv`` are loaded.
+
+    Returns
+    -------
+    pandas.DataFrame
+        Columns: ``timestamp`` (str), ``unit_id`` (str), ``direction`` (str),
+        ``beam`` (int), ``transit_ms`` (int), ``ts`` (datetime64).
+        Sorted ascending by ``ts``.  Rows with blank or unparseable timestamps
+        are dropped (these arise from RTC failures on the sensor node).
+
+    Raises
+    ------
+    FileNotFoundError
+        If no CSV files are found matching the expected glob pattern.
+    ValueError
+        If files are found but all fail to parse.
     """
     pattern = os.path.join(data_dir, unit_id, f"*_{unit_id}.csv")
     files = sorted(glob.glob(pattern))
@@ -134,16 +184,46 @@ def load_unit(data_dir, unit_id):
 
 def match_events(unit_a, unit_b, window_s=300):
     """
-    Pair each UNIT_A 'inbound' event with the next unused UNIT_B 'outbound'
-    event within window_s seconds.
+    Pair UNIT_A inbound events with the next available UNIT_B outbound event.
 
-    Matching is greedy and strictly forward in time: each UNIT_B event can
-    only match once. We use the entry-side sensor's transit_ms for walker
-    classification (it is the first beam the person crosses).
+    Matching is greedy and strictly forward in time: for each UNIT_A
+    ``"inbound"`` event, the earliest unused UNIT_B ``"outbound"`` event
+    within ``window_s`` seconds is selected.  Each UNIT_B event can match at
+    most once.  UNIT_A events with no eligible exit are silently discarded
+    (they represent people who turned back or exited a different way).
 
-    Returns a DataFrame with one row per matched traversal.
-    Unmatched UNIT_A events (no UNIT_B exit within the window) are discarded;
-    they represent people who turned back or exited without passing UNIT_B.
+    Parameters
+    ----------
+    unit_a : pandas.DataFrame
+        Raw events from UNIT_A (entry end).  Must contain columns ``ts``
+        (datetime64), ``direction`` (str), ``beam`` (int), ``transit_ms``
+        (int).
+    unit_b : pandas.DataFrame
+        Raw events from UNIT_B (exit end).  Same schema as ``unit_a``.
+    window_s : int, optional
+        Maximum seconds between entry and exit timestamps to be considered a
+        single gallery traversal.  Default is 300 (5 minutes).
+
+    Returns
+    -------
+    pandas.DataFrame
+        One row per matched traversal with columns: ``entry_ts``,
+        ``exit_ts``, ``dwell_time_s``, ``transit_ms`` (from the UNIT_A entry
+        sensor), ``entry_beam``, ``exit_beam``, ``date``, ``walker_type``,
+        ``dwell_category``.
+
+    Raises
+    ------
+    ValueError
+        If no matched traversals are found.  Likely causes: direction labels
+        are wrong, sensor orientation is reversed, or the matching window is
+        too narrow for the gallery length.
+
+    Notes
+    -----
+    ``transit_ms`` in the output is taken from the UNIT_A entry sensor, not
+    UNIT_B, because it reflects the speed at which the person entered before
+    any dwell occurred.
     """
     a_in  = unit_a[unit_a["direction"] == "inbound"].copy().reset_index(drop=True)
     b_out = unit_b[unit_b["direction"] == "outbound"].copy().reset_index(drop=True)
@@ -194,11 +274,32 @@ def match_events(unit_a, unit_b, window_s=300):
 
 def add_phase(df, intervention_start, post_int_start):
     """
-    Assign a phase label to each matched event based on its entry timestamp.
+    Assign a project phase label to each matched traversal.
 
-    Phase 0  : before intervention_start
-    Week N   : N weeks after intervention_start (1-indexed)
-    Week 9+  : after post_int_start (Week 9 = first post-intervention week)
+    Parameters
+    ----------
+    df : pandas.DataFrame
+        Matched traversals with an ``entry_ts`` column (datetime64).
+    intervention_start : str
+        ISO date string (``"YYYY-MM-DD"``) for the first day of Week 1.
+        All dates strictly before this are labelled ``"Phase 0"``.
+    post_int_start : str
+        ISO date string for the first day of the post-intervention period
+        (Week 9).
+
+    Returns
+    -------
+    pandas.DataFrame
+        Input DataFrame with an added ``phase`` column of ordered
+        ``pandas.Categorical`` dtype, using ``PHASE_ORDER`` as the category
+        list.  The ordered categorical ensures correct x-axis sorting in
+        matplotlib charts without manual tick manipulation.
+
+    Notes
+    -----
+    Week numbers are computed as ``(date - intervention_start).days // 7 + 1``,
+    so days 0–6 → Week 1, days 7–13 → Week 2, and so on.  Post-intervention
+    weeks continue from ``post_int_start`` starting at 9.
     """
     t_int  = pd.Timestamp(intervention_start).date()
     t_post = pd.Timestamp(post_int_start).date()
@@ -223,36 +324,52 @@ def add_phase(df, intervention_start, post_int_start):
 
 def run_clustering(df):
     """
-    Apply DBSCAN to discover natural behavioural clusters in the
-    [dwell_time_s, transit_ms] space, beyond the rule-based thresholds.
+    Discover natural behavioural clusters using DBSCAN on dwell and transit data.
 
-    WHY DBSCAN INSTEAD OF KMeans:
-    ─────────────────────────────
-    KMeans has two fundamental mismatches with this data:
-      1. You must specify k (number of clusters) upfront. We don't know how
-         many natural behavioural groups exist.
-      2. KMeans forces every point into a cluster — long-dwell outliers
-         (e.g. a 20-minute conversation) would distort the centroid of the
-         "Dwell" cluster rather than being flagged as unusual.
+    Applies DBSCAN to the two-dimensional space of ``[dwell_time_s,
+    transit_ms]`` after StandardScaler normalisation.  Joggers are excluded
+    before clustering because they are not engagement candidates.
 
-    DBSCAN requires only two parameters:
-      eps        — how close two data points need to be (in standardised units)
-                   to be considered "neighbours".
-      min_samples — minimum number of neighbours for a point to be a
-                   cluster core. Below this, points are labelled -1 (noise).
+    Parameters
+    ----------
+    df : pandas.DataFrame
+        Matched traversals with columns ``walker_type``, ``dwell_time_s``,
+        ``transit_ms``, and ``entry_ts``.
 
-    After StandardScaler normalisation, 1 unit ≈ 1 standard deviation.
-    eps = 0.5 means: two events are neighbours if they're within half a
-    standard deviation of each other in both dwell_time and transit_ms.
-    Raise eps (e.g. to 0.8) if you see too many noise points (-1); lower it
-    (e.g. 0.3) if distinct behaviours are merging into a single cluster.
+    Returns
+    -------
+    df : pandas.DataFrame
+        Input DataFrame with an added ``cluster`` column (int).
+        ``-1`` indicates a noise point (outlier); ``0, 1, 2, …`` are cluster
+        labels.  Joggers receive ``-1`` via left-join fill.
+    n_clusters : int
+        Number of clusters found, excluding the noise label ``-1``.
 
-    min_samples = 5: a behavioural pattern needs at least 5 examples to be
-    called a real cluster. With hundreds of passes per week this is a low bar.
-    Raise to 10–15 for a stricter definition of "natural behaviour".
+    Notes
+    -----
+    **Why DBSCAN instead of KMeans:**
 
-    Cluster label -1 = noise (outlier) — not a failure, just an unusual event.
-    Cluster labels 0, 1, 2, … = distinct behavioural groups.
+    KMeans requires the number of clusters ``k`` to be specified upfront; we
+    do not know how many natural behavioural groups exist.  KMeans also forces
+    every observation into a cluster, so extended-dwell outliers (e.g. a
+    20-minute conversation) distort the centroid of the ``"Dwell"`` cluster
+    rather than being flagged as unusual.  DBSCAN finds clusters of arbitrary
+    shape and density and labels genuine outliers as noise (``-1``).
+
+    **Parameter guidance (plain language):**
+
+    ``eps = 0.5`` — after StandardScaler normalisation, 1 unit ≈ 1 standard
+    deviation.  Two passes are "neighbours" if they are within 0.5 standard
+    deviations of each other in *both* dwell time and beam-break duration.
+    Raise to 0.8 if too many noise points appear; lower to 0.3 if separate
+    behavioural styles are merging into one cluster.
+
+    ``min_samples = 5`` — a pattern needs at least 5 similar observations to
+    be counted as a real cluster.  Raise to 10–15 for a stricter definition
+    once the dataset grows beyond several hundred matched passes.
+
+    Cluster label ``-1`` = noise/outlier — not a failure, just an unusual
+    event that does not fit any dense behavioural group.
     """
     # Exclude joggers from clustering — they're not engagement candidates
     walkers = df[df["walker_type"] != "jogger"].copy()
@@ -296,13 +413,31 @@ def run_clustering(df):
 
 def aggregate_weekly(df):
     """
-    Aggregate matched, classified traversals by project phase.
+    Aggregate matched traversals by project phase for reporting.
 
-    Joggers are excluded from all calculations (per spec: exclude from
-    engagement analysis). Median is used instead of mean — it is more robust
-    to the long-tail outliers that extended-dwell events create.
+    Parameters
+    ----------
+    df : pandas.DataFrame
+        Matched, classified traversals with columns ``phase`` (ordered
+        Categorical), ``walker_type``, ``dwell_category``, ``dwell_time_s``,
+        and ``transit_ms``.
 
-    Returns a DataFrame with one row per phase, suitable for export and charts.
+    Returns
+    -------
+    pandas.DataFrame
+        One row per phase in ``PHASE_ORDER`` (phases with no data produce
+        NaN rows rather than being omitted, preserving chart alignment).
+        Columns: ``phase``, ``total_walkers``, ``total_all_incl_joggers``,
+        ``median_dwell_s``, ``median_transit_ms``, ``n_transit``,
+        ``n_pause``, ``n_dwell``, ``pct_transit``, ``pct_pause``,
+        ``pct_dwell``.
+
+    Notes
+    -----
+    Joggers are excluded from all aggregations per the project specification.
+    Median is used in preference to mean because the dwell-time distribution
+    has a long right tail; occasional very long dwells would inflate the mean
+    disproportionately and obscure the typical walker experience.
     """
     walkers = df[df["walker_type"] != "jogger"].copy()
 
@@ -328,7 +463,18 @@ def aggregate_weekly(df):
 # ── VISUALISATIONS ────────────────────────────────────────────────────────────
 
 def _phase_colours():
-    """Consistent colour scheme across all charts."""
+    """
+    Return the project's consistent phase-to-hex-colour mapping.
+
+    Returns
+    -------
+    dict
+        Keys are phase label strings (e.g. ``"Phase 0"``, ``"Week 1"``);
+        values are matplotlib-compatible hex colour strings.  Phases within
+        the same project stratum share a colour: grey for baseline, blue for
+        intervention-lite, orange for prompt escalation, green for peak
+        intervention, red for post-intervention.
+    """
     return {
         "Phase 0":  "#888888",
         "Week 1":   "#4c72b0", "Week 2":  "#4c72b0",
@@ -340,13 +486,31 @@ def _phase_colours():
 
 def plot_weekly_boxplots(df, output_dir):
     """
-    Visualisation 1: Weekly box plots of dwell time.
+    Save weekly dwell-time box plots with a Phase 0 baseline reference band.
 
-    The grey shaded band shows the Phase 0 baseline IQR (25th–75th percentile).
-    The dashed grey line shows the baseline median.
-    Phases with no data are silently skipped.
+    One box is drawn per phase that contains walker data.  A grey shaded band
+    spans the Phase 0 interquartile range (Q1–Q3) and a dashed grey line
+    marks the Phase 0 median, providing a visual baseline for comparison
+    across all intervention phases.
 
-    Joggers are excluded.
+    Parameters
+    ----------
+    df : pandas.DataFrame
+        Matched traversals with columns ``phase`` (ordered Categorical),
+        ``dwell_time_s``, and ``walker_type``.
+    output_dir : str
+        Directory path for the output PNG.  Must already exist.
+
+    Returns
+    -------
+    None
+        Writes ``01_weekly_boxplots.png`` to ``output_dir`` at 150 dpi.
+
+    Notes
+    -----
+    Joggers (``walker_type == "jogger"``) are excluded before plotting.
+    Phases present in ``PHASE_ORDER`` but absent from the data are silently
+    skipped so that the chart width scales to available data.
     """
     walkers = df[df["walker_type"] != "jogger"]
     phases_present = [p for p in PHASE_ORDER if p in walkers["phase"].cat.categories
@@ -392,10 +556,26 @@ def plot_weekly_boxplots(df, output_dir):
 
 def plot_proportion_bars(weekly_df, output_dir):
     """
-    Visualisation 2: Proportion stacked bar chart — Transit / Pause / Dwell.
+    Save a stacked bar chart of Transit / Pause / Dwell proportions by phase.
 
-    Shows how the mix of engagement depths changes across the project arc.
-    Phases with no data are omitted.
+    Each bar represents one project phase and is divided into three segments
+    showing the percentage of walker passes classified as Transit, Pause, and
+    Dwell.  The total walker count (``n``) is annotated above each bar.
+
+    Parameters
+    ----------
+    weekly_df : pandas.DataFrame
+        Output of ``aggregate_weekly()``.  Must contain columns ``phase``,
+        ``total_walkers``, ``pct_transit``, ``pct_pause``, ``pct_dwell``.
+    output_dir : str
+        Directory path for the output PNG.  Must already exist.
+
+    Returns
+    -------
+    None
+        Writes ``02_proportion_bars.png`` to ``output_dir`` at 150 dpi.
+        If no phases have walker data, a warning is printed and no file
+        is written.
     """
     present = weekly_df[weekly_df["total_walkers"] > 0].copy()
     if present.empty:
@@ -431,14 +611,36 @@ def plot_proportion_bars(weekly_df, output_dir):
 
 def plot_rain_overlay(df, rain_csv_path, output_dir):
     """
-    Visualisation 3: Daily median dwell time with rain events overlaid.
+    Save a daily median dwell-time line chart with rain events highlighted.
 
-    Rain days are highlighted as vertical shaded bands. If the rain CSV
-    does not exist or is empty, the chart is produced without the overlay
-    and a warning is printed.
+    Each rain event date is rendered as a light-blue vertical band spanning
+    that calendar day.  Dotted vertical lines mark the intervention and
+    post-intervention start dates defined in the module-level configuration.
 
-    Rain CSV format: one column named 'date' (YYYY-MM-DD). Additional
-    columns (severity, notes) are allowed but ignored.
+    Parameters
+    ----------
+    df : pandas.DataFrame
+        Matched traversals with columns ``entry_ts`` (datetime64),
+        ``dwell_time_s``, and ``walker_type``.
+    rain_csv_path : str
+        Path to a CSV file with at minimum a ``date`` column
+        (``YYYY-MM-DD`` format).  Additional columns (e.g. ``severity``,
+        ``notes``) are ignored.  If the file does not exist the chart is
+        produced without the rain overlay and an info message is printed.
+    output_dir : str
+        Directory path for the output PNG.  Must already exist.
+
+    Returns
+    -------
+    None
+        Writes ``03_rain_overlay.png`` to ``output_dir`` at 150 dpi.
+
+    Notes
+    -----
+    Joggers are excluded before computing daily medians.
+    Rain events are intentionally retained in the chart rather than excluded:
+    they are a documented design feature of the project (the palimpsest
+    effect) and their presence in the data is meaningful for interpretation.
     """
     walkers = df[df["walker_type"] != "jogger"].copy()
     walkers["date"] = walkers["entry_ts"].dt.date
@@ -492,15 +694,37 @@ def plot_rain_overlay(df, rain_csv_path, output_dir):
 
 def plot_post_intervention_trend(weekly_df, output_dir):
     """
-    Visualisation 4: Post-intervention trend — weekly median dwell time
-    as a scatter plot with a linear trend line across all phases.
+    Save a scatter-and-trend-line chart of weekly median dwell time over time.
 
-    Vertical dashed lines mark the start of intervention and post-intervention.
-    A separate trend line is fitted for the post-intervention phase to show
-    whether behaviour is reverting to baseline, holding, or continuing to rise.
+    Plots the weekly median dwell time for each phase as a scatter point
+    (coloured by project stratum) with two superimposed trend lines: an
+    overall linear fit across all phases, and a separate fit for the
+    post-intervention period (Weeks 9+).  The post-intervention slope
+    indicates whether behaviour is persisting, reverting to baseline, or
+    continuing to change after the chalk installation is removed.
 
-    Requires at least 2 data points in the post-intervention phase for the
-    post-intervention trend line; otherwise only the overall trend is drawn.
+    Parameters
+    ----------
+    weekly_df : pandas.DataFrame
+        Output of ``aggregate_weekly()``.  Must contain columns ``phase``,
+        ``total_walkers``, and ``median_dwell_s``.
+    output_dir : str
+        Directory path for the output PNG.  Must already exist.
+
+    Returns
+    -------
+    None
+        Writes ``04_post_intervention_trend.png`` to ``output_dir`` at 150 dpi.
+        If no phases have walker data, a warning is printed and no file is
+        written.  The post-intervention trend line is omitted silently if
+        fewer than 2 post-intervention data points are available.
+
+    Notes
+    -----
+    Trend lines are fitted with ``numpy.polyfit`` (degree 1, least-squares
+    linear regression).  No confidence intervals are shown; the dataset is
+    too small for reliable interval estimation.  The slope is labelled in
+    seconds per phase for plain-language readability.
     """
     present = weekly_df[weekly_df["total_walkers"] > 0].copy()
     if present.empty:
@@ -574,13 +798,28 @@ def plot_post_intervention_trend(weekly_df, output_dir):
 
 def export_summary(weekly_df, df, output_path):
     """
-    Write a clean weekly_summary.csv suitable for the project report.
+    Write the weekly aggregation table to a CSV for use in the project report.
 
-    Columns:
-      phase, total_walkers, total_all_incl_joggers,
-      median_dwell_s, median_transit_ms,
-      n_transit, n_pause, n_dwell,
-      pct_transit, pct_pause, pct_dwell
+    Parameters
+    ----------
+    weekly_df : pandas.DataFrame
+        Output of ``aggregate_weekly()``.
+    df : pandas.DataFrame
+        Full matched traversals DataFrame.  Currently unused; retained in the
+        signature for future per-event export extensions.
+    output_path : str
+        Full file path for the output CSV (e.g.
+        ``"data/processed/weekly-summary.csv"``).  Parent directories are
+        created automatically if they do not exist.
+
+    Returns
+    -------
+    None
+        Writes a CSV with columns: ``phase``, ``total_walkers``,
+        ``total_all_incl_joggers``, ``median_dwell_s``, ``median_transit_ms``,
+        ``n_transit``, ``n_pause``, ``n_dwell``, ``pct_transit``,
+        ``pct_pause``, ``pct_dwell``.  Float columns are rounded to 1 decimal
+        place for readability.
     """
     out = weekly_df[[
         "phase",
@@ -602,6 +841,32 @@ def export_summary(weekly_df, df, output_path):
 # ── MAIN ──────────────────────────────────────────────────────────────────────
 
 def main():
+    """
+    Run the full Palimpsest Path analysis pipeline end-to-end.
+
+    Executes the following steps in order:
+
+    1. Load raw CSV files for UNIT_A and UNIT_B from ``DATA_DIR``.
+    2. Match UNIT_A inbound events to UNIT_B outbound events within
+       ``MATCH_WINDOW_S`` seconds to compute ``dwell_time_s``.
+    3. Label each matched traversal with a project phase.
+    4. Run DBSCAN clustering on walker (non-jogger) traversals.
+    5. Aggregate statistics by phase.
+    6. Produce four PNG visualisations and export ``weekly-summary.csv``.
+
+    Returns
+    -------
+    None
+        All outputs are written to ``OUTPUT_DIR`` and ``SUMMARY_CSV``.
+        Progress is reported to stdout.
+
+    Notes
+    -----
+    Edit the ``USER CONFIGURATION`` block at the top of this module before
+    running.  At minimum, set ``INTERVENTION_START`` and ``POST_INT_START``
+    to match your deployment dates, and verify ``DATA_DIR`` points to the
+    directory containing the ``UNIT_A/`` and ``UNIT_B/`` subdirectories.
+    """
     print("Palimpsest Path — Analysis Pipeline")
     print("=" * 50)
 

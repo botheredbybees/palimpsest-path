@@ -9,6 +9,11 @@
 data/raw/
 data/*.csv
 
+# Python bytecode
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
 # Editor
 .vscode/
 *.swp

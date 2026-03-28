@@ -25,12 +25,23 @@ palimpsest-path/
 │
 ├── README.md                         # This file
 │
+├── firmware/                         # MicroPython sensor node firmware
+│   ├── README.md                     # Deployment guide, wiring, troubleshooting
+│   ├── config.py                     # All tunable constants (pins, thresholds, UNIT_ID)
+│   ├── main.py                       # Firmware entry point — runs automatically on boot
+│   └── test_sensors.py               # Pre-deployment hardware self-test (run via REPL)
+│
+├── analysis/                         # CPython data analysis pipeline
+│   ├── analysis.py                   # Full pipeline: load → match → classify → cluster → plot
+│   └── tests/                        # pytest unit tests
+│       └── test_analysis.py          # Edge-case tests for matching and classification
+│
 ├── docs/                             # Source and planning documents
 │   ├── project-brief.md              # Full project brief and vision
 │   ├── section-07-risk-matrix.md     # Risk register and ethics framework
 │   ├── section-08-data-analysis.md   # Data streams and analytical framework
 │   ├── section-09-evaluation.md      # Evaluation instruments (print-ready)
-│   └── technical-appendix.md        # Pico W hardware and firmware spec
+│   └── technical-appendix.md        # Hardware wiring diagrams and BOM
 │
 ├── site/                             # WordPress page content (source of truth)
 │   ├── home.md                       # Home page
@@ -43,8 +54,8 @@ palimpsest-path/
 ├── signage/                          # Print-ready boardwalk signage
 │   └── qr-sign.md                    # QR code sign (plain language statement)
 │
-├── data/                             # Sensor logs and analysis outputs
-│   └── README.md                     # Data collection notes and log index
+├── data/                             # Sensor logs and analysis outputs (raw data gitignored)
+│   └── README.md                     # Data collection protocol and phase log
 │
 ├── evaluation/                       # Coding sheets and evaluation tools
 │   └── README.md                     # Evaluation instrument index
@@ -56,7 +67,53 @@ palimpsest-path/
 
 ---
 
-## Deployment
+## Sensor Firmware
+
+Two identical Raspberry Pi Pico (RP2040) units sit at the entry and exit ends of the 100 m boardwalk gallery. Each monitors two E18-D80NK infrared proximity sensors, timestamps beam-break events via a DS3231 RTC, and logs rows to a daily CSV on a SPI micro-SD card. No wireless communication is used at any point.
+
+| File | Purpose |
+|------|---------|
+| `firmware/config.py` | All tunable constants — the only file that differs between the two units (`UNIT_ID = "UNIT_A"` vs `"UNIT_B"`) |
+| `firmware/main.py` | Interrupt-driven firmware with `machine.lightsleep()` between events to minimise battery draw. Logs fields: `timestamp`, `unit_id`, `direction`, `beam`, `transit_ms` |
+| `firmware/test_sensors.py` | Interactive self-test script — run via USB REPL before sealing each unit. Tests DS3231 clock, both IR sensors, and SD card read/write |
+
+See [`firmware/README.md`](firmware/README.md) for wiring, the RTC clock-setting snippet, deployment steps, and LED error codes.
+
+---
+
+## Data Analysis
+
+The CPython pipeline in `analysis/analysis.py` processes the raw CSV logs after each SD card retrieval.
+
+```
+data/raw/UNIT_A/*.csv  ──┐
+                          ├──▶ match_events() ──▶ classify ──▶ cluster ──▶ aggregate ──▶ charts + summary CSV
+data/raw/UNIT_B/*.csv  ──┘
+```
+
+| Step | What it does |
+|------|-------------|
+| Load | Reads all daily CSVs for both units; drops rows with blank timestamps (RTC failures) |
+| Match | Pairs each UNIT_A `inbound` event with the next UNIT_B `outbound` event within a 5-minute window to compute `dwell_time_s` |
+| Classify | Labels each pass by walker type (`transit_ms`: jogger / regular_walker / slow_walker) and dwell category (`dwell_time_s`: Transit / Pause / Dwell) |
+| Cluster | DBSCAN on `[dwell_time_s, transit_ms]` to find natural behavioural groups beyond the rule-based thresholds |
+| Aggregate | Weekly medians and proportions (walkers only; joggers excluded) |
+| Output | Four PNG charts + `data/processed/weekly-summary.csv` |
+
+**Run the pipeline:**
+
+```bash
+pip install pandas scikit-learn matplotlib numpy
+python analysis/analysis.py
+```
+
+Edit the `USER CONFIGURATION` block at the top of `analysis/analysis.py` to set `DATA_DIR`, `INTERVENTION_START`, and `POST_INT_START` before the first run.
+
+Unit tests for the matching and classification logic live in `analysis/tests/test_analysis.py` and run with `pytest analysis/`.
+
+---
+
+## WordPress Deployment
 
 Site content lives in `site/`. Each `.md` file corresponds to a WordPress page. Changes committed to `main` are automatically pushed to [sidewalkcircus.org](https://sidewalkcircus.org) via the WordPress REST API.
 
@@ -97,4 +154,4 @@ Full details: [sidewalkcircus.org/privacy](https://sidewalkcircus.org/privacy) a
 ## Licence
 
 Project documentation and site content © Peter Shanks 2025–2026.
-Hardware firmware in `docs/technical-appendix.md` is released under MIT licence.
+Sensor firmware (`firmware/`) and analysis pipeline (`analysis/`) are released under the MIT licence.
