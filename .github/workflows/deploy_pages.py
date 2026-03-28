@@ -103,6 +103,8 @@ def deploy_page(front, html_content, existing_pages):
         r = SESSION.post(f"{API_BASE}/pages", auth=AUTH, data=payload)
         action = "Created"
 
+    if not r.ok:
+        print(f"  HTTP {r.status_code} response body: {r.text[:1000]}")
     r.raise_for_status()
     page_url = r.json().get("link", "")
     print(f"  {action}: [{slug}] {front.get('title', '')} → {page_url}")
