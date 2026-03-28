@@ -677,7 +677,11 @@ async function fetchExistingPages() {
       if (!r.ok) break;
       const pages = await r.json();
       if (!pages.length) break;
-      pages.forEach(p => { existingPageSlugs[p.slug] = p.id; });
+      pages.forEach(p => {
+            if (!existingPageSlugs[p.slug] || p.status === 'publish') {
+              existingPageSlugs[p.slug] = p.id;
+            }
+          });
       page++;
     }
     const count = Object.keys(existingPageSlugs).length;
