@@ -694,6 +694,7 @@ async function startDeploy() {
   btn.disabled = true;
   clearLog();
   log('Starting deploy...', 'info');
+  await fetchExistingPages();
 
   const asDraft = document.getElementById('draftOnly').checked;
   const skipExisting = document.getElementById('skipExisting').checked;
@@ -739,6 +740,7 @@ async function startDeploy() {
         throw new Error((err.message || 'HTTP ' + r.status));
       }
       const data = await r.json();
+      existingPageSlugs[data.slug] = data.id;
       const link = data.link || '';
       const editLink = getBase() + '/wp-admin/post.php?post=' + data.id + '&action=edit';
       setPageStatus(page.slug, existingId ? 'exists' : 'done', editLink);
