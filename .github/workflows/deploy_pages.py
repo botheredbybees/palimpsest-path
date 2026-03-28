@@ -97,10 +97,10 @@ def deploy_page(front, html_content, existing_pages):
 
     if slug in existing_pages:
         page_id = existing_pages[slug]
-        r = SESSION.post(f"{API_BASE}/pages/{page_id}", auth=AUTH, json=payload)
+        r = SESSION.post(f"{API_BASE}/pages/{page_id}", auth=AUTH, data=payload)
         action = "Updated"
     else:
-        r = SESSION.post(f"{API_BASE}/pages", auth=AUTH, json=payload)
+        r = SESSION.post(f"{API_BASE}/pages", auth=AUTH, data=payload)
         action = "Created"
 
     r.raise_for_status()
