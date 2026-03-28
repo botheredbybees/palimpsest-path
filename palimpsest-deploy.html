@@ -626,6 +626,7 @@ async function testConnection() {
       statusText.textContent = 'Connected as ' + (data.name || data.slug);
       log('Authentication OK — ' + (data.name || data.slug), 'ok');
       connected = true;
+      saveCredentials();
       document.getElementById('btnDeploy').disabled = false;
       await fetchExistingPages();
     } else if (r.status === 401) {
@@ -753,7 +754,23 @@ async function updateSiteSettings() {
   }
 }
 
+function saveCredentials() {
+  localStorage.setItem('pp_wpUrl',  document.getElementById('wpUrl').value.trim());
+  localStorage.setItem('pp_wpUser', document.getElementById('wpUser').value.trim());
+  localStorage.setItem('pp_wpPass', document.getElementById('wpPass').value.trim());
+}
+
+function loadSavedCredentials() {
+  const url  = localStorage.getItem('pp_wpUrl');
+  const user = localStorage.getItem('pp_wpUser');
+  const pass = localStorage.getItem('pp_wpPass');
+  if (url)  document.getElementById('wpUrl').value  = url;
+  if (user) document.getElementById('wpUser').value = user;
+  if (pass) document.getElementById('wpPass').value = pass;
+}
+
 buildPageList();
+loadSavedCredentials();
 </script>
 </body>
 </html>
