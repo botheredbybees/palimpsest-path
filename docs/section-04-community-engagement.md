@@ -67,7 +67,7 @@ The project's growth model is organic, radiating outward from an existing local 
 | Contact | Role |
 |---------|------|
 | **Regular walkers (known contacts)** | Brief two or three trusted regulars before Week 1 begins. Ask them to be unofficial "first responders" — people who will add chalk in the first days, seeding the space so it does not feel empty when strangers arrive. Do not ask them to promote the project; just to participate naturally. Their visible engagement in the early days is the most powerful invitation for other regulars watching. |
-| **Jetty Rd neighbour** | Already consulted in Phase 0. If willing, she becomes the project's closest observer — someone who sees the boardwalk daily and can informally note changes in walker behaviour. |
+| **Lymington Rd neighbour** | Already consulted in Phase 0. If willing, she becomes the project's closest observer — someone who sees the boardwalk daily and can informally note changes in walker behaviour. |
 
 ### Activation Network (Week 3 onward)
 
