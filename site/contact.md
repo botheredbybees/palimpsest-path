@@ -30,7 +30,7 @@ I am happy to hear from walkers, curious neighbours, journalists, researchers, o
 
 ---
 
-*[Contact form will appear here — coming soon.]*
+[contact-form-7 id="CONTACT_FORM_ID" title="Contact"]
 
 ---
 
