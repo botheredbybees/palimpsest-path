@@ -11,7 +11,7 @@ order: 1
 
 > **Project status: pending approvals.** The Palimpsest Path is currently in its planning phase. The project will proceed once Huon Valley Council permit approval and University of Tasmania (FXA301) academic oversight confirmation are in hand. Both are expected to be granted. This page will be updated as soon as a start date is confirmed.
 
-Something is about to happen on the boardwalk...
+Join me in a community art experiment.
 
 The Palimpsest Path is a community chalk art project planned for a 100-metre section of the Cygnet Boardwalk. Walkers will be invited to follow chalk dance steps, respond to weekly prompts, and add their own marks to an ever-changing shared surface. Rain washes it clean. And then it begins again.
 
