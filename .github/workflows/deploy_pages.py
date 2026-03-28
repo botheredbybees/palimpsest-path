@@ -68,7 +68,7 @@ def get_existing_pages():
         r = SESSION.get(
             f"{API_BASE}/pages",
             auth=AUTH,
-            params={"per_page": 100, "page": page, "status": "any"},
+            params={"per_page": 100, "page": page, "status": "publish,draft,pending,private"},
         )
         if r.status_code == 400:
             break
