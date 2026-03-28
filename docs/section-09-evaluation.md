@@ -169,7 +169,7 @@ Print-ready text for the weather-resistant QR code signage installed at the gall
 > **THE PALIMPSEST PATH**
 > *A community art project on the Cygnet Boardwalk*
 >
-> The chalk steps and drawings you see here are part of a community wellbeing project run by a University of Tasmania student. The materials are non-toxic calcium carbonate chalk — the same chalk used on school blackboards. It washes away naturally with rain.
+> The chalk steps and drawings you see here are part of a community wellbeing project run by a University of Tasmania student. The materials are non-toxic mineral chalk (calcium carbonate or gypsum based) — the same chalk used on school blackboards. It washes away naturally with rain.
 >
 > **You are warmly invited to add to it.**
 >
