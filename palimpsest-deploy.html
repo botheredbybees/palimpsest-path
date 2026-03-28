@@ -665,25 +665,30 @@ async function testConnection() {
   btn.disabled = false;
 }
 
+async function fetchPagesByStatus(status) {
+  const found = {};
+  let page = 1;
+  while (true) {
+    const r = await fetch(
+      getBase() + '/wp-json/wp/v2/pages?per_page=100&page=' + page + '&status=' + status,
+      { headers: { 'Authorization': getAuth() } }
+    );
+    if (!r.ok) { log('  Fetch status=' + status + ' returned HTTP ' + r.status, 'warn'); break; }
+    const pages = await r.json();
+    if (!pages.length) break;
+    pages.forEach(p => { found[p.slug] = p.id; });
+    page++;
+  }
+  return found;
+}
+
 async function fetchExistingPages() {
   log('Fetching existing pages...', 'dim');
   existingPageSlugs = {};
   try {
-    let page = 1;
-    while (true) {
-      const r = await fetch(getBase() + '/wp-json/wp/v2/pages?per_page=100&page=' + page + '&status=any', {
-        headers: { 'Authorization': getAuth() }
-      });
-      if (!r.ok) break;
-      const pages = await r.json();
-      if (!pages.length) break;
-      pages.forEach(p => {
-            if (!existingPageSlugs[p.slug] || p.status === 'publish') {
-              existingPageSlugs[p.slug] = p.id;
-            }
-          });
-      page++;
-    }
+    const drafts    = await fetchPagesByStatus('draft');
+    const published = await fetchPagesByStatus('publish');
+    existingPageSlugs = { ...drafts, ...published }; // published wins on slug conflict
     const count = Object.keys(existingPageSlugs).length;
     log(count + ' existing page(s) found on site.', count > 0 ? 'warn' : 'dim');
     if (count > 0) log('Slugs: ' + Object.keys(existingPageSlugs).join(', '), 'dim');
