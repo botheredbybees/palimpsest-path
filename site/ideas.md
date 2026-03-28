@@ -25,7 +25,7 @@ You don't need to give your name or email. Ideas can be completely anonymous. If
 
 ---
 
-[contact-form-7 id="IDEAS_FORM_ID" title="Ideas and Artwork"]
+[contact-form-7 id="862d871" title="Ideas & Artwork"]
 
 ---
 
