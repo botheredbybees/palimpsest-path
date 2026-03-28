@@ -13,7 +13,7 @@ order: 1
 
 Join me in a community art experiment.
 
-The Palimpsest Path is a community chalk art project planned for a 100-metre section of the Cygnet Boardwalk. Walkers will be invited to follow chalk dance steps, respond to weekly prompts, and add their own marks to an ever-changing shared surface. Rain washes it clean. And then it begins again.
+The Palimpsest Path is a community chalk art project planned for a 100-metre section of the Port Cygnet Boardwalk. Walkers will be invited to follow chalk dance steps, respond to weekly prompts, and add their own marks to an ever-changing shared surface. Rain washes it clean. And then it begins again.
 
 ---
 
