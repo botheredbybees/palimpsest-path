@@ -66,6 +66,51 @@ SESSION.headers.update({
 # Helpers
 # ---------------------------------------------------------------------------
 
+def youtube_id(url):
+    """Extract a YouTube video ID from watch, short, or embed URLs."""
+    m = re.search(r'[?&]v=([^&]+)', url)
+    if m:
+        return m.group(1)
+    m = re.search(r'youtu\.be/([^?&/]+)', url)
+    if m:
+        return m.group(1)
+    m = re.search(r'youtube\.com/embed/([^?&/]+)', url)
+    if m:
+        return m.group(1)
+    return None
+
+
+def convert_video_embeds(body):
+    """Convert !video[Title](URL) markers to YouTube iframe HTML.
+
+    Syntax in .md files:
+        !video[Descriptive title](https://www.youtube.com/watch?v=XXXX)
+
+    Falls back to a plain hyperlink for non-YouTube URLs.
+    """
+    def replace(m):
+        title = m.group(1)
+        url   = m.group(2)
+        vid_id = youtube_id(url)
+        if vid_id:
+            embed_url = f"https://www.youtube.com/embed/{vid_id}"
+            return (
+                f'<figure class="wp-block-embed is-type-video">'
+                f'<div class="wp-block-embed__wrapper">'
+                f'<iframe width="560" height="315" '
+                f'src="{embed_url}" title="{title}" frameborder="0" '
+                f'allow="accelerometer; autoplay; clipboard-write; '
+                f'encrypted-media; gyroscope; picture-in-picture" '
+                f'allowfullscreen></iframe>'
+                f'</div>'
+                f'<figcaption>{title}</figcaption>'
+                f'</figure>'
+            )
+        return f'<p><a href="{url}">{title}</a></p>'
+
+    return re.sub(r'!video\[([^\]]+)\]\(([^)]+)\)', replace, body)
+
+
 def parse_front_matter(text):
     match = re.match(r"^---\s*\n(.*?)\n---\s*\n", text, re.DOTALL)
     if not match:
@@ -164,6 +209,7 @@ def main():
         try:
             text = md_path.read_text(encoding="utf-8")
             front, body = parse_front_matter(text)
+            body = convert_video_embeds(body)
             html = markdown.markdown(body, extensions=["tables", "fenced_code", "nl2br"])
             deploy_page(front, html, existing)
         except Exception as e:
