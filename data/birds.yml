@@ -1,0 +1,101 @@
+# Bird species for the Palimpsest Path birdlife page
+# Fields: common_name, scientific_name, habitat, wikipedia_url
+# Optional fields: photo (WP media library filename), inaturalist_taxon_id
+# Order matches the field guide on site/birdlife.md
+
+- common_name: Black Swan
+  scientific_name: Cygnus atratus
+  habitat: open water, channel
+  wikipedia_url: https://en.wikipedia.org/wiki/Black_swan
+
+- common_name: White-faced Heron
+  scientific_name: Egretta novaehollandiae
+  habitat: shallow water, mudflats
+  wikipedia_url: https://en.wikipedia.org/wiki/White-faced_heron
+
+- common_name: Great Egret
+  scientific_name: Ardea alba
+  habitat: mudflats, shallow estuary
+  wikipedia_url: https://en.wikipedia.org/wiki/Great_egret
+
+- common_name: Australasian Grebe
+  scientific_name: Tachybaptus novaehollandiae
+  habitat: fresh/tidal water
+  wikipedia_url: https://en.wikipedia.org/wiki/Australasian_grebe
+
+- common_name: Little Pied Cormorant
+  scientific_name: Microcarbo melanoleucos
+  habitat: estuaries, coastal
+  wikipedia_url: https://en.wikipedia.org/wiki/Little_pied_cormorant
+
+- common_name: Little Black Cormorant
+  scientific_name: Phalacrocorax sulcirostris
+  habitat: rivers, estuaries
+  wikipedia_url: https://en.wikipedia.org/wiki/Little_black_cormorant
+
+- common_name: Silver Gull
+  scientific_name: Chroicocephalus novaehollandiae
+  habitat: coastal, boardwalk
+  wikipedia_url: https://en.wikipedia.org/wiki/Silver_gull_(Australian)
+
+- common_name: Kelp Gull
+  scientific_name: Larus dominicanus
+  habitat: coastal, rocky shore
+  wikipedia_url: https://en.wikipedia.org/wiki/Kelp_gull
+
+- common_name: Greater Crested Tern
+  scientific_name: Thalasseus bergii
+  habitat: coastal, beach
+  wikipedia_url: https://en.wikipedia.org/wiki/Greater_crested_tern
+
+- common_name: Masked Lapwing
+  scientific_name: Vanellus miles
+  habitat: grassy edges, mudflats
+  wikipedia_url: https://en.wikipedia.org/wiki/Masked_lapwing
+
+- common_name: Pied Oystercatcher
+  scientific_name: Haematopus longirostris
+  habitat: rocky shore, mudflats
+  wikipedia_url: https://en.wikipedia.org/wiki/Pied_oystercatcher
+
+- common_name: Sooty Oystercatcher
+  scientific_name: Haematopus fuliginosus
+  habitat: rocky shore
+  wikipedia_url: https://en.wikipedia.org/wiki/Sooty_oystercatcher
+
+- common_name: Tasmanian Native Hen
+  scientific_name: Tribonyx mortierii
+  habitat: grassy edges, boardwalk margins
+  wikipedia_url: https://en.wikipedia.org/wiki/Tasmanian_nativehen
+
+- common_name: Grey Fantail
+  scientific_name: Rhipidura albiscapa
+  habitat: scrub edge, follows walkers
+  wikipedia_url: https://en.wikipedia.org/wiki/Grey_fantail
+
+- common_name: Welcome Swallow
+  scientific_name: Hirundo neoxena
+  habitat: open air over water
+  wikipedia_url: https://en.wikipedia.org/wiki/Welcome_swallow
+
+- common_name: New Holland Honeyeater
+  scientific_name: Phylidonyris novaehollandiae
+  habitat: coastal scrub, banksia
+  wikipedia_url: https://en.wikipedia.org/wiki/New_Holland_honeyeater
+
+- common_name: Superb Fairywren
+  scientific_name: Malurus cyaneus
+  habitat: scrub understorey
+  wikipedia_url: https://en.wikipedia.org/wiki/Superb_fairywren
+
+- common_name: House Sparrow
+  scientific_name: Passer domesticus
+  habitat: townside scrub, grassy edges
+  wikipedia_url: https://en.wikipedia.org/wiki/House_sparrow
+  introduced: true
+
+- common_name: European Goldfinch
+  scientific_name: Carduelis carduelis
+  habitat: grassy edges, scrub, thistles
+  wikipedia_url: https://en.wikipedia.org/wiki/European_goldfinch
+  introduced: true

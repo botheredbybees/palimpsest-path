@@ -2,7 +2,7 @@
 title: Privacy
 slug: privacy
 status: draft
-order: 5
+order: 6
 ---
 
 # Privacy
