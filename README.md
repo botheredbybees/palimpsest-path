@@ -47,9 +47,12 @@ palimpsest-path/
 │   ├── home.md                       # Home page
 │   ├── about.md                      # About the project
 │   ├── participate.md                # How to get involved
-│   ├── gallery.md                    # Photo archive placeholder
+│   ├── gallery.md                    # Photo archive and community stories
 │   ├── privacy.md                    # Full privacy statement
-│   └── contact.md                    # Contact page
+│   ├── contact.md                    # Contact page (Contact Form 7)
+│   └── ideas.md                      # Ideas & artwork suggestions (Contact Form 7)
+│
+├── upload.py                         # Local WordPress deployer — reads site/*.md and pushes via REST API
 │
 ├── signage/                          # Print-ready boardwalk signage
 │   └── qr-sign.md                    # QR code sign (plain language statement)
@@ -115,19 +118,24 @@ Unit tests for the matching and classification logic live in `analysis/tests/tes
 
 ## WordPress Deployment
 
-Site content lives in `site/`. Each `.md` file corresponds to a WordPress page. Changes committed to `main` are automatically pushed to [sidewalkcircus.org](https://sidewalkcircus.org) via the WordPress REST API.
+Site content lives in `site/`. Each `.md` file corresponds to a WordPress page and is the source of truth for that page's content, title, slug, and status.
 
-See [`.github/workflows/deploy-to-wordpress.yml`](.github/workflows/deploy-to-wordpress.yml) for the deployment pipeline.
+Pages are deployed locally using `upload.py`:
 
-### Environment variables (GitHub Secrets)
+```bash
+python upload.py           # deploy all site/*.md files
+python upload.py about.md  # deploy a single file
+```
 
-| Secret | Description |
-|--------|-------------|
+The script reads credentials from a `.env` file in the repo root. Copy `.env.example` to `.env` and fill in your values:
+
+| Variable | Description |
+|----------|-------------|
 | `WP_BASE_URL` | `https://sidewalkcircus.org` |
 | `WP_USERNAME` | WordPress admin username |
 | `WP_APP_PASSWORD` | WordPress application password (from Users → Profile → Application Passwords) |
 
-A template for local development is provided in [`.env.example`](.env.example).
+The script matches pages by slug. If a page with that slug exists it is updated; if not, a new page is created. Published pages take priority over drafts when resolving slug conflicts.
 
 ---
 
