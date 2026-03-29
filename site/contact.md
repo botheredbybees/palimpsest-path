@@ -2,7 +2,7 @@
 title: Contact
 slug: contact
 status: draft
-order: 6
+order: 7
 ---
 
 # Contact

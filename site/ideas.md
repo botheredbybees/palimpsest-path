@@ -2,7 +2,7 @@
 title: Ideas & Artwork
 slug: ideas
 status: draft
-order: 7
+order: 8
 ---
 
 # Ideas & Artwork
