@@ -1,7 +1,7 @@
 ---
 title: Birdlife
 slug: birdlife
-status: draft
+status: publish
 order: 5
 ---
 
@@ -374,10 +374,7 @@ iNaturalist is a global platform for recording wildlife observations, with a str
 
 The Cygnet area already has a body of iNaturalist observations. If you log a sighting on the boardwalk — with a photo and a location pin — it becomes part of that record. You don't need to be an expert. An unconfirmed observation is still a data point, and the community will help with identification if you're unsure what you saw.
 
-<iframe src="https://www.inaturalist.org/observations/widget?project_id=palimpsest-path-project&taxon_name=Aves&layout=small&limit=12"
-        width="100%" height="400" frameborder="0" style="border:1px solid #ddd;border-radius:4px;margin:1em 0;">
-</iframe>
-<p><a href="https://www.inaturalist.org/projects/palimpsest-path-project">View the Palimpsest Path birdlife project on iNaturalist →</a></p>
+[View the Palimpsest Path birdlife project on iNaturalist →](https://www.inaturalist.org/projects/palimpsest-path-project)
 
 ---
 
