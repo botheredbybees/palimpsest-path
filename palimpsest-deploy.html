@@ -676,7 +676,10 @@ async function fetchPagesByStatus(status) {
     if (!r.ok) { log('  Fetch status=' + status + ' returned HTTP ' + r.status, 'warn'); break; }
     const pages = await r.json();
     if (!pages.length) break;
-    pages.forEach(p => { found[p.slug] = p.id; });
+    pages.forEach(p => {
+        log('  [' + status + '] ' + p.slug + ' (id:' + p.id + ')', 'dim');
+        found[p.slug] = p.id;
+      });
     page++;
   }
   return found;
