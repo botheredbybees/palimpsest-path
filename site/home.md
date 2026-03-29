@@ -1,6 +1,6 @@
 ---
 title: The Palimpsest Path
-slug: palimpsest-home
+slug: home-palimpsest
 status: draft
 order: 1
 ---
