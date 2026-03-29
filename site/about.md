@@ -1,5 +1,5 @@
 ---
-title: About the Palimpsest Path
+title: About
 slug: about
 status: draft
 order: 2
