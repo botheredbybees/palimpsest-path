@@ -49,11 +49,17 @@ SITE_DIR = Path(__file__).parent / "site"
 SESSION = requests.Session()
 SESSION.headers.update({
     "Accept": "application/json",
+    "Accept-Language": "en-US,en;q=0.9",
     "User-Agent": (
-        "Mozilla/5.0 (X11; Linux x86_64) "
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/124.0.0.0 Safari/537.36"
     ),
+    "Origin": WP_BASE_URL,
+    "Referer": f"{WP_BASE_URL}/wp-admin/",
+    "Sec-Fetch-Site": "same-origin",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Dest": "empty",
 })
 
 # ---------------------------------------------------------------------------
