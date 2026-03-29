@@ -11,9 +11,9 @@ order: 3
 
 ## On the boardwalk
 
-When the project launches, the chalk station will be located on the Cygnet Boardwalk at the midpoint of the marked 100-metre section. Look for the timber box and the chalk dance steps on the bannisters.
+When the project launches, the chalk station will be located on the Cygnet Boardwalk at the midpoint of the marked 100-metre section. Look for the timber box on the bannister and the chalk dance steps on the boardwalk.
 
-To participate, pick up a piece of chalk from the station box, follow the dance steps on the bannister — or invent your own — and respond to that week's prompt, or just add what's on your mind. Put the chalk back when you're done.
+To participate, pick up a piece of chalk from the station box, follow the dance steps on the boards — or invent your own — and respond to that week's prompt, or just add what's on your mind. Put the chalk back when you're done.
 
 There are no rules beyond that. You don't need to be an artist. A line, a colour, a footprint — it all counts. The surface resets with rain, so if you come back and your contribution is gone, that's the palimpsest at work — not an ending.
 
