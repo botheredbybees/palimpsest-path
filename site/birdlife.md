@@ -397,8 +397,8 @@ Look for them on the channel, often in pairs, upending to feed in the shallows a
 **Week 2 — Masked Lapwing**
 Listen for it before you look for it. Its rattling alarm call carries a long way, and it will tell you exactly where it is. Once you've found it, watch how it holds its ground as people pass — it almost never retreats. In autumn pairs are often defending a territory around grassy edges near the water.
 
-**Week 3 — Grey Fantail**
-Walk slowly through the scrubby vegetation at the midpoint of the boardwalk and see if a grey fantail follows you. It may come within a metre or two, hunting the insects your footsteps disturb. Watch the tail: it fans open on each twist and turn, like a small hand opening and closing.
+**Week 3 — Superb Fairywren**
+Look for small groups moving through the low scrub beside the boardwalk. The male's electric blue head is unmistakable even in a quick glimpse between branches. In May and June some males are still in non-breeding plumage — brown like the females — so look for the cocked tail and the family group moving together as a unit.
 
 **Week 4 — White-faced Heron**
 Find one on the mudflats or rocks and watch it for two minutes without moving. Notice how it stills itself completely — not resting, but attending. The strike, when it comes, is faster than it looks possible. In June the mudflats at low tide are good heron territory.
