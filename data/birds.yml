@@ -18,10 +18,10 @@
   habitat: mudflats, shallow estuary
   wikipedia_url: https://en.wikipedia.org/wiki/Great_egret
 
-- common_name: Australasian Grebe
-  scientific_name: Tachybaptus novaehollandiae
-  habitat: fresh/tidal water
-  wikipedia_url: https://en.wikipedia.org/wiki/Australasian_grebe
+- common_name: Hoary-headed Grebe
+  scientific_name: Poliocephalus poliocephalus
+  habitat: tidal water, channel
+  wikipedia_url: https://en.wikipedia.org/wiki/Hoary-headed_grebe
 
 - common_name: Little Pied Cormorant
   scientific_name: Microcarbo melanoleucos

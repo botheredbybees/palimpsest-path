@@ -84,20 +84,20 @@ Larger and whiter than the white-faced heron, *Ardea alba* is a less common but 
 
 ---
 
-### Australasian Grebe
+### Hoary-headed Grebe
 
-A small diving bird that sits so low on the water it sometimes seems to be sinking rather than floating. *Tachybaptus novaehollandiae* rarely comes to shore; it dives for fish and small invertebrates and pops back up several metres away, often to the confusion of watchers trying to track it. In breeding plumage it shows a chestnut patch behind the eye. On the channel, look for something about the size of a large rubber duck moving independently of the current.
+A small diving bird with one of the most distinctive heads in Australian birdlife: in breeding plumage, *Poliocephalus poliocephalus* is streaked with fine white filaments over a dark cap, giving the appearance of hoar frost or silver hair — which is exactly how it got its name. It sits very low on the water, barely above the surface, and dives frequently for small fish and invertebrates, surfacing several metres from where it went down. On the channel, look for a compact dark bird moving independently of the current, smaller than a duck, with a pale silvery head catching the light.
 
 *[Your photo here]*
 
-[Wikipedia](https://en.wikipedia.org/wiki/Australasian_grebe)
+[Wikipedia](https://en.wikipedia.org/wiki/Hoary-headed_grebe)
 
-**To sketch an Australasian grebe in chalk:**
+**To sketch a hoary-headed grebe in chalk:**
 1. A small, almost circular body sitting very low — barely above a waterline you might draw beneath it.
 2. A round head with a short, pointed bill.
 3. No visible neck — the head sits directly on the body.
 4. No tail visible above water.
-5. Make it smaller and rounder than feels natural. Grebes look like animated tennis balls on the water.
+5. The distinctive detail is the head texture: fine radiating lines or stippling if you want to suggest the frosted streaking. Even a rough scribble in a lighter chalk reads as hoary-headed rather than plain dark.
 
 ---
 

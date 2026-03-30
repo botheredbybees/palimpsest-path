@@ -66,8 +66,16 @@ def find_photo(scientific_name, project_id=None, place_id=None):
     try:
         data = inat_get("observations", params)
     except requests.HTTPError as e:
-        print(f"    API error: {e}")
-        return None
+        if e.response is not None and e.response.status_code == 422:
+            # Some taxa/place combos reject photo_license — retry without it
+            params.pop("photo_license", None)
+            try:
+                data = inat_get("observations", params)
+            except requests.HTTPError:
+                return None
+        else:
+            print(f"    API error: {e}")
+            return None
 
     results = data.get("results", [])
     if not results:
