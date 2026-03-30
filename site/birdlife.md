@@ -381,9 +381,39 @@ If you spot a bird while you're walking, you are welcome to chalk its name on th
 
 None of this is required. It is simply one more way of leaving a trace of what you noticed.
 
-**This week's bird to watch for:** *Grey Fantail — look for it following you through the scrub near the midpoint of the boardwalk. If something small and quick is weaving through the vegetation beside you, check whether its tail is fanned out.*
+**This week's bird to watch for (Week 1):** *Black Swan — look for them on the channel, often in pairs, upending to feed in the shallows at low tide. The town is named for them. See if you can count how many are in view at once.*
 
-This prompt changes each week and is posted on the chalk station board.
+This prompt changes each week and is posted on the chalk station board. The full eight-week schedule is below.
+
+---
+
+## Eight weeks of birds
+
+The project runs from late May through July — Tasmanian autumn into early winter. The prompts below are sequenced to start with the most visible species and move toward birds that reward slower, more patient looking. Each week's prompt is posted at the chalk station.
+
+**Week 1 — Black Swan**
+Look for them on the channel, often in pairs, upending to feed in the shallows at low tide. The town is named for them: *Port des Cygnes*, named by French navigator Bruni D'Entrecasteaux in 1793. See how many are in view at once — the count changes with the tide.
+
+**Week 2 — Masked Lapwing**
+Listen for it before you look for it. Its rattling alarm call carries a long way, and it will tell you exactly where it is. Once you've found it, watch how it holds its ground as people pass — it almost never retreats. In autumn pairs are often defending a territory around grassy edges near the water.
+
+**Week 3 — Grey Fantail**
+Walk slowly through the scrubby vegetation at the midpoint of the boardwalk and see if a grey fantail follows you. It may come within a metre or two, hunting the insects your footsteps disturb. Watch the tail: it fans open on each twist and turn, like a small hand opening and closing.
+
+**Week 4 — White-faced Heron**
+Find one on the mudflats or rocks and watch it for two minutes without moving. Notice how it stills itself completely — not resting, but attending. The strike, when it comes, is faster than it looks possible. In June the mudflats at low tide are good heron territory.
+
+**Week 5 — Pied Oystercatcher**
+If the tide is low enough, look for the pied oystercatcher working the exposed rocks and mud. Watch what it does with its bill: it levers open shellfish, hammers through shells, and probes for worms — three different techniques, sometimes in the space of a few minutes. The orange bill is visible from a surprising distance.
+
+**Week 6 — European Goldfinch**
+Look for goldfinches in flocks on any seedy or weedy vegetation near the boardwalk. In June and July they cluster on thistles and seed heads, sometimes ten or more at once. The flash of yellow across the wing as they lift off is unmistakable, and the liquid twittering call often gives them away before you see them.
+
+**Week 7 — Tasmanian Native Hen**
+Watch how it navigates the boardwalk margins entirely on foot — running rather than retreating when disturbed, legs built for speed rather than flight. Listen for its harsh, mechanical call: it sounds more like machinery than birdsong. You will not find this bird anywhere else on earth.
+
+**Week 8 — Hoary-headed Grebe**
+Watch the open water for a bird smaller than a duck, sitting very low, diving and resurfacing in unexpected places. Time how long it stays underwater. In winter the silvery-streaked head is most visible in good morning light. Patience is the whole technique with grebes.
 
 ---
 
