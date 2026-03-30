@@ -383,3 +383,9 @@ The Cygnet area already has a body of iNaturalist observations. If you log a sig
 If you photograph a bird on or near the Cygnet Boardwalk — or the trace of one: a footprint in the mud, a feather caught on the railing, the ripple where something just dove — you are welcome to submit it to the community gallery. Scan the QR code at the chalk station or visit the [Participate](/participate) page for the submission form.
 
 As always, take the photo for yourself first. Share it only if you want to add it to the community essay.
+
+---
+
+## Haven't found your bird?
+
+This field guide covers the species most commonly seen from the boardwalk, but the full list of what's been recorded in the project is longer and growing. Perhaps it's one of these — [browse all species observed in the Palimpsest Path project on iNaturalist](https://www.inaturalist.org/projects/palimpsest-path-project?tab=species).
