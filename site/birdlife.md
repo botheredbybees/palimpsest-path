@@ -323,8 +323,8 @@ A striking and energetic bird of the coastal scrub, with bold black-and-white pa
 
 The male superb fairywren in breeding plumage is one of the most vivid small birds in Australia: an electric, iridescent blue on the head and back, with a black mask and bib, on a body not much larger than a thumb. *Malurus cyaneus* females are brown, and young males pass through brown phases before developing their blue plumage. Fairywrens move through the scrub understorey in small, busy groups and are often heard — a thin, wiry trill — before they are seen. The tail is held cocked upward at nearly a right angle to the body.
 
-[![Superb Fairywren](https://inaturalist-open-data.s3.amazonaws.com/photos/468002098/medium.jpeg)](https://www.inaturalist.org/observations/260586382)
-*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/260586382)*
+[![Superb Fairywren](https://inaturalist-open-data.s3.amazonaws.com/photos/603537431/medium.jpeg)](https://www.inaturalist.org/observations/332548047)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/332548047)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Superb_fairywren)
 
