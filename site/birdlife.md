@@ -127,8 +127,8 @@ The smaller of the two cormorants common on the channel, and the one most likely
 
 Similar habitat to the little pied cormorant but entirely dark, with a slender build and a sleeker profile. *Phalacrocorax sulcirostris* is often seen in small groups swimming in loose formation and diving near-synchronously. The bill is thinner and straighter than the pied cormorant's. On the water it swims with its neck angled forward, lower in the water than a duck, giving the impression of determined forward motion even when it is simply looking for fish.
 
-[![Little Black Cormorant](https://inaturalist-open-data.s3.amazonaws.com/photos/381573386/medium.jpg)](https://www.inaturalist.org/observations/215798740)
-*Photo: (c) razar, some rights reserved (CC BY-NC) — [view observation on iNaturalist](https://www.inaturalist.org/observations/215798740)*
+[![Little Black Cormorant](https://inaturalist-open-data.s3.amazonaws.com/photos/551606452/medium.jpg)](https://www.inaturalist.org/observations/305906453)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/305906453)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Little_black_cormorant)
 
@@ -180,8 +180,8 @@ Larger and darker-backed than the silver gull, *Larus dominicanus* is the other 
 
 A large, elegant tern with an orange-yellow bill and a distinctive black crest at the back of the head, raised and spiky when alert. *Thalasseus bergii* is buoyant and purposeful in flight, often hovering briefly before plunging to take fish near the surface. Common along the coast; seen over the channel at Port Cygnet, particularly in the warmer months.
 
-[![Greater Crested Tern](https://inaturalist-open-data.s3.amazonaws.com/photos/471145461/medium.jpeg)](https://www.inaturalist.org/observations/262251839)
-*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/262251839)*
+[![Greater Crested Tern](https://inaturalist-open-data.s3.amazonaws.com/photos/472232651/medium.jpeg)](https://www.inaturalist.org/observations/262918601)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/262918601)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Greater_crested_tern)
 
@@ -234,8 +234,8 @@ Unmistakable on the mudflats and rocky foreshore: a large black-and-white shoreb
 
 Similar to the pied oystercatcher in structure but entirely dark — a deep sooty brown-black all over — with the same vivid orange bill and eye-ring. *Haematopus fuliginosus* tends to favour rockier substrate than the pied oystercatcher and is less commonly seen on mudflats. The two species are occasionally found together on mixed foreshore. At a distance the sooty oystercatcher looks almost like a silhouette: a dark shape with an improbably bright bill.
 
-[![Sooty Oystercatcher](https://inaturalist-open-data.s3.amazonaws.com/photos/473245669/medium.jpeg)](https://www.inaturalist.org/observations/263430071)
-*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/263430071)*
+[![Sooty Oystercatcher](https://inaturalist-open-data.s3.amazonaws.com/photos/476187308/medium.jpeg)](https://www.inaturalist.org/observations/265135323)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/265135323)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Sooty_oystercatcher)
 
@@ -269,8 +269,8 @@ A bird you will not find anywhere else on earth. *Tribonyx mortierii* is endemic
 
 One of the most charming birds on the boardwalk, and one of the most likely to approach you. *Rhipidura albiscapa* often follows walkers through scrubby vegetation, catching the insects disturbed by your passage. It is small, quick, and acrobatic — spinning and twisting in flight with its tail fanned wide. The tail is the defining feature: held up and spread open like a small ornamental fan, and rarely still. If a small grey bird is following you down the path, it is almost certainly this one.
 
-[![Grey Fantail](https://inaturalist-open-data.s3.amazonaws.com/photos/455428338/medium.jpeg)](https://www.inaturalist.org/observations/254279251)
-*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/254279251)*
+[![Grey Fantail](https://inaturalist-open-data.s3.amazonaws.com/photos/549598189/medium.jpg)](https://www.inaturalist.org/observations/304847721)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/304847721)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Grey_fantail)
 
@@ -305,8 +305,8 @@ A fast, graceful flier that hunts insects over the water and along the boardwalk
 
 A striking and energetic bird of the coastal scrub, with bold black-and-white patterning, a yellow patch on each wing, and a curved bill adapted for probing flowers. *Phylidonyris novaehollandiae* moves quickly and calls frequently — a sharp, emphatic note. Common in coastal heath and banksia scrub near the boardwalk. A flowering bottlebrush or banksia becomes almost a guaranteed sighting point once you know what to look for.
 
-[![New Holland Honeyeater](https://inaturalist-open-data.s3.amazonaws.com/photos/451455937/medium.jpeg)](https://www.inaturalist.org/observations/252216025)
-*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/252216025)*
+[![New Holland Honeyeater](https://inaturalist-open-data.s3.amazonaws.com/photos/551606199/medium.jpg)](https://www.inaturalist.org/observations/305906296)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/305906296)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/New_Holland_honeyeater)
 
@@ -323,7 +323,7 @@ A striking and energetic bird of the coastal scrub, with bold black-and-white pa
 
 The male superb fairywren in breeding plumage is one of the most vivid small birds in Australia: an electric, iridescent blue on the head and back, with a black mask and bib, on a body not much larger than a thumb. *Malurus cyaneus* females are brown, and young males pass through brown phases before developing their blue plumage. Fairywrens move through the scrub understorey in small, busy groups and are often heard — a thin, wiry trill — before they are seen. The tail is held cocked upward at nearly a right angle to the body.
 
-[![Superb Fairywren](https://inaturalist-open-data.s3.amazonaws.com/photos/603537431/medium.jpeg)](https://www.inaturalist.org/observations/332548047)
+[![Superb Fairywren](https://inaturalist-open-data.s3.amazonaws.com/photos/603537431/medium.jpg)](https://www.inaturalist.org/observations/332548047)
 *Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/332548047)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Superb_fairywren)
