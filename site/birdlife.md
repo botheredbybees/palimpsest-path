@@ -37,7 +37,8 @@ The field guide below covers nineteen species that walkers have a good chance of
 
 The bird this town is named for. *Cygnus atratus* is large, unmissable, and a constant presence on the channel at Port Cygnet. The European assumption was that all swans were white; the discovery of the black swan in Australia became a byword for the radically unexpected. On the water they are elegant and unhurried, necks curving in a long S and bills vivid red against black plumage. In flight, the trailing edge of each wing is white — briefly visible as they come in to land.
 
-*[Your photo here]*
+[![Black Swan](https://inaturalist-open-data.s3.amazonaws.com/photos/47704106/medium.jpeg)](https://www.inaturalist.org/observations/30530465)
+*Photo: (c) Anna Lanigan, some rights reserved (CC BY-NC) — [view observation on iNaturalist](https://www.inaturalist.org/observations/30530465)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Black_swan)
 
@@ -54,7 +55,8 @@ The bird this town is named for. *Cygnus atratus* is large, unmissable, and a co
 
 The most common heron in Australia, and a reliable presence on the mudflats at low tide. *Egretta novaehollandiae* stands very still for long periods, watching the water, then strikes with a sudden forward lunge. The white face is distinctive: a pale mask against a blue-grey body. In flight it tucks its neck into the characteristic heron S-shape and looks deceptively large on long, broad wings. Usually seen alone, and usually aware of you long before you notice it.
 
-*[Your photo here]*
+[![White-faced Heron](https://inaturalist-open-data.s3.amazonaws.com/photos/471145440/medium.jpeg)](https://www.inaturalist.org/observations/262251800)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/262251800)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/White-faced_heron)
 
@@ -71,7 +73,8 @@ The most common heron in Australia, and a reliable presence on the mudflats at l
 
 Larger and whiter than the white-faced heron, *Ardea alba* is a less common but striking visitor to the Cygnet mudflats, most likely in autumn and winter. The bill is long and dagger-like, yellow to greenish depending on the season, and the legs are dark. When standing still it can be mistaken for a white post or marker until it moves. The great egret's height and stillness make it one of those birds that, once you learn to notice it, seems to materialise out of previously empty landscape.
 
-*[Your photo here]*
+[![Great Egret](https://inaturalist-open-data.s3.amazonaws.com/photos/436318794/medium.jpeg)](https://www.inaturalist.org/observations/244593747)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/244593747)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Great_egret)
 
@@ -88,7 +91,8 @@ Larger and whiter than the white-faced heron, *Ardea alba* is a less common but 
 
 A small diving bird with one of the most distinctive heads in Australian birdlife: in breeding plumage, *Poliocephalus poliocephalus* is streaked with fine white filaments over a dark cap, giving the appearance of hoar frost or silver hair — which is exactly how it got its name. It sits very low on the water, barely above the surface, and dives frequently for small fish and invertebrates, surfacing several metres from where it went down. On the channel, look for a compact dark bird moving independently of the current, smaller than a duck, with a pale silvery head catching the light.
 
-*[Your photo here]*
+[![Hoary-headed Grebe](https://inaturalist-open-data.s3.amazonaws.com/photos/553448274/medium.jpg)](https://www.inaturalist.org/observations/306874102)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/306874102)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Hoary-headed_grebe)
 
@@ -105,7 +109,8 @@ A small diving bird with one of the most distinctive heads in Australian birdlif
 
 The smaller of the two cormorants common on the channel, and the one most likely to be seen perched on a post or the jetty railing with wings held out to dry. *Microcarbo melanoleucos* is black above and white below, with a yellow patch at the base of the bill. Cormorants' feathers are not fully waterproofed — which allows them to dive more efficiently but means they must air-dry after swimming. The little pied cormorant often sits in a distinctive upright, almost heraldic pose that makes it easy to spot on exposed perches.
 
-*[Your photo here]*
+[![Little Pied Cormorant](https://inaturalist-open-data.s3.amazonaws.com/photos/460821822/medium.jpeg)](https://www.inaturalist.org/observations/256949248)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/256949248)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Little_pied_cormorant)
 
@@ -122,7 +127,8 @@ The smaller of the two cormorants common on the channel, and the one most likely
 
 Similar habitat to the little pied cormorant but entirely dark, with a slender build and a sleeker profile. *Phalacrocorax sulcirostris* is often seen in small groups swimming in loose formation and diving near-synchronously. The bill is thinner and straighter than the pied cormorant's. On the water it swims with its neck angled forward, lower in the water than a duck, giving the impression of determined forward motion even when it is simply looking for fish.
 
-*[Your photo here]*
+[![Little Black Cormorant](https://inaturalist-open-data.s3.amazonaws.com/photos/381573386/medium.jpg)](https://www.inaturalist.org/observations/215798740)
+*Photo: (c) razar, some rights reserved (CC BY-NC) — [view observation on iNaturalist](https://www.inaturalist.org/observations/215798740)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Little_black_cormorant)
 
@@ -139,7 +145,8 @@ Similar habitat to the little pied cormorant but entirely dark, with a slender b
 
 The gull you will almost certainly see on any visit to the boardwalk. *Chroicocephalus novaehollandiae* is an opportunist and well aware that humans occasionally have food. It is also genuinely beautiful at close range: white body, pale grey wings with black-tipped primaries, and legs and bill that are a vivid red-orange in adults. Juveniles are browner and patchier. Silver gulls are loud, confident, and excellent at making eye contact.
 
-*[Your photo here]*
+[![Silver Gull](https://inaturalist-open-data.s3.amazonaws.com/photos/471145689/medium.jpeg)](https://www.inaturalist.org/observations/262252025)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/262252025)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Silver_gull_(Australian))
 
@@ -156,7 +163,8 @@ The gull you will almost certainly see on any visit to the boardwalk. *Chroicoce
 
 Larger and darker-backed than the silver gull, *Larus dominicanus* is the other gull likely on the channel and rocky foreshore. Adults are striking: white head and underparts, jet-black back and wings, yellow bill and greenish-yellow legs. It has a heavier, more imposing presence than the silver gull — less inclined to hover near picnickers, more inclined to stand apart and survey proceedings from a distance.
 
-*[Your photo here]*
+[![Kelp Gull](https://inaturalist-open-data.s3.amazonaws.com/photos/194935470/medium.jpg)](https://www.inaturalist.org/observations/115502766)
+*Photo: (c) lrathbone, some rights reserved (CC BY-NC) — [view observation on iNaturalist](https://www.inaturalist.org/observations/115502766)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Kelp_gull)
 
@@ -172,7 +180,8 @@ Larger and darker-backed than the silver gull, *Larus dominicanus* is the other 
 
 A large, elegant tern with an orange-yellow bill and a distinctive black crest at the back of the head, raised and spiky when alert. *Thalasseus bergii* is buoyant and purposeful in flight, often hovering briefly before plunging to take fish near the surface. Common along the coast; seen over the channel at Port Cygnet, particularly in the warmer months.
 
-*[Your photo here]*
+[![Greater Crested Tern](https://inaturalist-open-data.s3.amazonaws.com/photos/471145461/medium.jpeg)](https://www.inaturalist.org/observations/262251839)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/262251839)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Greater_crested_tern)
 
@@ -189,7 +198,8 @@ A large, elegant tern with an orange-yellow bill and a distinctive black crest a
 
 Very likely to be heard before it is seen. *Vanellus miles* has a loud, grating alarm call — a staccato rattle — and it deploys it liberally whenever anything enters its territory. The yellow facial wattles and mask are distinctive, and the bird has bold black-and-white patterning. It walks rather than hops, usually on short grass near the water's edge, with a deliberate, almost indignant gait.
 
-*[Your photo here]*
+[![Masked Lapwing](https://inaturalist-open-data.s3.amazonaws.com/photos/472231141/medium.jpeg)](https://www.inaturalist.org/observations/262917528)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/262917528)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Masked_lapwing)
 
@@ -206,7 +216,8 @@ Very likely to be heard before it is seen. *Vanellus miles* has a loud, grating 
 
 Unmistakable on the mudflats and rocky foreshore: a large black-and-white shorebird with an extraordinary orange-red bill, long and laterally compressed, almost like a carrot that has been flattened. *Haematopus longirostris* uses this bill to prise open bivalves and probe for invertebrates in mud. Usually seen in pairs, calling to each other in a carrying, piping whistle. It walks slowly and deliberately, stopping to probe at intervals.
 
-*[Your photo here]*
+[![Pied Oystercatcher](https://inaturalist-open-data.s3.amazonaws.com/photos/436822748/medium.jpeg)](https://www.inaturalist.org/observations/244848694)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/244848694)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Pied_oystercatcher)
 
@@ -223,7 +234,8 @@ Unmistakable on the mudflats and rocky foreshore: a large black-and-white shoreb
 
 Similar to the pied oystercatcher in structure but entirely dark — a deep sooty brown-black all over — with the same vivid orange bill and eye-ring. *Haematopus fuliginosus* tends to favour rockier substrate than the pied oystercatcher and is less commonly seen on mudflats. The two species are occasionally found together on mixed foreshore. At a distance the sooty oystercatcher looks almost like a silhouette: a dark shape with an improbably bright bill.
 
-*[Your photo here]*
+[![Sooty Oystercatcher](https://inaturalist-open-data.s3.amazonaws.com/photos/473245669/medium.jpeg)](https://www.inaturalist.org/observations/263430071)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/263430071)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Sooty_oystercatcher)
 
@@ -239,7 +251,8 @@ Similar to the pied oystercatcher in structure but entirely dark — a deep soot
 
 A bird you will not find anywhere else on earth. *Tribonyx mortierii* is endemic to Tasmania, flightless, and entirely unimpressed by humans. Known locally as the turbo chook, it has olive-brown plumage, a vivid green bill, a red eye, and legs that are built for running. Native hens move in family groups and can sprint at remarkable speed across paddocks and grassy edges. They are vocal — a harsh, mechanical rattling call — and often heard along the boardwalk margins before they step out into view.
 
-*[Your photo here]*
+[![Tasmanian Native Hen](https://inaturalist-open-data.s3.amazonaws.com/photos/470033221/medium.jpeg)](https://www.inaturalist.org/observations/261611452)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/261611452)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Tasmanian_nativehen)
 
@@ -256,7 +269,8 @@ A bird you will not find anywhere else on earth. *Tribonyx mortierii* is endemic
 
 One of the most charming birds on the boardwalk, and one of the most likely to approach you. *Rhipidura albiscapa* often follows walkers through scrubby vegetation, catching the insects disturbed by your passage. It is small, quick, and acrobatic — spinning and twisting in flight with its tail fanned wide. The tail is the defining feature: held up and spread open like a small ornamental fan, and rarely still. If a small grey bird is following you down the path, it is almost certainly this one.
 
-*[Your photo here]*
+[![Grey Fantail](https://inaturalist-open-data.s3.amazonaws.com/photos/455428338/medium.jpeg)](https://www.inaturalist.org/observations/254279251)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/254279251)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Grey_fantail)
 
@@ -273,7 +287,8 @@ One of the most charming birds on the boardwalk, and one of the most likely to a
 
 A fast, graceful flier that hunts insects over the water and along the boardwalk. *Hirundo neoxena* is identified by its deeply forked tail, rusty-orange throat and forehead, and the way it swoops and banks in long smooth arcs. Often seen in small groups, and often nesting under eaves and jetty structures nearby. It is one of the first birds children learn to draw because the forked tail and swooping silhouette are so recognisable.
 
-*[Your photo here]*
+[![Welcome Swallow](https://inaturalist-open-data.s3.amazonaws.com/photos/462869499/medium.jpeg)](https://www.inaturalist.org/observations/258021123)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/258021123)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Welcome_swallow)
 
@@ -290,7 +305,8 @@ A fast, graceful flier that hunts insects over the water and along the boardwalk
 
 A striking and energetic bird of the coastal scrub, with bold black-and-white patterning, a yellow patch on each wing, and a curved bill adapted for probing flowers. *Phylidonyris novaehollandiae* moves quickly and calls frequently — a sharp, emphatic note. Common in coastal heath and banksia scrub near the boardwalk. A flowering bottlebrush or banksia becomes almost a guaranteed sighting point once you know what to look for.
 
-*[Your photo here]*
+[![New Holland Honeyeater](https://inaturalist-open-data.s3.amazonaws.com/photos/451455937/medium.jpeg)](https://www.inaturalist.org/observations/252216025)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/252216025)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/New_Holland_honeyeater)
 
@@ -307,7 +323,8 @@ A striking and energetic bird of the coastal scrub, with bold black-and-white pa
 
 The male superb fairywren in breeding plumage is one of the most vivid small birds in Australia: an electric, iridescent blue on the head and back, with a black mask and bib, on a body not much larger than a thumb. *Malurus cyaneus* females are brown, and young males pass through brown phases before developing their blue plumage. Fairywrens move through the scrub understorey in small, busy groups and are often heard — a thin, wiry trill — before they are seen. The tail is held cocked upward at nearly a right angle to the body.
 
-*[Your photo here]*
+[![Superb Fairywren](https://inaturalist-open-data.s3.amazonaws.com/photos/468002098/medium.jpeg)](https://www.inaturalist.org/observations/260586382)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/260586382)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/Superb_fairywren)
 
@@ -324,7 +341,8 @@ The male superb fairywren in breeding plumage is one of the most vivid small bir
 
 An introduced species from Europe, present in Tasmania since the nineteenth century. The male *Passer domesticus* has a grey cap, chestnut back, and a black bib; the female is a streaky brown. Sparrows are gregarious and chatty, and almost always found near human habitation — along the boardwalk they will be seen in small groups on the railings and in the adjacent scrub. They are not native, and their presence is one of the layered histories this landscape carries, set alongside the Indigenous history, the colonial waterfront, and the chalk marks of this project.
 
-*[Your photo here]*
+[![House Sparrow](https://inaturalist-open-data.s3.amazonaws.com/photos/470031944/medium.jpeg)](https://www.inaturalist.org/observations/261611049)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/261611049)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/House_sparrow)
 
@@ -341,7 +359,8 @@ An introduced species from Europe, present in Tasmania since the nineteenth cent
 
 Like the house sparrow, the goldfinch was introduced to Australia in the nineteenth century and has spread widely. Unlike the sparrow, *Carduelis carduelis* is spectacularly coloured: a red face, white cheeks, brown back, and a vivid yellow wing bar that flashes in flight. The collective name for a flock is a *charm*, and it is aptly given — a group of goldfinches on a thistle head in autumn, with their liquid, twittering call, is genuinely delightful. Look for them on weedy ground and scrubby edges near the boardwalk.
 
-*[Your photo here]*
+[![European Goldfinch](https://inaturalist-open-data.s3.amazonaws.com/photos/458400322/medium.jpeg)](https://www.inaturalist.org/observations/255753095)
+*Photo: no rights reserved — [view observation on iNaturalist](https://www.inaturalist.org/observations/255753095)*
 
 [Wikipedia](https://en.wikipedia.org/wiki/European_goldfinch)
 
