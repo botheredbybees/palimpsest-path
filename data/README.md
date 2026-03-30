@@ -1,6 +1,6 @@
 # Data
 
-This directory holds sensor logs, rain event records, and analysis outputs generated during the Palimpsest Path project.
+This directory holds sensor logs, rain event records, and analysis outputs generated during the Palimpsest Path project. The KML bounding box was generated for the creation of an iNaturalist project, a bonus activity offered to birdlife photographers engaged in the Palimpsest Project.
 
 ---
 
