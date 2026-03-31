@@ -63,7 +63,3 @@ Refer to this grid when placing your wooden template. Imagine a square drawn on 
 * **The Data Point:** Ensure the sequence is placed between your two **Raspberry Pi Pico W** IR sensors (Section 3) to ensure you capture the full "Dwell Time" as they learn the pattern.
 
 ---
-
-### **Citations for Portfolio**
-* **Fancourt, D., & Finn, S. (2019).** *What is the evidence on the role of the arts in improving health and well-being?* World Health Organization. (Regarding the neuro-motor benefits of dance).
-* **Daykin, N. (2020).** *Arts, Health and Well-Being: A Critical Perspective on Research, Policy and Practice.* (Regarding the "lowest possible door" for participation).
