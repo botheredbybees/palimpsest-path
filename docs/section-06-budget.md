@@ -1,6 +1,6 @@
 # Section 6: Budget & Resource Plan
 
-All costs in AUD. AliExpress prices are current listings from the companion spreadsheet (`Palimpsest_Path_Budget.xlsx`); allow for exchange rate variation. The spreadsheet is the live tracking document — update it as procurement proceeds.
+All costs in AUD. AliExpress prices are current listings from a web search in March 2026.
 
 ---
 
@@ -8,9 +8,9 @@ All costs in AUD. AliExpress prices are current listings from the companion spre
 
 The project is designed for maximum DIY leverage. The project lead holds a soldering iron and basic tools, which eliminates the largest cost variable in electronics prototyping. The two primary build decisions — timber chalk stations and purchased IP65 sensor enclosures — reflect a deliberate trade-off: aesthetic quality on the boardwalk-facing elements (timber, painted to match the environment) versus functional reliability on the electronics-facing elements (rated weatherproof enclosures).
 
-Electronics components are sourced via AliExpress. The primary caveat is lead time: allow 3–5 weeks for delivery from China, which means electronics ordering must happen in the first days of Phase 0, well before Week 1.
+Electronics components are sourced via AliExpress. The primary caveat is lead time: allowing 3–5 weeks for delivery from China, which means electronics ordering must happen in the first days of Phase 0, well before Week 1.
 
-The WordPress site (sidewalkcircus.org) is an existing asset with current hosting. If hosting or domain renewal falls within the project period, those costs should be added to Section F of the budget spreadsheet.
+The WordPress site (sidewalkcircus.org) is an existing asset with current hosting. If hosting or domain renewal falls within the project period, those costs will be added to Section F of the budget spreadsheet.
 
 ---
 
@@ -18,7 +18,7 @@ The WordPress site (sidewalkcircus.org) is an existing asset with current hostin
 
 The live budget spreadsheet (`Palimpsest_Path_Budget.xlsx`) accompanies this document and is the authoritative cost tracker. The table below provides a narrative summary by category. All unit costs and quantities are editable in the spreadsheet.
 
-> ⚠ **Battery cost note:** The 18650 LiPo cell (LiitoKala HG2) is sold in 2-packs at approximately AUD $18.09, giving a per-cell cost of ~$9.05 — significantly higher than earlier estimates of ~$2.20. The spreadsheet reflects the correct figure. Consider purchasing 2 cells only (1 active + 1 spare per unit) to reduce cost if budget is tight.
+> ⚠ **Battery cost note:** The 18650 LiPo cell (LiitoKala HG2) is sold in 2-packs at approximately AUD $18.09, giving a per-cell cost of ~$9.05 — which was significantly higher than earlier estimates of ~$2.20. The spreadsheet reflects the correct figure. Consider purchasing 2 cells only (1 active + 1 spare per unit) to reduce cost if budget is tight.
 
 ### A — Electronics (AliExpress, allow 3–5 weeks delivery)
 
@@ -97,8 +97,6 @@ The live budget spreadsheet (`Palimpsest_Path_Budget.xlsx`) accompanies this doc
 | | |
 |-|-|
 | **TOTAL PROJECT BUDGET (ESTIMATED)** | **~$281.98** |
-
-> Note: the corrected battery cost (~$9.05/cell vs. the earlier estimate of ~$2.20) increases Section A by approximately $27 relative to earlier figures. The spreadsheet reflects the correct total.
 
 ---
 
