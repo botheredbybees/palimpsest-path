@@ -32,15 +32,13 @@ Saarikallio's (2011) work on music and mood regulation extends this framework to
 
 ### Neurological Mechanisms
 
-The neurological basis for this intervention operates through several complementary pathways:
+The neurological basis for this intervention operates through two primary pathways:
 
 **Dopamine reward pathway:** The discovery of a new chalk narrative — a story fragment, an answered prompt, a completed dance trail — constitutes a low-level novelty stimulus. Novelty activates dopaminergic circuits in the ventral tegmental area, producing the mild motivational reward associated with curiosity and pleasurable surprise (Fancourt & Finn, 2019). Over repeated visits, walkers may develop an anticipatory "what's there today?" orientation that subtly reframes the walk as a rewarding rather than merely functional activity.
 
-**Mirror neuron system & cerebellar engagement:** The dance step trail component engages both the mirror neuron system — activated by observing or imagining embodied movement — and the cerebellum, which governs motor sequencing and rhythm. Even walkers who do not physically follow the steps activate motor simulation circuits through visual engagement, producing a form of vicarious embodied participation (Daykin, 2017).
-
 **Prefrontal cortex & social cognition:** The act of reading a stranger's story fragment and imagining a response activates the prefrontal cortex and associated theory-of-mind networks, stimulating empathic inference and perspective-taking. This is the same neural substrate engaged in face-to-face social interaction, suggesting that asynchronous narrative exchange can produce genuine social cognition benefits in the absence of co-presence.
 
-**Autonomic nervous system regulation:** The cumulative effect of novelty, gentle movement, and social engagement supports a shift from sympathetic (high-alert, cortisol-mediated) to parasympathetic (contemplative, restorative) nervous system dominance. Regular exposure to this kind of low-stimulus engagement may contribute measurably to reduced baseline stress among frequent walkers.
+The cumulative effect of repeated novelty and social engagement may also support a shift toward parasympathetic nervous system dominance — a more contemplative, restorative state — though this is a hypothesised downstream effect rather than a directly measured outcome of this project.
 
 ---
 
