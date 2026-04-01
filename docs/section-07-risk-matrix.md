@@ -61,7 +61,7 @@ This philosophy also shapes the ethics framework. Participants are not subjects 
 | Risk | Likelihood | Impact | Mitigation Strategy | Residual |
 |------|-----------|--------|---------------------|----------|
 | **Participant consent not adequately obtained** | LOW | HIGH | Implied Consent Model: QR signage functions as the Plain Language Statement. Participation is entirely voluntary. Wording reviewed and approved by FXA301 supervisor before printing. | LOW |
-| **Pico W data collection misunderstood as surveillance** | LOW | MEDIUM | Privacy by Design architecture: no cameras, no Wi-Fi sniffing, no facial recognition, no personal data. IR beam counters measure transit events only. QR signage explicitly states sensor methodology. Full technical specification available on sidewalkcircus.org/privacy. | LOW |
+| **Pico W data collection misunderstood as surveillance** | LOW | MEDIUM | Privacy by Design architecture: no cameras, no Wi-Fi sniffing, no facial recognition, no personally identifiable data. IR beam counters measure transit events only. QR signage explicitly states sensor methodology. Full technical specification available on sidewalkcircus.org/privacy. | LOW |
 | **Photo archive contains identifiable individuals** | MEDIUM | MEDIUM | All participant-submitted photos reviewed before publication. Project coordinator photographs are of chalk surfaces, not individuals. If a person appears incidentally, their face is blurred before upload. Participants may request removal at any time. | LOW |
 | **UTAS HREC review required and not initiated** | LOW | HIGH | Raise with FXA301 supervisor in first week of Phase 0. Confirm whether implied consent model + supervisor sign-off is sufficient, or whether formal HREC review is required. If required: initiate immediately. Allow 4–6 weeks. **This is the project's highest-consequence ethics risk if not addressed early. Do not begin any data collection until ethics pathway is confirmed.** | MEDIUM |
 | **SD card data loss (hardware failure / corruption)** | LOW | MEDIUM | Weekly SD swap protocol: active cards downloaded and backed up to two locations before re-use. Raw CSV files never edited or deleted. All analysis operates on copies. | LOW |
@@ -98,7 +98,7 @@ Be visible at the boardwalk at varied times across the week. Walkers who see the
 
 | Principle | Implementation |
 |-----------|---------------|
-| **Privacy by Design** | No cameras. No Wi-Fi. No personal data. The sensor system is physically incapable of collecting anything beyond anonymous transit counts. This is an architectural constraint, not a policy choice. |
+| **Privacy by Design** | No cameras. No Wi-Fi. No personally identifiable data. The sensor system is physically incapable of collecting anything beyond anonymous transit counts and timestamps. This is an architectural constraint, not a policy choice. |
 | **Transparent Consent** | The QR signage functions as a Plain Language Statement. Participation is voluntary. The implied consent model is appropriate for a public art intervention where the creative act (applying chalk) is itself the expression of consent. Full privacy details at sidewalkcircus.org/privacy. |
 | **Right to Withdrawal** | Any participant may request removal of their contribution from the digital archive at any time by contacting the project lead via the sidewalkcircus.org contact page. Chalk contributions on the boardwalk are subject to the natural palimpsest cycle and cannot be retracted from the physical surface, but their digital record can be removed. |
 
