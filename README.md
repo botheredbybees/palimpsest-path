@@ -153,7 +153,7 @@ The script matches pages by slug. If a page with that slug exists it is updated;
 
 ## Ethics and Privacy
 
-The project operates under a Privacy by Design framework. No cameras, no Wi-Fi monitoring, and no personal data collection of any kind. The sensor system uses infrared beam counters that record only anonymous pedestrian transit times to a local SD card.
+The project operates under a Privacy by Design framework. No cameras, no Wi-Fi monitoring, and no personally identifiable data collection of any kind. The sensor system uses infrared beam counters that record only anonymous pedestrian transit times to a local SD card.
 
 Full details: [sidewalkcircus.org/privacy](https://sidewalkcircus.org/privacy) and [`docs/section-07-risk-matrix.md`](docs/section-07-risk-matrix.md).
 

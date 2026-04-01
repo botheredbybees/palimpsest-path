@@ -6,14 +6,14 @@
 
 ## 5.1 System Overview
 
-The Palimpsest Path uses two distinct digital systems that operate in parallel throughout the project. The first is a public-facing web presence at sidewalkcircus.org, built on WordPress, that hosts the photo-narrative gallery, participant information, and QR code landing pages. The second is a local, offline sensor network of Raspberry Pi Pico W microcontrollers that logs pedestrian transit and dwell-time data to SD card, with no internet connectivity and no personal data collection.
+The Palimpsest Path uses two distinct digital systems that operate in parallel throughout the project. The first is a public-facing web presence at sidewalkcircus.org, built on WordPress, that hosts the photo-narrative gallery, participant information, and QR code landing pages. The second is a local, offline sensor network of Raspberry Pi Pico W microcontrollers that logs pedestrian transit and dwell-time data to SD card, with no internet connectivity and no personally identifiable data collection.
 
 These systems are deliberately kept separate. The web presence is outward-facing and participatory; the sensor network is inward-facing and analytical. They share no data in real time. Integration happens only at the analysis stage, when timestamped sensor logs are compared against the weekly photographic archive.
 
 | System | Details |
 |--------|---------|
 | **sidewalkcircus.org** | Platform: WordPress (self-hosted on Bluehost). Purpose: public gallery, QR landing pages, participation instructions, privacy/consent. Data: photos, participant submissions, weekly archive posts. Access: public-facing, no login required for viewing. Must be live and tested before QR signage is printed in Phase 0. |
-| **Pico W Sensor Array** | Platform: Raspberry Pi Pico W microcontrollers running MicroPython. Purpose: measure pedestrian transit and dwell times. Data: timestamped IR beam-break events, logged to local SD card only. Access: offline, no Wi-Fi transmission, no cloud, no personal data. Must be installed and logging before Phase 0 baseline begins. |
+| **Pico W Sensor Array** | Platform: Raspberry Pi Pico W microcontrollers running MicroPython. Purpose: measure pedestrian transit and dwell times. Data: timestamped IR beam-break events, logged to local SD card only. Access: offline, no Wi-Fi transmission, no cloud, no personally identifiable data. Must be installed and logging before Phase 0 baseline begins. |
 
 ---
 

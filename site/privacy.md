@@ -9,7 +9,7 @@ order: 6
 
 ## The short version
 
-This project collects no personal data from walkers. The sensors on the boardwalk count pedestrian movements using infrared beams only — no cameras, no images, no names, no faces. If you submit a photo through this site, you control what happens to it and can request removal at any time.
+This project collects no personally identifiable data from walkers. The sensors on the boardwalk count pedestrian movements using infrared beams only — no cameras, no images, no names, no faces. If you submit a photo through this site, you control what happens to it and can request removal at any time.
 
 ---
 
@@ -23,7 +23,7 @@ Two small sensor units are installed at the start and end of the 100-metre galle
 
 The data is stored locally on an SD card inside each sensor unit. It is not transmitted wirelessly. It is not connected to the internet. It is downloaded manually by the project lead during weekly site visits.
 
-This is a Privacy by Design architecture — the system is physically incapable of collecting personal data, not merely configured to avoid it.
+This is a Privacy by Design architecture — the system is physically incapable of collecting personally identifiable data, not merely configured to avoid it.
 
 The full technical specification is available in the [project repository](https://github.com/botheredbybees/palimpsest-path).
 
