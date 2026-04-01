@@ -74,7 +74,7 @@ For each week, calculate: median dwell time (walkers only), proportion of passes
 
 ## 8.3 Stream 2: The Happiness Index
 
-The Happiness Index is the project's self-reported subjective wellbeing measure. It is a chalk bar graph drawn by participants on the boardwalk itself, generating both a quantitative time-series and a rich visual archive.
+The Happiness Index is the project's self-reported subjective wellbeing measure. It is a chalk bar graph drawn by participants on the vertical face of the bannister, generating both a quantitative time-series and a rich visual archive.
 
 ### Dataset B — Happiness Index (Chalk Bar Graph)
 
@@ -94,7 +94,7 @@ The Happiness Index is the project's self-reported subjective wellbeing measure.
 
 **Reset:** Re-draw axes fresh each morning in chalk marker before the day begins. If rain washes the graph during the day: photograph the cleared surface (the blank is data), then re-draw axes for the remainder of the day if practical. Do not attempt to reconstruct bars that were washed away.
 
-**Location:** Adjacent to the primary chalk station, on horizontal walkway surface. Slightly offset from the main walking line to reduce accidental smearing.
+**Location:** On the vertical face of the bannister slats adjacent to the primary chalk station, using a pre-ruled 0–10 vertical scale. The bannister face provides a stable vertical drawing surface at a comfortable height for walkers pausing at the station. X-axis (days) runs horizontally along the bannister face; Y-axis (happiness scale) runs vertically.
 
 ### Analysis Steps
 
