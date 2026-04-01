@@ -74,7 +74,7 @@ For each week, calculate: median dwell time (walkers only), proportion of passes
 
 ## 8.3 Stream 2: The Happiness Index
 
-The Happiness Index is the project's self-reported subjective wellbeing measure. It is a chalk bar graph drawn by participants on the vertical face of the bannister, generating both a quantitative time-series and a rich visual archive.
+The Happiness Index is the project's self-reported subjective wellbeing measure. It is a chalk bar graph drawn by participants on the top surface of the bannister rail, generating both a quantitative time-series and a rich visual archive.
 
 ### Dataset B — Happiness Index (Chalk Bar Graph)
 
@@ -90,11 +90,11 @@ The Happiness Index is the project's self-reported subjective wellbeing measure.
 
 **Axes:** X-axis: days of the week (M T W T F), spaced ~15 cm apart. Y-axis: scale 0–10, ruled at 0, 5, and 10 minimum. Label the Y-axis: "Happiness" with a simple smile/frown indicator at top and bottom.
 
-**Scale:** Total graph width ~80 cm. Total height ~40 cm. Large enough to read from standing height. Pre-draw a sample bar in white each morning to model the behaviour.
+**Scale:** Y-axis spans the full ~18cm depth of the bannister top rail (0 at near edge, 10 at far/water edge). X-axis extends along the rail length, with days spaced ~15cm apart (~75cm total for a 5-day week). Pre-draw a sample bar in white each morning to model the behaviour.
 
 **Reset:** Re-draw axes fresh each morning in chalk marker before the day begins. If rain washes the graph during the day: photograph the cleared surface (the blank is data), then re-draw axes for the remainder of the day if practical. Do not attempt to reconstruct bars that were washed away.
 
-**Location:** On the vertical face of the bannister slats adjacent to the primary chalk station, using a pre-ruled 0–10 vertical scale. The bannister face provides a stable vertical drawing surface at a comfortable height for walkers pausing at the station. X-axis (days) runs horizontally along the bannister face; Y-axis (happiness scale) runs vertically.
+**Location:** On the top surface of the bannister rail adjacent to the primary chalk station. X-axis (days) runs along the rail length; Y-axis (happiness scale 0–10) runs across the 18cm rail depth, from near edge (0) to water edge (10). Visible from standing height when walking past.
 
 ### Analysis Steps
 
