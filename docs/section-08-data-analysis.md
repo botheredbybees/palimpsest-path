@@ -52,6 +52,18 @@ For each valid day:
    - `800–2500ms` → Regular walker
    - `> 2500ms` → Slow walker / participant candidate
 
+**Event matching limitations and mitigations**
+
+During busy periods, multiple walkers may be in the gallery section simultaneously, creating ambiguity in pairing UNIT_A and UNIT_B events. A fast walker overtaking a slow one between sensors could produce a spuriously short dwell time; two walkers entering close together could generate mismatched pairs. This is a known limitation of single-beam IR sensor arrays.
+
+Three mitigations are applied:
+
+1. **Median over mean:** Weekly aggregation uses median dwell time, which is robust to the spurious short and long values that mismatched pairs generate.
+2. **Queue-depth flagging:** Analysis code will flag time windows where UNIT_A has more than one unmatched inbound event outstanding (i.e. queue depth > 1). These periods will be retained but noted as lower-confidence intervals.
+3. **ML-assisted disambiguation (planned):** Pedestrian flow patterns — inter-arrival times, burst clustering, speed distributions — may allow a classification model to identify and exclude likely mispaired events. This is an enhancement to be implemented during the analysis phase if the raw data warrants it.
+
+Critically, this matching ambiguity applies equally to Phase 0 (baseline) and all intervention phases. The systematic error is consistent across the full measurement arc, which means that while absolute dwell times may carry some imprecision, the **relative comparison between baseline and intervention phases remains valid**. The project's core analytical claim is about *change*, not about absolute values — and consistent measurement error does not invalidate a comparison of change.
+
 **Step 2: Aggregate by week and stratum**
 
 For each week, calculate: median dwell time (walkers only), proportion of passes classified as Pause or Dwell, and total valid pedestrian count. Median is preferred over mean — it is more robust to outliers created by extended dwell events.
@@ -185,6 +197,7 @@ The SROI analysis translates the project's documented outcomes into a framework 
 
 The following limitations should be stated explicitly in the evaluation report. Naming them is not a weakness — it demonstrates methodological rigour and academic honesty.
 
+- **Sensor event mismatch:** Single-beam IR sensors cannot distinguish individuals in simultaneous transit. Mispaired events during busy periods will produce spurious dwell times. This error is systematic and applies equally to baseline and intervention phases; relative comparisons between phases remain valid even where absolute values carry imprecision. Queue-depth flagging and median aggregation reduce but do not eliminate the effect.
 - **Self-selection bias** in the happiness index: only participants who choose to engage with the chalk contribute bars. The sample is not representative of all boardwalk users.
 - **No control site:** without a comparable boardwalk running simultaneously without intervention, causal claims are limited. The Pico W baseline is a within-site comparison.
 - **Small sample size:** Cygnet is a small community. Daily engagement numbers may be low. Frame findings as a pilot study, not a statistically powered trial.
