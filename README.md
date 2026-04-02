@@ -144,10 +144,22 @@ The script matches pages by slug. If a page with that slug exists it is updated;
 | Phase | Duration | Description |
 |-------|----------|-------------|
 | Phase 0 | 2–3 weeks | Baseline sensor data collection, council permit, site prep |
-| Weeks 1–2 | 2 weeks | Dance step trails only — silent phase |
+| Weeks 1–2 | 2 weeks | Staged trail: footprints → tightrope → hopscotch → waltz box → colour. Silent phase, no prompts. |
 | Weeks 3–5 | 3 weeks | Chalk stations open, progressive prompt escalation |
 | Weeks 6–8 | 3 weeks | Peak intervention, community co-authorship |
 | Weeks 9–10 | 2 weeks | Post-intervention — habits persistence observation |
+
+---
+
+## Methodological Limitations
+
+This is a pilot study. Key limitations are stated explicitly in [`docs/section-08-data-analysis.md`](docs/section-08-data-analysis.md) and should be carried into any reporting:
+
+- **No control site** — comparisons are within-site (baseline vs. intervention), not between sites
+- **Small sample** — Cygnet is a small community; findings should be framed as a pilot, not a statistically powered trial
+- **Proxy measurement** — dwell time is a behavioural proxy for engagement, not a direct measure of wellbeing
+- **Sensor mismatch** — single-beam IR sensors cannot distinguish simultaneous walkers; systematic error is consistent across phases, preserving relative comparisons
+- **Weather dependency** — extended rain creates data gaps; affected days are excluded rather than interpolated
 
 ---
 

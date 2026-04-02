@@ -116,7 +116,7 @@ Complete one sheet per week. Print multiple copies. File with weekly photograph 
 - [ ] No (pre-Week 3)
 - [ ] Washed out entirely
 
-**Median bar height (visual estimate, 0–10):**
+**Median bar height (integer 1–5, round down if ambiguous):**
 
 **Approximate bar count (total bars drawn this week):**
 
@@ -180,7 +180,7 @@ Print-ready text for the weather-resistant QR code signage installed at the gall
 >
 > By adding to this artwork, you are participating in a community art project. Your contribution may be photographed for a digital archive and academic reflection. No personal identifying information is collected.
 >
-> The sensors on this boardwalk count pedestrian movements using infrared beams only. No images, faces, or personal data are collected.
+> The sensors on this boardwalk count pedestrian movements using infrared beams only. No images, faces, or personally identifiable data are collected.
 >
 > **[QR CODE HERE]**
 >

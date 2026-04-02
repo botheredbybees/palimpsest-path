@@ -124,9 +124,9 @@ transit_ms < 800       → Jogger / cyclist
 transit_ms 800–2500    → Regular walker
 transit_ms > 2500      → Slow walker / participant candidate
 
-dwell_time < 30s       → Transit (no engagement)
-dwell_time 30s–120s    → Pause (possible engagement)
-dwell_time > 120s      → Dwell (probable engagement)
+dwell_time < 15s       → Transit (no engagement)
+dwell_time 15s–60s     → Pause (possible engagement)
+dwell_time > 60s       → Dwell (probable engagement)
 ```
 
 > Note: transit_ms thresholds are initialised from published pedestrian speed research (approximately 1.4 m/s average walking speed over a 30cm beam spacing = ~215ms). These thresholds should be calibrated against the first week of baseline observations, where manual observation and sensor data can be compared directly.
@@ -182,4 +182,4 @@ The one integration touchpoint during the project itself is the rain event log. 
 | **Sensor data** | Primary quantitative dataset. Covers Phase 0 through post-Week 8. Unit of analysis: dwell-time per pedestrian pass, aggregated by day and week. Key comparison: Phase 0 baseline vs. intervention weeks. |
 | **Photo archive** | Primary qualitative dataset. Weekly posts on sidewalkcircus.org. Coded by: chalk density, prompt type, evidence of social connection (ribbons, responses). Key comparison: visual richness over time vs. dwell-time trend. |
 | **Rain event log** | Covariate dataset. Maintained in project log and WordPress posts. Used to flag anomalous dwell-time spikes that may reflect washout curiosity rather than prompt engagement. |
-| **Likert scale photographs** | Supplementary qualitative dataset. Weeks 6–8, photographed daily. Coded by distribution of marks on the scale (Isolated ↔ Connected). Cross-referenced against dwell-time data for the same days. |
+| **Happiness Index photographs** | Supplementary quantitative/qualitative dataset. Weeks 3–8, photographed daily as part of the Daily Audit. Coded by bar count and median bar height (1–5 integer scale). Cross-referenced against dwell-time data for the same days. |

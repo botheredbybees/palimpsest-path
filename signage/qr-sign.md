@@ -1,5 +1,21 @@
 # QR Signage: Plain Language Statement
 
+## Required Content Specification
+
+Every QR sign for this project must include the following elements. This specification applies to all printed and digital versions of the sign and should be referenced when seeking Council permit approval or HREC sign-off.
+
+| Required element | Purpose |
+|---|---|
+| Project identity | What the project is and who runs it (name, institution) |
+| What is being measured | Explicit statement that IR sensors count pedestrian movements |
+| No personally identifiable data | Accurate privacy statement — no cameras, no images, no identification |
+| Voluntary participation | Clear statement that chalk engagement is optional |
+| Contact / further info | URL where full privacy details are available |
+
+All five elements are present in the sign text below.
+
+---
+
 **Print specifications:**
 - Minimum font size: 12pt body, 16pt headings
 - Lamination: minimum 125 micron pouches (thicker is better for outdoor exposure)
@@ -33,7 +49,7 @@ Pick up some chalk from the station box and:
 
 By adding to this artwork, you are participating in a community art project. Your contribution may be photographed for a digital archive and academic reflection. **No personal identifying information is collected.**
 
-The sensors on this boardwalk count pedestrian movements using **infrared beams only**. No images, faces, or personal data are collected.
+The sensors on this boardwalk count pedestrian movements using **infrared beams only**. No images, faces, or personally identifiable data are collected.
 
 ---
 
@@ -54,7 +70,7 @@ Generate a QR code at [qr-code-generator.com](https://www.qr-code-generator.com)
 
 ## Sign Placement
 
-- One sign at the **entry** to the 100m gallery section (north end)
+- One sign at the **entry** to the 60m gallery section (north end)
 - One sign at the **exit** (south end)
 - Signs face the direction of oncoming walkers, not parallel to the walkway
 - Mount at approximately 1.4m height (comfortable reading height for adults)

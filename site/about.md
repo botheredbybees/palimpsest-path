@@ -49,6 +49,5 @@ Daykin, N., Mansfield, L., Meads, C., Julier, G., Tomlinson, A., Payne, A., Grig
 
 Fancourt, D., & Finn, S. (2019). *What is the evidence on the role of the arts in improving health and well-being? A scoping review*. World Health Organization Regional Office for Europe. https://www.euro.who.int/en/publications/abstracts/what-is-the-evidence-on-the-role-of-the-arts-in-improving-health-and-well-being-a-scoping-review-2019
 
-Gallese, V. (2003). The roots of empathy: The shared manifold hypothesis and the neural basis of intersubjectivity. *Psychopathology*, *36*(4), 171–180. https://doi.org/10.1159/000072786
 
 National Centre for Creative Health. (2023). *A creative health strategy for Australia*. NCCH. https://www.ncch.org.au

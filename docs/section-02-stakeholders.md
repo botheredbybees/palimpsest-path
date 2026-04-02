@@ -59,7 +59,7 @@ Complete the following steps during Phase 0, in sequence. Do not install signage
 
 | Stakeholder | Relationship | What They Need to Know | Action Required | Timing | Status |
 |-------------|-------------|----------------------|-----------------|--------|--------|
-| **General Public / Boardwalk Users** | Participants & research subjects | What the project is, how to participate, and how behaviour is being measured. No cameras, no personal data collected. Chalk contributions are public. QR photo archive is voluntary and anonymous unless participants choose to identify themselves. | Install weather-resistant QR signage at gallery entrance and exit before Week 1. Ensure sidewalkcircus.org/privacy page is live before signage goes up. Have signage wording reviewed by FXA301 supervisor before printing. | Phase 0 (print & test) | **ACTION** |
+| **General Public / Boardwalk Users** | Participants & research subjects | What the project is, how to participate, and how behaviour is being measured. No cameras, no personally identifiable data collected. Chalk contributions are public. QR photo archive is voluntary and anonymous unless participants choose to identify themselves. | Install weather-resistant QR signage at gallery entrance and exit before Week 1. Ensure sidewalkcircus.org/privacy page is live before signage goes up. Have signage wording reviewed by FXA301 supervisor before printing. | Phase 0 (print & test) | **ACTION** |
 
 ---
 
