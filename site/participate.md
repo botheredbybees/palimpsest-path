@@ -47,7 +47,7 @@ There is no obligation to submit anything. The photo you take and keep is just a
 
 ## The Happiness Index
 
-Near the chalk station there will be a simple chalk bar graph on the bannister rail, marked 0 to 10. Each day, you'll be able to draw a bar showing how happy you're feeling right now. The graph will be wiped clean each morning and re-drawn fresh. You don't have to explain it. You don't have to sign it. Just draw the bar.
+Near the chalk station there will be a simple chalk bar graph on the bannister rail. The scale runs from 😞 at one end to 😊 at the other, with 😐 in the middle — five positions total. Each day, draw a bar to show where you're at right now. The graph is wiped clean each morning and re-drawn fresh. You don't have to explain it. You don't have to sign it. Just draw the bar.
 
 ---
 

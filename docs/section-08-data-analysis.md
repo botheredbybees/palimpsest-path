@@ -95,27 +95,49 @@ The Happiness Index is the project's self-reported subjective wellbeing measure.
 
 | Parameter | Value |
 |-----------|-------|
-| **Format** | Daily photographs of chalk bar graph surface. Bars drawn by participants on a pre-ruled 0–10 vertical scale. |
+| **Format** | Daily photographs of chalk bar graph surface. Bars drawn by participants on a pre-ruled 1–5 scale with icon anchors. |
 | **Cadence** | Photographed each morning as part of the Daily Audit. Fresh graph drawn each day — wiped clean before the day's bars are drawn. |
 | **Starts** | Week 3 — introduced alongside the first chalk prompt |
-| **Label on boardwalk** | Simple chalk label: "Happiness" with a 0–10 scale and smile/frown indicators. No written instruction. |
-| **Coding unit** | Each weekday photograph is a single observation: number of bars visible, estimated median bar height (0–10), distribution shape, any participant annotations |
+| **Label on boardwalk** | Scale label only; icons carry the meaning. No written instruction required. |
+| **Coding unit** | Each weekday photograph is a single observation: number of bars visible, median bar height (integer 1–5), distribution shape, any participant annotations |
 
 ### Graph Design
 
-**Axes:** X-axis: days of the week (M T W T F), spaced ~15 cm apart. Y-axis: scale 0–10, ruled at 0, 5, and 10 minimum. Label the Y-axis: "Happiness" with a simple smile/frown indicator at top and bottom.
+**Scale:** 5-point integer scale with icon anchors at three points:
 
-**Scale:** Y-axis spans the full ~18cm depth of the bannister top rail (0 at near edge, 10 at far/water edge). X-axis extends along the rail length, with days spaced ~15cm apart (~75cm total for a 5-day week). Pre-draw a sample bar in white each morning to model the behaviour.
+| Point | Position on rail | Icon |
+|-------|-----------------|------|
+| 1 | Near edge (0cm) | 😞 Terrible |
+| 3 | Midpoint (~9cm) | 😐 Meh |
+| 5 | Water edge (~18cm) | 😊 Good |
 
-**Reset:** Re-draw axes fresh each morning in chalk marker before the day begins. If rain washes the graph during the day: photograph the cleared surface (the blank is data), then re-draw axes for the remainder of the day if practical. Do not attempt to reconstruct bars that were washed away.
+Points 2 and 4 are unmarked positions midway between anchors — participants draw to the nearest felt position. Integer values only; no half-points.
 
-**Location:** On the top surface of the bannister rail adjacent to the primary chalk station. X-axis (days) runs along the rail length; Y-axis (happiness scale 0–10) runs across the 18cm rail depth, from near edge (0) to water edge (10). Visible from standing height when walking past.
+**Axes:** X-axis: days of the week (M T W T F), spaced ~15cm apart (~75cm total). Y-axis: 5 divisions across the 18cm rail depth (~3.6cm per division). Rule marks at all 5 points; draw icons at points 1, 3, and 5 in chalk marker each morning.
+
+**Location:** On the top surface of the bannister rail adjacent to the primary chalk station. X-axis (days) runs along the rail length; Y-axis (1–5 scale) runs across the 18cm rail depth. Visible from standing height when walking past.
+
+**Reset:** Re-draw axes and icons fresh each morning in chalk marker before the day begins. If rain washes the graph during the day: photograph the cleared surface (the blank is data), then re-draw for the remainder of the day if practical. Do not attempt to reconstruct bars that were washed away.
+
+**Pre-draw sample bar:** Draw a single sample bar at position 3 (😐) each morning to model the behaviour before walkers arrive.
+
+### Coding Protocol
+
+**Reading bars from photographs:**
+
+1. For each bar, identify which of the five ruled divisions it reaches or most closely aligns with. Round to the nearest integer (1, 2, 3, 4, or 5). No half-values.
+2. If a bar falls ambiguously between two divisions, assign the lower value (conservative bias is consistent and therefore valid).
+3. Record the number of bars visible, the integer value of each bar, and the median value across all bars for that day.
+4. If fewer than 3 bars are visible, record count and values but flag as low-confidence observation.
+5. Code each photograph twice on separate days and take the median of the two readings. Note any discrepancies of more than 1 point for review.
+
+This protocol ensures that two coders — or the same coder on different days — will produce the same readings from the same photograph.
 
 ### Analysis Steps
 
 **Step 1: Photo coding**
 
-For each weekday photograph, record in a spreadsheet: date and week number, number of bars visible, estimated median bar height, distribution (clustered high / mid-range / clustered low / spread), any written annotations, rain/reset flag.
+For each weekday photograph, record in a spreadsheet: date and week number, number of bars visible, integer value of each bar, median bar value for the day, distribution (clustered low 1–2 / mid 3 / clustered high 4–5 / spread), any written annotations, rain/reset flag.
 
 **Step 2: Weekly aggregate**
 
