@@ -10,7 +10,7 @@ Public site: [sidewalkcircus.org](https://sidewalkcircus.org)
 
 ## What is the Palimpsest Path?
 
-The Palimpsest Path transforms a 100-metre section of the Cygnet Boardwalk from a transient thoroughfare into a therapeutic landscape. Using non-toxic calcium carbonate chalk on the boardwalk's vertical bannisters and walkway surfaces, the project invites regular walkers to slow down, contribute to an evolving shared narrative, and connect with each other — asynchronously, anonymously, and without obligation.
+The Palimpsest Path transforms a 60-metre section of the Cygnet Boardwalk from a transient thoroughfare into a therapeutic landscape. Using non-toxic calcium carbonate chalk on the boardwalk's vertical bannisters and walkway surfaces, the project invites regular walkers to slow down, contribute to an evolving shared narrative, and connect with each other — asynchronously, anonymously, and without obligation.
 
 The project takes its name from the palimpsest — a manuscript surface that has been written on, partially erased, and written on again, with traces of every previous layer still visible. Tasmanian rain acts as the natural reset mechanism: contributions wash away, the surface clears, and new stories begin on top of old ones. This cycle reduces the aesthetic anxiety that often inhibits participation in public art and encourages high-frequency, low-stakes engagement.
 
@@ -72,7 +72,7 @@ palimpsest-path/
 
 ## Sensor Firmware
 
-Two identical Raspberry Pi Pico (RP2040) units sit at the entry and exit ends of the 100 m boardwalk gallery. Each monitors two E18-D80NK infrared proximity sensors, timestamps beam-break events via a DS3231 RTC, and logs rows to a daily CSV on a SPI micro-SD card. No wireless communication is used at any point.
+Two identical Raspberry Pi Pico (RP2040) units sit at the entry and exit ends of the 60 m boardwalk gallery. Each monitors two E18-D80NK infrared proximity sensors, timestamps beam-break events via a DS3231 RTC, and logs rows to a daily CSV on a SPI micro-SD card. No wireless communication is used at any point.
 
 | File | Purpose |
 |------|---------|

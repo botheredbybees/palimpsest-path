@@ -11,11 +11,11 @@ order: 2
 
 A palimpsest is a manuscript surface that has been written on, scraped clean, and written on again — with traces of every previous layer still visible beneath the new text. Medieval monks reused expensive vellum this way, and scholars today use imaging technology to read the ghost-text underneath centuries of later writing.
 
-The Cygnet Boardwalk is a palimpsest. Every day, hundreds of people walk the same 100 metres. Most of them walk past each other without making contact. They share the same space, the same view, the same morning light on the Huon River — and they remain strangers. This project asks: what if the surface itself could carry their connection?
+The Cygnet Boardwalk is a palimpsest. Every day, hundreds of people walk the same 60 metres. Most of them walk past each other without making contact. They share the same space, the same view, the same morning light on the Huon River — and they remain strangers. This project asks: what if the surface itself could carry their connection?
 
 ## What happens on the boardwalk
 
-Chalk dance steps — outlines of shoes arranged in old-time sequence dance patterns — mark a 100-metre section of the boardwalk. A chalk station at the midpoint offers coloured chalk and a weekly prompt. Walkers are invited to follow the steps, respond to the prompt, or add their own mark: a word, a drawing, a ribbon of chalk connecting their story to someone else's.
+Chalk dance steps — outlines of shoes arranged in old-time sequence dance patterns — mark a 60-metre section of the boardwalk. A chalk station at the midpoint offers coloured chalk and a weekly prompt. Walkers are invited to follow the steps, respond to the prompt, or add their own mark: a word, a drawing, a ribbon of chalk connecting their story to someone else's.
 
 Rain washes the surface clean. Within 24 hours, the dance steps are re-seeded, and the cycle begins again. This is not a failure — it is the design. The ephemeral nature of chalk reduces the stakes of participation. You cannot make a permanent mistake. You cannot ruin anything. You can only add to a surface that is always already in the process of becoming something new.
 
@@ -35,7 +35,7 @@ This project is grounded in a growing body of evidence connecting community arts
 
 The boardwalk intervention is specifically designed to address what researchers call "parallel isolation" — the experience of being physically proximate to others while remaining socially disconnected. By creating an asynchronous dialogue between walkers (your chalk mark is a message to the person who walks past tomorrow), the project builds social capital without requiring face-to-face interaction, which can be a barrier for people experiencing social anxiety or reduced mobility.
 
-The project also draws on neuroscientific research on embodied cognition: the act of tracing dance steps activates mirror neuron systems associated with social connection (Gallese, 2003) and shifts attention from the internal, ruminative processing associated with stress toward the external, sensory engagement associated with parasympathetic recovery.
+The project also draws on neuroscientific research on novelty and social cognition: encountering new chalk content activates dopaminergic reward circuits associated with curiosity and anticipation (Fancourt & Finn, 2019), while reading and responding to a stranger's narrative engages prefrontal theory-of-mind networks — the same substrate as face-to-face social interaction. The cumulative effect may support a shift from ruminative, stress-associated processing toward the more contemplative state associated with parasympathetic recovery.
 
 ## Who is behind it
 

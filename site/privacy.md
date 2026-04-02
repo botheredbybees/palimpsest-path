@@ -15,7 +15,7 @@ This project collects no personally identifiable data from walkers. The sensors 
 
 ## The sensors
 
-Two small sensor units are installed at the start and end of the 100-metre gallery section. Each unit uses an infrared beam — the same technology as an automatic door sensor — to detect when someone crosses the beam.
+Two small sensor units are installed at the start and end of the 60-metre gallery section. Each unit uses an infrared beam — the same technology as an automatic door sensor — to detect when someone crosses the beam.
 
 **What the sensors record:** a timestamp and the time elapsed between the two beam events (how long it took to walk from one end of the section to the other).
 
@@ -64,6 +64,8 @@ Scanning the QR code at the chalk station takes you to this website. No identify
 By contributing to the chalk surface on the boardwalk, you are participating in a community art project. Your contribution may be photographed for a digital archive and used in academic research. No personal identifying information is collected in this process.
 
 Participation is entirely voluntary. You may walk through the gallery section without contributing, without scanning the QR code, and without engaging with the chalk station. The sensor units record transit events from all walkers regardless of whether they engage with the chalk — this is necessary to establish a meaningful behavioural baseline.
+
+If you would prefer not to pass through the sensor-equipped section at all, a parallel footpath running alongside the road is available for the full length of the boardwalk section. This path is clearly visible from both entry points and is already in regular use. You can opt out of presence in the sensor zone; you cannot opt out of engaging with chalk you choose to interact with — but that engagement is entirely your choice.
 
 ---
 

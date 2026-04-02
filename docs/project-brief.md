@@ -8,7 +8,7 @@
 
 ## 1. Project Vision
 
-To transform a 100-metre section of the Cygnet Boardwalk from a transient thoroughfare into a "Therapeutic Landscape." The project uses asynchronous, ephemeral chalk narratives to reduce "parallel isolation" among regular walkers, fostering social capital and cognitive resilience.
+To transform a 60-metre section of the Cygnet Boardwalk from a transient thoroughfare into a "Therapeutic Landscape." The project uses asynchronous, ephemeral chalk narratives to reduce "parallel isolation" among regular walkers, fostering social capital and cognitive resilience.
 
 ---
 

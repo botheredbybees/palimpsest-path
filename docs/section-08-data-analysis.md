@@ -41,11 +41,11 @@ For each valid day:
 2. Match INBOUND events at UNIT_A with OUTBOUND events at UNIT_B (within a 5-minute window)
 3. Calculate `dwell_time = UNIT_B.timestamp - UNIT_A.timestamp`
 4. Classify each pass:
-   - `dwell < 30s` → Transit
-   - `dwell 30–120s` → Pause
-   - `dwell > 120s` → Dwell (probable engagement)
+   - `dwell < 15s` → Transit
+   - `dwell 15–60s` → Pause
+   - `dwell > 60s` → Dwell (probable engagement)
 
-   *Threshold justification:* At a normal walking pace of ~1.2 m/s, the 100m gallery section takes approximately 83 seconds to traverse. Any pass recorded above ~120s has therefore demonstrably slowed or stopped — the threshold is not arbitrary but grounded in the basic kinematics of the site. The 30s lower bound distinguishes brief hesitations (glance at chalk, adjust bag) from purposeful pauses; it is set conservatively below the expected transit time to capture the full pause category without misclassifying fast walkers.
+   *Threshold justification:* At a normal walking pace of ~1.2 m/s, the 60m gallery section takes approximately 50 seconds to traverse. Any pass recorded above ~60s has therefore exceeded the expected transit time — the person has demonstrably slowed or stopped. The threshold is not arbitrary but grounded in the kinematics of the site. The 15s lower bound captures brief hesitations (glance at chalk, adjust bag) without misclassifying cyclists or fast joggers, who would clear 60m in under 15s.
 
 5. Classify walker type from `transit_ms`:
    - `< 800ms` → Jogger / cyclist (exclude from engagement analysis)

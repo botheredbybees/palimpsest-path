@@ -19,7 +19,7 @@ If you are visiting the gallery for the first time, we invite you to scroll from
 
 ## Two kinds of photographs
 
-The photographs in this gallery come from two places. Each morning, the project lead walks the 100-metre section of the Cygnet Boardwalk and takes a site audit photograph — a consistent, methodical record of the surface as it stands at the start of the day. These are documentary images, concerned with what is there.
+The photographs in this gallery come from two places. Each morning, the project lead walks the 60-metre section of the Cygnet Boardwalk and takes a site audit photograph — a consistent, methodical record of the surface as it stands at the start of the day. These are documentary images, concerned with what is there.
 
 Alongside them sit photographs submitted by participants: walkers, chalk artists, people who happened to pass through and noticed something. These photographs are concerned with what someone saw — which is a different thing entirely. They are taken from different heights, at different times of day, in different weather. They attend to details that a morning audit might walk straight past.
 
