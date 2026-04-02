@@ -40,12 +40,15 @@ To transform a 100-metre section of the Cygnet Boardwalk from a transient thorou
 
 ## 4. Strategic Alignment & Rationale
 
-**Neuroscience:**
-- Activation of the dopamine reward pathway (novelty of new stories)
-- Activation of the cerebellum and mirror neuron system (dance step rehearsal)
+**Causal chain:**
 
-**Psychology:**
-- Shifting from a sympathetic (rushed) to a parasympathetic (contemplative) nervous system response
+*chalk stimulus → dwell → engagement → social cognition → wellbeing indicators*
+
+The first two links are directly measured (IR sensor dwell times); engagement is observed through proxies (contribution counts, QR scans); social cognition is inferred; wellbeing is associated via the self-reported Happiness Index and post-intervention dwell persistence. The project does not claim to measure wellbeing directly. See Section 1.6 of the rationale for the full logic model.
+
+**Neurological mechanisms (two primary pathways):**
+- Dopamine reward pathway: novelty of new chalk content activates anticipatory motivation on repeat visits (Fancourt & Finn, 2019)
+- Prefrontal cortex / social cognition: reading and responding to a stranger's narrative activates theory-of-mind networks — the same substrate as face-to-face social interaction
 
 **Policy alignment:**
 - National Centre for Creative Health (2024)
