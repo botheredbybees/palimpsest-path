@@ -34,7 +34,7 @@ Photo documentation is archived continuously via QR-linked gallery at sidewalkci
 - Order Raspberry Pi Pico W units, IR beam sensors, SD logging modules, weatherproof housings.
 
 **Site Audit**
-- Walk the 100m section and identify specific Bannister Stations and Walkway Zones.
+- Walk the 60m section and identify specific Bannister Stations and Walkway Zones.
 - Prioritise locations for maximum visibility and foot traffic.
 - Confirm non-slip surfaces; document any existing wear or hazard areas.
 - Install Pico W sensor units at start and end of gallery section.
@@ -54,43 +54,81 @@ Photo documentation is archived continuously via QR-linked gallery at sidewalkci
 
 ---
 
-## Week 1: The Silent Walk — Steps Appear
+## Week 1: The Silent Walk — The Trail Begins
+
+The first week establishes the dance step trail through a staged, 2–3 day escalation. Each new element is added on top of the previous — the palimpsest begins accumulating from day one. White chalk only this week; no colour, no chalk station, no prompts. The steps are the only invitation.
+
+### Days 1–2: The Footprint Trail
 
 **Chalk Activity**
-- Apply initial dance step outlines (traced shoe shapes) to the boardwalk walkway — white chalk only, no colour.
-- Extend the trail by several steps each day throughout the week.
-- You are the sole author this week: model the behaviour, establish the visual language.
-- If rain washes steps away: re-apply within 24 hours, photograph before and after, log re-seed date in Pico W records.
+- Trace simple footprint pairs (left/right shoe outlines) in white chalk, spaced at a comfortable walking stride.
+- The trail begins at the gallery entrance and leads toward the water end, ending with two footprints side by side facing outward toward the port — an invitation to stop and contemplate the view.
+- Keep the trail minimal and deliberate. Each pair of prints should feel like a gentle suggestion, not a directive.
 
-> ⚠ Re-seeding after washout is a planned data event, not a setback. The post-washout engagement curve is a valid research outcome.
+**Intent:** *Draw people toward the view. The final two prints facing the water are the project's first dwell invitation.*
 
-**Observation**
+### Days 3–5: The Tightrope Line
+
+**Chalk Activity**
+- Add a single chalk line running the full length of the trail.
+- Place footprints along the line — some facing forward, some facing backward, all balanced on the line as if walking a tightrope.
+- The trail now reads as a playful physical challenge superimposed on the footprint invitation.
+
+**Intent:** *Disrupts gait. A walker who tries to walk the line is already participating. The reversed prints add humour and double-takes.*
+
+### Days 6–7: The Hopscotch Court
+
+**Chalk Activity**
+- Add a hopscotch court (standard 10-square layout, ~45cm × 45cm per square) adjacent to the trail near the chalk station location.
+- White outline only — no fill, no numbering yet.
+- See `/docs/scratchpad/Week_1-8-hopscotch.md` for full layout and drawing protocol.
+
+**Intent:** *Cross-generational recognition. Zero instructions needed. A serious commuter doing a single hop is a research success.*
+
+**Observation (all week)**
 - Continue unobtrusive observation of walker behaviour: stops, glances, speed changes.
 - Note any spontaneous interactions prompted by the steps.
 
 **Infrastructure**
 - Install QR code signage at the gallery entrance and exit.
-- Chalk station boxes are installed but remain empty this week — visible as an invitation, not yet open.
+- Chalk station boxes installed but remain empty — visible as an invitation, not yet open.
 
-**No Prompt Yet** — *The steps are the only prompt. Let curiosity do the work.*
+> ⚠ Rain washout protocol applies throughout: re-apply within 24 hours, photograph before and after, log re-seed date in Pico W records. Post-washout engagement curves are valid research outcomes.
+
+**No Prompt Yet** — *The trail is the only prompt. Let curiosity do the work.*
 
 ---
 
-## Week 2: Colour Arrives — Modelling Participation
+## Week 2: The Dance Steps Arrive — Full Trail Established
+
+The second week completes the trail by adding the most complex element — the waltz box — and introduces colour to the existing elements. You remain the sole author. The chalk station opens at the end of this week, ready for Week 3.
+
+### Days 8–10: The Waltz Box Steps
 
 **Chalk Activity**
-- Introduce colour: add flourishes, decorative elements, and simple patterns around existing dance steps.
-- Expand decoration each day — you remain the sole decorator, building visual richness incrementally.
-- Extend the step trail further along the boardwalk.
-- Rain washout protocol as per Week 1: re-seed, photograph, log.
+- Add the box waltz step sequence (6 numbered footprints in a closed loop, ~60cm × 60cm footprint) near the midpoint of the trail.
+- Use the traced shoe template method: right foot template for steps 2, 4, 6; flipped for steps 1, 3, 5.
+- Add a "Start Here →" arrow and small circled numbers (1)–(6) near the arch of each print.
+- See `/docs/scratchpad/Week_1_Solo_Waltz_Box.md` for full layout and drawing protocol.
+
+**Intent:** *The most cognitively engaging element — rewards repeat visits as walkers learn the sequence. A closed loop means no one has to go anywhere to try it.*
+
+### Days 11–14: Colour and Consolidation
+
+**Chalk Activity**
+- Introduce colour: add fill to hopscotch squares, flourishes around footprints, decorative elements between elements.
+- Add numbered squares (1–10) to the hopscotch court.
+- Expand and reinforce the tightrope line as needed after rain events.
+- You remain the sole decorator — building visual richness to model what is possible.
 
 **Goal** — *Show walkers what's possible. Lower the aesthetic threshold by demonstrating joyful, imperfect mark-making.*
 
 **Infrastructure**
-- Chalk station boxes remain visible but unopened.
-- QR signage now active — ensure sidewalkcircus.org gallery is live and accepting uploads.
+- Chalk station boxes remain visible but unopened until end of week.
+- QR signage active — confirm sidewalkcircus.org gallery is live and accepting uploads before station opens.
+- Prepare chalk station for Week 3 opening: stock with blues, greens, and ochres.
 
-**No Prompt Yet** — *Still no written prompt. The visual invitation is the message.*
+**No Prompt Yet** — *Still no written prompt. The visual richness is the message.*
 
 ---
 
@@ -212,7 +250,7 @@ The sensor array runs continuously across all phases, enabling the following ana
 | Period | Stratum | Analytical Value |
 |--------|---------|-----------------|
 | **Phase 0** | Pure Baseline | No chalk present. Establishes pre-intervention behavioural norm. |
-| **Weeks 1–2** | Intervention-lite | Steps only, then colour. No prompts. Tests visual stimulus alone. |
+| **Weeks 1–2** | Intervention-lite | Staged trail: footprints → tightrope → hopscotch → waltz box → colour. No prompts. Tests escalating visual stimulus alone. |
 | **Weeks 3–5** | Prompt Escalation | Measures dwell response to progressive narrative depth. |
 | **Weeks 6–8** | Peak Intervention | Full co-authorship. Maximum expected dwell-time divergence. |
 | **Post Week 8** | Habit Persistence | Do behaviours persist after materials withdrawn? |

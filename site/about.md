@@ -15,7 +15,7 @@ The Cygnet Boardwalk is a palimpsest. Every day, hundreds of people walk the sam
 
 ## What happens on the boardwalk
 
-Chalk dance steps — outlines of shoes arranged in old-time sequence dance patterns — mark a 60-metre section of the boardwalk. A chalk station at the midpoint offers coloured chalk and a weekly prompt. Walkers are invited to follow the steps, respond to the prompt, or add their own mark: a word, a drawing, a ribbon of chalk connecting their story to someone else's.
+A chalk trail evolves along the 60-metre boardwalk section over the first two weeks: simple footprints leading toward the water's edge, then a tightrope line with some prints facing backward, then a hopscotch court, and finally a full box waltz sequence — each layer added every few days, building in complexity and playfulness. A chalk station at the midpoint offers coloured chalk and a weekly prompt. Walkers are invited to follow the steps, respond to the prompt, or add their own mark: a word, a drawing, a ribbon of chalk connecting their story to someone else's.
 
 Rain washes the surface clean. Within 24 hours, the dance steps are re-seeded, and the cycle begins again. This is not a failure — it is the design. The ephemeral nature of chalk reduces the stakes of participation. You cannot make a permanent mistake. You cannot ruin anything. You can only add to a surface that is always already in the process of becoming something new.
 
