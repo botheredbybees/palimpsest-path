@@ -44,6 +44,9 @@ For each valid day:
    - `dwell < 30s` → Transit
    - `dwell 30–120s` → Pause
    - `dwell > 120s` → Dwell (probable engagement)
+
+   *Threshold justification:* At a normal walking pace of ~1.2 m/s, the 100m gallery section takes approximately 83 seconds to traverse. Any pass recorded above ~120s has therefore demonstrably slowed or stopped — the threshold is not arbitrary but grounded in the basic kinematics of the site. The 30s lower bound distinguishes brief hesitations (glance at chalk, adjust bag) from purposeful pauses; it is set conservatively below the expected transit time to capture the full pause category without misclassifying fast walkers.
+
 5. Classify walker type from `transit_ms`:
    - `< 800ms` → Jogger / cyclist (exclude from engagement analysis)
    - `800–2500ms` → Regular walker
