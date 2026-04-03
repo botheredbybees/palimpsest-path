@@ -36,7 +36,7 @@ The chalk station is the project's primary physical interface. Its design should
 | Element | Details |
 |---------|---------|
 | **Contents** | Coloured calcium carbonate chalk: blues, greens, ochres reflecting the Cygnet waterway palette. White chalk for dance step tracing. Laminated example card showing traced shoe outline and a sample flourish. Small attached chalkboard displaying current week's prompt, updated by project lead. |
-| **Location** | Primary station: mid-point of the 100m gallery section, maximum visibility. Additional stations deployed at Weeks 7–8 for peak intervention coverage. Exact bannister positions confirmed during Phase 0 site audit. |
+| **Location** | Primary station: mid-point of the 60m gallery section, maximum visibility. Additional stations deployed at Weeks 7–8 for peak intervention coverage. Exact bannister positions confirmed during Phase 0 site audit. |
 | **Maintenance** | Check chalk stock daily during active weeks. Replenish as needed. Update prompt chalkboard at each fortnightly transition. Inspect mountings weekly for weather damage or vandalism. Photograph station condition as part of daily photo documentation. |
 | **Weeks open** | Station visible but empty: Weeks 1–2. Station open with chalk: Weeks 3–8. |
 

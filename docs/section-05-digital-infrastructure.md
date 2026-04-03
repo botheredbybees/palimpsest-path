@@ -62,8 +62,8 @@ Three distinct QR codes serve different functions in the project. Each should be
 
 | QR Code | Destination | Physical Location | Purpose |
 |---------|------------|-------------------|---------|
-| **Boardwalk Sign A** | sidewalkcircus.org/participate | Gallery entrance signage (top of 100m section) | Primary participant onboarding: explains project, shows current prompt, links to how-to. |
-| **Boardwalk Sign B** | sidewalkcircus.org/gallery | Gallery exit signage (bottom of 100m section) | Encourages walkers to view the full archive after engaging with the chalk. |
+| **Boardwalk Sign A** | sidewalkcircus.org/participate | Gallery entrance signage (top of 60m section) | Primary participant onboarding: explains project, shows current prompt, links to how-to. |
+| **Boardwalk Sign B** | sidewalkcircus.org/gallery | Gallery exit signage (bottom of 60m section) | Encourages walkers to view the full archive after engaging with the chalk. |
 | **Shop / Library Card** | sidewalkcircus.org/about | Shopkeeper windows, library display, Arts Council materials | Community awareness and off-site discovery. |
 
 **Signage design guidelines:**
@@ -76,7 +76,7 @@ Three distinct QR codes serve different functions in the project. Each should be
 
 ## 5.4 Pico W Sensor Network: Architecture
 
-The attention tracker uses a pair of Raspberry Pi Pico W microcontrollers positioned at the start and end of the 100m gallery section. Each unit hosts a dual infrared beam counter: two IR emitter/receiver pairs spaced approximately 30cm apart, oriented perpendicular to pedestrian flow. The direction of travel is determined by the sequence in which beams are broken.
+The attention tracker uses a pair of Raspberry Pi Pico W microcontrollers positioned at the start and end of the 60m gallery section. Each unit hosts a dual infrared beam counter: two IR emitter/receiver pairs spaced approximately 30cm apart, oriented perpendicular to pedestrian flow. The direction of travel is determined by the sequence in which beams are broken.
 
 All data is logged to a local microSD card. There is no Wi-Fi transmission, no cloud storage, and no network connectivity during operation. This "Privacy by Design" architecture means the system cannot collect data beyond what it is physically capable of measuring: beam-break timestamps and direction.
 

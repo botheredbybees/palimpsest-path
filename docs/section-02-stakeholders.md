@@ -1,6 +1,6 @@
 # Section 2: Stakeholder & Permissions Map
 
-*Project Site: Cygnet Boardwalk, Lymington Road, Cygnet, Tasmania — 100m gallery section subject to final site audit*
+*Project Site: Cygnet Boardwalk, Lymington Road, Cygnet, Tasmania — 60m gallery section subject to final site audit*
 
 ---
 
@@ -20,7 +20,7 @@ Complete the following steps during Phase 0, in sequence. Do not install signage
 
 2. **Identify boardwalk infrastructure owner** — Confirm whether the Lymington Road boardwalk is owned and managed by Huon Valley Council, Crown Land Tasmania, or another body. This determines who issues the primary permit. Councillor Gibson is the fastest route to this answer.
 
-3. **Submit formal permit application** — Address to the correct department (likely Community Development or Infrastructure). Include: project brief, calcium carbonate material safety data, site map of the nominated 100m section, FXA301 academic context, and evaluation methodology summary.
+3. **Submit formal permit application** — Address to the correct department (likely Community Development or Infrastructure). Include: project brief, calcium carbonate material safety data, site map of the nominated 60m section, FXA301 academic context, and evaluation methodology summary.
 
 4. **UTAS / FXA301 supervisor sign-off** — Confirm whether the Raspberry Pi Pico W sensor methodology and QR photo archive require formal UTAS Human Research Ethics Committee (HREC) review, or whether FXA301 supervisor sign-off is sufficient. Raise this early — a full HREC review can take 4–6 weeks.
 
