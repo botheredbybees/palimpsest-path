@@ -54,7 +54,9 @@ This approach aligns with the Arts on Prescription model, in which low-barrier c
 
 ## 1.5 Policy Alignment & Strategic Rationale
 
-From a policy perspective, this project offers Huon Valley Council a low-cost, high-impact, and environmentally sustainable health promotion tool that utilises existing municipal infrastructure. No new structures are required; no permanent modifications to the boardwalk are proposed. The sole material input is non-toxic, pH-neutral calcium carbonate chalk, which is water-soluble, biodegradable, and poses no risk to the sensitive waterway environment.
+From a policy perspective, this project offers Huon Valley Council a low-cost, high-impact, and environmentally sustainable health promotion tool that utilises existing municipal infrastructure. No new structures are required; no permanent modifications to the boardwalk are proposed.
+
+All chalk used in this project is standard classroom chalk supplied with a current Australian Safety Data Sheet (Educational Colours Pty Ltd, 2023), confirming no hazard classification under Safe Work Australia guidelines — not classified as hazardous to health, human health, or the environment. The chalk is not regulated as dangerous goods under ADG, IATA, or IMDG classifications. Standard SDS precautionary language advises against bulk disposal into waterways; in practice, the minute quantities deposited on the boardwalk surface by hand-drawing disperse below any measurable environmental threshold through normal rainfall, consistent with decades of chalk use in outdoor public spaces globally.
 
 The project directly aligns with the National Centre for Creative Health (2024) framework, which identifies community-embedded creative health interventions as a priority mechanism for reducing pressure on primary healthcare services through upstream prevention. It also maps to the Huon Valley Health and Wellbeing Strategy's Action Area on Inclusion and Interaction, which calls for activating existing infrastructure to increase incidental social contact among isolated residents.
 
@@ -62,20 +64,36 @@ The project's built-in evaluation framework — using privacy-preserving Raspber
 
 ---
 
-## 1.6 The Causal Chain
+## 1.6 Learning from Previous Local Chalk Projects
+
+Cygnet has a recent history of community chalk art initiatives, including a chalk haiku event organised during the COVID period that demonstrated both strong community appetite for this kind of activation and the importance of working carefully within Council's graffiti policy. That project navigated real constraints, and the Palimpsest Path is designed with those lessons in mind.
+
+The key differences that distinguish this project from unsanctioned chalking or graffiti are:
+
+- **Time-limited:** The project runs for a defined 8-week period, with a clear start and end date agreed with Council in advance.
+- **Site-specific:** Activity is confined to the Lymington Road boardwalk only, making the scope easy to monitor and the project straightforward to conclude.
+- **Documented materials:** All chalk is supplied with a current Australian Safety Data Sheet confirming non-hazardous, non-toxic classification. Material safety information is available on request.
+- **Clearly branded:** All project chalk work carries a consistent visual identity and signage, making it immediately distinguishable from unrelated tagging or unsanctioned marking.
+- **Built-in evaluation and exit:** The project includes a formal evaluation report at conclusion, and the site will be left in its original condition at project end.
+
+The intention is to work with Council to create a carefully supervised pilot that channels community creative energy into one well-defined, health-promoting activity — and to generate evidence that could support future creative placemaking initiatives elsewhere in the Huon Valley.
+
+---
+
+## 1.7 The Causal Chain
 
 The project's logic model can be stated as a single pathway:
 
 ```
-┌─────────────────────┐     ┌───────────┐     ┌─────────────┐     ┌──────────────────┐     ┌──────────────────────┐
-│   Chalk stimulus    │ ──► │   Dwell   │ ──► │ Engagement  │ ──► │ Social cognition │ ──► │ Wellbeing indicators │
-│  (novelty/invite)   │     │           │     │             │     │                  │     │                      │
-│                     │     │ MEASURED  │     │  OBSERVED   │     │   INFERRED       │     │   ASSOCIATED         │
-└─────────────────────┘     └───────────┘     └─────────────┘     └──────────────────┘     └──────────────────────┘
++---------------------+   +-----------+   +-------------+   +------------------+   +----------------------+
+|   Chalk stimulus    |-->|   Dwell   |-->|  Engagement |-->| Social cognition |-->| Wellbeing indicators |
+|  (novelty/invite)   |   |           |   |             |   |                  |   |                      |
+|                     |   | MEASURED  |   |  OBSERVED   |   |    INFERRED      |   |    ASSOCIATED        |
++---------------------+   +-----------+   +-------------+   +------------------+   +----------------------+
 ```
 
 | Node | What it means | How it is established | Status |
-|------|--------------|----------------------|--------|
+|---|---|---|---|
 | **Chalk stimulus** | The visible intervention: dance steps, prompts, Happiness Index, narrative layers | Applied by project lead; documented photographically | Designed input |
 | **Dwell** | A walker slows or stops in the gallery section; transit time exceeds the expected walking pace for 100m | Measured directly by Pico W IR sensors; threshold: >120s indicates deliberate pause | **Measured** |
 | **Engagement** | A walker reads, contributes chalk, scans the QR code, or follows the dance steps | Inferred from dwell duration and photo-narrative contribution counts; QR scan data provides a partial direct signal | **Observed** (proxy) |
@@ -88,14 +106,16 @@ The chain is presented honestly: the first two links are measured; the third is 
 
 ## References
 
-Daykin, N. (2017). *Arts, health and wellbeing: A critical perspective on research, policy and practice*. Routledge.
+Daykin, N. (2017). *Arts, health and wellbeing: A critical perspective on research, policy and practice.* Routledge.
 
-Fancourt, D., & Finn, S. (2019). *What is the evidence on the role of the arts in improving health and well-being? A scoping review*. World Health Organization Regional Office for Europe. https://www.euro.who.int/en/publications/abstracts/what-is-the-evidence-on-the-role-of-the-arts-in-improving-health-and-well-being-a-scoping-review-2019
+Educational Colours Pty Ltd. (2023). *Safety data sheet: Chalk* (Revision 2, issued 26 April 2023). Educational Colours Pty Ltd.
 
-Huon Valley Council. (2022). *Huon Valley health and wellbeing strategy 2022–2027*. Huon Valley Council.
+Fancourt, D., & Finn, S. (2019). *What is the evidence on the role of the arts in improving health and well-being? A scoping review.* World Health Organization Regional Office for Europe. https://www.euro.who.int/en/publications/abstracts/what-is-the-evidence-on-the-role-of-the-arts-in-improving-health-and-well-being-a-scoping-review-2019
 
-National Centre for Creative Health. (2024). *Creative health: The short report*. NCCH. https://www.ncch.org.au
+Huon Valley Council. (2022). *Huon Valley health and wellbeing strategy 2022–2027.* Huon Valley Council.
 
-Oldenburg, R. (1989). *The great good place: Cafés, coffee shops, community centers, beauty parlors, general stores, bars, hangouts, and how they get you through the day*. Paragon House.
+National Centre for Creative Health. (2024). *Creative health: The short report.* NCCH. https://www.ncch.org.au
 
-Saarikallio, S. (2011). Music as emotional self-regulation throughout adulthood. *Psychology of Music*, *39*(3), 307–327. https://doi.org/10.1177/0305735610374894
+Oldenburg, R. (1989). *The great good place: Cafes, coffee shops, community centers, beauty parlors, general stores, bars, hangouts, and how they get you through the day.* Paragon House.
+
+Saarikallio, S. (2011). Music as emotional self-regulation throughout adulthood. *Psychology of Music, 39*(3), 307–327. https://doi.org/10.1177/0305735610374894
