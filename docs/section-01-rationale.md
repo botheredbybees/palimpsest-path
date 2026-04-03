@@ -95,8 +95,8 @@ The project's logic model can be stated as a single pathway:
 | Node | What it means | How it is established | Status |
 |---|---|---|---|
 | **Chalk stimulus** | The visible intervention: dance steps, prompts, Happiness Index, narrative layers | Applied by project lead; documented photographically | Designed input |
-| **Dwell** | A walker slows or stops in the gallery section; transit time exceeds the expected walking pace for 100m | Measured directly by Pico W IR sensors; threshold: >120s indicates deliberate pause | **Measured** |
-| **Engagement** | A walker reads, contributes chalk, scans the QR code, or follows the dance steps | Inferred from dwell duration and photo-narrative contribution counts; QR scan data provides a partial direct signal | **Observed** (proxy) |
+| **Dwell** | A walker slows or stops in the gallery section; transit time exceeds the expected walking pace for 60m | Measured directly by Pico IR sensors; threshold: >120s indicates deliberate pause | **Measured** |
+| **Engagement** | A walker reads, contributes chalk marks, scans the QR code, or follows the dance steps | Inferred from dwell duration and photo-narrative contribution counts; QR scan data provides a partial direct signal | **Observed** (proxy) |
 | **Social cognition** | Perspective-taking, empathic inference, imagined exchange with an unknown other | Inferred from engagement with narrative prompts; not directly measurable at this project scale | **Inferred** |
 | **Wellbeing indicators** | Self-reported affect (Happiness Index); post-intervention persistence of elevated dwell suggesting continued value | Happiness Index provides a self-selected affective signal; persistence data is the project's strongest potential policy finding | **Associated** |
 
