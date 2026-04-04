@@ -22,21 +22,7 @@ The wings are the design challenge. They need to be beautiful enough to photogra
 **Possible weekly variation:**
 Change the wing pattern each week — one week naturalistic monarch, one week abstract geometric, one week community-drawn (participants add their own details to the wings over the week). By the end of the week the wings carry the accumulated marks of everyone who passed through.
 
----
 
-## Mermaid tail
-
-Draw an elaborate fish tail on the boardwalk boards — scales, fins, the full thing — with **SIT HERE** at the wide end where the hips would be. Someone sits at the edge of the boards or on a low railing with their legs concealed behind the tail. Photographed from above or at a low angle, they become a mermaid.
-
-Works especially well near the water's edge where the channel is visible in the background. Could be paired with a mirror-image version so two people can sit tail-to-tail. Iridescent colours (blues, greens, purples) photograph beautifully in chalk.
-
----
-
-## Bird wings — standing version
-
-The butterfly idea lying down, but vertical: two large outstretched bird wings drawn on a flat section of the bannister boards or a wall surface, with **STAND HERE** at the body position. The person stands in front, arms at their sides, and the wings extend from their back. Photographed straight on, they become a large bird — an eagle, a black swan, whatever the wings suggest.
-
-Connects directly to the birdlife page. A black swan wing spread would be particularly apt given the town's name, and the black-on-grey-timber would photograph well.
 
 ---
 
@@ -54,13 +40,7 @@ A trail of oversized footprints — human, bird, or fantastically large — lead
 
 Could be the footprints of a particular bird (oystercatcher prints are very recognisable), or an unknown giant creature, or a running child. Works as a simple way to draw people into the space before they have decided to engage with the chalk station proper.
 
----
 
-## The invisible friend
-
-Draw a chalk figure sitting on the railing or a bench — a simple, friendly outline in the style of a paper doll — with a gap beside it sized for a real person to sit. No text needed; the empty space is the invitation. Someone sits beside the invisible friend and the photo does the rest.
-
-The figure could be drawn with some personality — reading a book, looking out at the water, holding a coffee — to make the pairing feel like a moment rather than a prop. Low-key and quietly funny. Works well for adults who might feel self-conscious about the more elaborate installations.
 
 ---
 
