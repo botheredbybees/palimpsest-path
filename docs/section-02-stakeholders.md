@@ -1,6 +1,6 @@
 # Section 2: Stakeholder & Permissions Map
 
-*Project Site: Cygnet Boardwalk, Lymington Road, Cygnet, Tasmania — 60m gallery section subject to final site audit*
+*Project Site: Port Cygnet Boardwalk, Lymington Road, Cygnet, Tasmania — 60m gallery section subject to final site audit*
 
 ---
 
