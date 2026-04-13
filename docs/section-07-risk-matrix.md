@@ -1,6 +1,6 @@
-# Section 7: Risk Matrix
+# Section 7: Risk Matrix (Council Format)
 
-**Ethics, Community Stewardship & Gear Loss — Prevention, Response & Residual Risk**
+**Ethics, Community Stewardship & Gear Loss - Prevention, Response & Residual Risk**
 
 ---
 
@@ -14,98 +14,48 @@ This philosophy also shapes the ethics framework. Participants are not subjects 
 
 ---
 
-## 7.2 Rating Legend
+## 7.2 Risk Matrix (Huon Valley Council Standard)
 
-| Rating | Description |
-|--------|-------------|
-| **HIGH** | Likely to occur; significant consequence if unmitigated |
-| **MEDIUM** | Possible; manageable consequence with action |
-| **LOW** | Unlikely or minor consequence |
-| **RESIDUAL** | Risk level after mitigations are applied |
+| LIKELIHOOD | UNLIKELY | LOW | MODERATE | SIGNIFICANT | HIGH |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **HIGH** | Moderate (5) | High (10) | High (15) | Catastrophic (20) | Catastrophic (25) |
+| **SIGNIFICANT** | Moderate (4) | Moderate (8) | High (12) | Catastrophic (16) | Catastrophic (20) |
+| **MODERATE** | Low (3) | Moderate (6) | Moderate (9) | High (12) | High (15) |
+| **LOW** | Low (2) | Moderate (4) | Moderate (6) | Moderate (8) | High (10) |
+| **UNLIKELY** | Low (1) | Low (2) | Low (3) | Moderate (4) | Moderate (5) |
 
 ---
 
 ## 7.3 Risk Register
 
-### Materials & Equipment
-
-| Risk | Likelihood | Impact | Mitigation Strategy | Residual |
-|------|-----------|--------|---------------------|----------|
-| **Chalk theft from station** | MEDIUM | LOW | Small Batch Strategy: replenish with 5–10 sticks every 48 hours rather than leaving full stock out. Project Presence: daily station visits by coordinator signal active stewardship (Wilson & Kelling, 1982, inverted). | LOW |
-| **Chalk station box damaged or removed** | LOW | MEDIUM | Timber build with stainless fixings; low aesthetic appeal as a theft target. Neighbour proximity provides informal overnight surveillance. Contingency budget covers one station rebuild. | LOW |
-| **Pico W sensor unit failure (weather / vandalism)** | MEDIUM | MEDIUM | IP65-rated ABS enclosures with cable glands and silicone sealing. Weekly hardware check and SD card swap protocol. Contingency budget covers one full unit replacement. If both units fail simultaneously, note outage dates and exclude from valid measurement count — do not extrapolate missing data. | LOW |
-| **AliExpress delivery delay** | MEDIUM | HIGH | Order all electronics on Phase 0 Day 1. 3–5 week delivery window is the critical path. If delayed past Phase 0 Week 2: source from Jaycar Electronics (Hobart) or Core Electronics (online, Australian). Higher cost (~$25–35/unit vs ~$8) but immediate availability. A delivery delay does not delay chalk station build, signage, or WordPress setup — only sensor installation. | MEDIUM |
-| **Laminated signage fails in weather** | MEDIUM | LOW | Use minimum 125 micron laminator pouches. Inspect weekly. Replace immediately if delaminating. Home print/laminate cost is negligible: reprint takes under 30 minutes. | LOW |
-
-### Community & Social
-
-| Risk | Likelihood | Impact | Mitigation Strategy | Residual |
-|------|-----------|--------|---------------------|----------|
-| **Offensive or non-prosocial chalk additions** | LOW | MEDIUM | Daily Audit: morning photography includes a "Clean Sweep" inspection. Wet-Wipe Protocol: chalk is instantly removable with a damp cloth. Positive Priming Strategy: opening each week with a specific, prosocial prompt primes community toward positive responses. | LOW |
-| **Low community participation** | MEDIUM | MEDIUM | Seed network: brief 2–3 trusted regular walkers as "first responders" before Week 1. Staged escalation: Weeks 1–2 silent phase builds curiosity before the chalk station opens. Low participation is also a valid research outcome — document it. | LOW |
-| **Council permit refused or delayed** | LOW | HIGH | Councillor Paul Gibson engaged first, before formal submission. Warm pathway established. Fallback proposal prepared: walkway zone only, no bannister stations, reduced footprint. If delayed: extend Phase 0 baseline collection. Do not begin chalk activity without written approval. | LOW |
-| **Neighbour complaint** | LOW | LOW | Pre-emptive consultation in Phase 0. Chalk stations are tidy, timber-built, and visually consistent with the boardwalk environment. | LOW |
-| **Negative local press or social media** | LOW | MEDIUM | Academic framing (FXA301, UTAS), health-promotion rationale, and Council engagement provide strong legitimacy. sidewalkcircus.org/about page provides clear project description. If negative attention occurs: respond factually via the WordPress site. Do not engage in social media arguments. | LOW |
-
-### Environmental & Physical Safety
-
-| Risk | Likelihood | Impact | Mitigation Strategy | Residual |
-|------|-----------|--------|---------------------|----------|
-| **Chalk dust causing slippery walking surface** | LOW | MEDIUM | Placement Protocol — two tiers. Tier 1 (bannister top rail, 18cm wide): Happiness Index scale and any chalk signage elements placed on the top surface of the bannister rail. Tier 2 (walkway, measured at 140cm wide): dance step patterns applied in concentrated formations. Some activity phases (tightrope line, hopscotch court) engage most of the walkway width by design; these are flat surface markings and do not physically obstruct pedestrian passage. Slip risk is weather-dependent: dry calcium carbonate chalk on timber provides normal or marginally improved grip; wet chalk in rainy conditions can reduce traction. Mitigations: outline-only application prevents thick dust accumulation; daily audit includes a chalk dust sweep prioritised after rain events. Placement approach stated explicitly in the Council permit application. | LOW |
-| **Chalk runoff affecting Huon River / sensitive waterway** | LOW | MEDIUM | Material specification: only non-toxic mineral chalk (calcium carbonate or calcium sulfate/gypsum based) is used, in small quantities (two 72-stick boxes). Both minerals are chemically inert, naturally occurring, and pose no documented risk to aquatic ecosystems at the volumes used in this project. No ASTM D-4236 certification is held for current stock; risk is managed through small batch quantities, natural rain washout, and avoidance of bulk application near the waterline. No solvents or oil-based materials used at any point. | LOW |
-| **Physical injury to participant (splinter, trip hazard)** | LOW | MEDIUM | Site audit in Phase 0 identifies any existing wear, exposed fixings, or trip hazards. Chalk stations mounted at bannister height with no protruding hardware at foot level. Any hazard identified during daily audit is reported to Council infrastructure team immediately. | LOW |
-| **Extended rain eliminating chalk before engagement** | HIGH | LOW | Rain Contingency Protocol: re-apply dance steps within 24 hours of washout. Photograph before and after. Log re-seed date against sensor records. The palimpsest effect is a design feature, not a failure mode. Multiple washouts are documented as planned data events. | LOW |
-
-### Ethics & Data
-
-| Risk | Likelihood | Impact | Mitigation Strategy | Residual |
-|------|-----------|--------|---------------------|----------|
-| **Participant consent not adequately obtained** | LOW | HIGH | Implied Consent Model: QR signage functions as the Plain Language Statement. Participation is entirely voluntary. Wording reviewed and approved by FXA301 supervisor before printing. | LOW |
-| **Pico W data collection misunderstood as surveillance** | LOW | MEDIUM | Privacy by Design architecture: no cameras, no Wi-Fi sniffing, no facial recognition, no personally identifiable data. IR beam counters measure transit events only. QR signage explicitly states sensor methodology. Full technical specification available on sidewalkcircus.org/privacy. | LOW |
-| **Photo archive contains identifiable individuals** | MEDIUM | MEDIUM | All participant-submitted photos reviewed before publication. Project coordinator photographs are of chalk surfaces, not individuals. If a person appears incidentally, their face is blurred before upload. Participants may request removal at any time. | LOW |
-| **UTAS HREC review required and not initiated** | LOW | HIGH | Raise with FXA301 supervisor in first week of Phase 0. Confirm whether implied consent model + supervisor sign-off is sufficient, or whether formal HREC review is required. If required: initiate immediately. Allow 4–6 weeks. **This is the project's highest-consequence ethics risk if not addressed early. Do not begin any data collection until ethics pathway is confirmed.** | MEDIUM |
-| **SD card data loss (hardware failure / corruption)** | LOW | MEDIUM | Weekly SD swap protocol: active cards downloaded and backed up to two locations before re-use. Raw CSV files never edited or deleted. All analysis operates on copies. | LOW |
+| Description of Hazard | Risk/Impact | Rating (Initial) | Control and Action Measures | Residual Rating |
+| :--- | :--- | :---: | :--- | :---: |
+| **Human: Chalk theft from station** | Loss of materials; disruption of activity | 6 (Mod/Low) | **Small Batch Strategy:** replenish with 5–10 sticks every 48 hours. **Project Presence:** daily visits signal active stewardship. | 2 (Low) |
+| **Natural/Environmental: Extended rain** | Chalk eliminated before engagement | 15 (High/Mod) | **Rain Contingency Protocol:** re-apply dance steps within 24 hours of washout. Photograph before/after. The palimpsest effect is a design feature. | 6 (Mod) |
+| **Environmental: Chalk runoff to river** | Impact on sensitive waterway | 4 (Low/Low) | **Material Specification:** non-toxic calcium carbonate only. Small batch quantities (max 2 boxes). Chemically inert mineral. | 2 (Low) |
+| **Physical Safety: Slips, trips, falls** | Injury to participant | 9 (Mod/Mod) | **Site Audit:** Phase 0 audit identifies existing wear. **Design:** stations mounted at bannister height with no hardware at foot level. Daily audit reports hazards to Council. | 3 (Low) |
+| **Social: Offensive/non-prosocial chalk** | Trauma/distress to patrons; complaints | 9 (Mod/Mod) | **Daily Audit:** morning inspection includes "Clean Sweep." **Wet-Wipe Protocol:** chalk instantly removable with damp cloth. **Positive Priming:** prosocial prompts. | 2 (Low) |
+| **Technological: Sensor unit failure** | Data loss; vandalism | 9 (Mod/Mod) | **Enclosures:** IP65-rated ABS with cable glands. **Maintenance:** weekly hardware check and SD swap. **Contingency:** budget covers one full replacement. | 3 (Low) |
+| **Ethics: Privacy misunderstanding** | Misunderstood as surveillance | 12 (High/Mod) | **Privacy by Design:** no cameras, no Wi-Fi, no facial recognition. **Transparency:** QR signage explicitly states sensor methodology. Full tech spec on website. | 4 (Mod) |
+| **Ethics: UTAS HREC review delay** | Inability to begin data collection | 16 (Cat/Significant) | **Early Engagement:** confirm ethics pathway with supervisor in Week 1. Initiate immediately if formal HREC required. **Constraint:** do not begin collection until confirmed. | 8 (Mod) |
 
 ---
 
 ## 7.4 Community Stewardship Protocols
 
-The following protocols are the operational expression of the stewardship philosophy. They should become routine practice from Week 1 onwards.
-
 ### The Small Batch Protocol
-
-Replenish chalk stations with 5–10 sticks every 48 hours. Never leave full stock unattended. This limits loss per theft event to negligible quantity while maintaining continuous supply. The act of regular replenishment also signals active stewardship to walkers.
+Replenish chalk stations with 5–10 sticks every 48 hours. Never leave full stock unattended. This limits loss while maintaining supply and signalling stewardship.
 
 ### The Daily Audit
-
-Each morning: photograph the current chalk surface state (data collection), inspect for offensive content (clean sweep), check chalk stock (replenish if needed), inspect sensor unit enclosures (hardware check), and log any rain events or anomalies. The Daily Audit is the project's primary risk-detection mechanism and should take no more than 15 minutes.
+Each morning: photograph surface (data), inspect for offensive content (clean sweep), replenish chalk, check sensor enclosures, and log weather. Total time: <15 mins.
 
 ### The Wet-Wipe Protocol
-
-Carry a damp cloth during every boardwalk visit. Offensive or non-prosocial chalk marks are removed immediately — no trace on the timber, no chemical risk to the waterway. Photograph before removal for the project log. Do not engage publicly with the content — remove it quietly and photograph the cleared surface.
+Carry a damp cloth during every visit. Offensive marks are removed immediately with no trace on timber and no chemical risk to waterway. Photograph before removal for project log.
 
 ### Positive Priming
-
-Open each prompt cycle with a specific, prosocial, place-based question. Prompts that invoke local identity and care (e.g. "What makes you feel safe in Cygnet?", "What did you notice on the water today?") prime the community toward positive contributions and make non-prosocial additions read as socially incongruent. This is not censorship — it is design.
-
-### Project Presence
-
-Be visible at the boardwalk at varied times across the week. Walkers who see the project lead tending the stations develop an understanding that the space is actively cared for. Research on public space maintenance suggests that this sense of "project presence" reduces opportunistic vandalism more effectively than any physical security measure at this scale (Wilson & Kelling, 1982).
+Open each prompt cycle with a place-based question (e.g., "What makes you feel safe in Cygnet?"). Prosocial prompts make negative additions read as socially incongruent.
 
 ---
 
-## 7.5 Ethics Summary
-
-| Principle | Implementation |
-|-----------|---------------|
-| **Privacy by Design** | No cameras. No Wi-Fi. No personally identifiable data. The sensor system is physically incapable of collecting anything beyond anonymous transit counts and timestamps. This is an architectural constraint, not a policy choice. |
-| **Transparent Consent** | The QR signage functions as a Plain Language Statement. Participation is voluntary. The implied consent model is appropriate for a public art intervention where the creative act (applying chalk) is itself the expression of consent. Full privacy details at sidewalkcircus.org/privacy. |
-| **Right to Withdrawal** | Any participant may request removal of their contribution from the digital archive at any time by contacting the project lead via the sidewalkcircus.org contact page. Chalk contributions on the boardwalk are subject to the natural palimpsest cycle and cannot be retracted from the physical surface, but their digital record can be removed. |
-| **Opt-out of sensor presence** | A parallel footpath running alongside the road for the full length of the boardwalk section provides a genuine physical alternative route. Walkers who prefer not to pass through the sensor-equipped section may use this path, which is clearly visible from both boardwalk entry points and already in habitual use by joggers. This constitutes a real opt-out from sensor presence — not merely a policy one. Participants can opt out of presence in the sensor zone; they cannot opt out of engagement with chalk they choose to interact with. |
-| **Data minimisation** | Data collection is limited to what is strictly necessary for the evaluation: anonymous IR transit timestamps only. No additional data streams are added unless directly required by the evaluation framework. This is an architectural constraint, not a discretionary choice. |
-
----
-
-## References
-
-Wilson, J. Q., & Kelling, G. L. (1982). Broken windows: The police and neighbourhood safety. *The Atlantic Monthly*, *249*(3), 29–38.
+## 7.5 References
+Wilson, J. Q., & Kelling, G. L. (1982). Broken windows: The police and neighbourhood safety. *The Atlantic Monthly, 249*(3), 29–38.
