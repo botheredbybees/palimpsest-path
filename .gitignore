@@ -5,6 +5,9 @@
 # macOS
 .DS_Store
 
+# coucil application link
+docs/scratchpad/council_permit.txt
+
 # Data files (raw sensor logs — too large for git, use git-lfs or exclude)
 data/raw/
 data/*.csv
