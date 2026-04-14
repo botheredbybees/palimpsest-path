@@ -9,7 +9,7 @@ order: 7
 
 ## Get in touch
 
-The Palimpsest Path is currently in its planning and approvals phase, pending a Huon Valley Council permit and University of Tasmania academic oversight confirmation. The project is expected to proceed once both are in hand.
+The Palimpsest Path is currently in its planning and approvals phase, pending a Huon Valley Council permit. The project is expected to proceed once this is in hand.
 
 I am happy to hear from walkers, curious neighbours, journalists, researchers, or anyone who has a question, a concern, or would like to express support for the project. Community expressions of support are genuinely useful for the council permit process, so please don't hesitate to get in touch.
 

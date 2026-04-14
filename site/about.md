@@ -21,7 +21,7 @@ Rain washes the surface clean. Within 24 hours, the dance steps are re-seeded, a
 
 ## Project status
 
-The Palimpsest Path is currently in its planning and approvals phase. The project requires a permit from Huon Valley Council for ephemeral public art on the boardwalk, and confirmation of academic oversight from the University of Tasmania's FXA301 Arts in the Community programme. Both are expected to be granted, and the project will not commence until written approvals are in hand. If you have questions or would like to express support, please use the [contact page](/contact).
+The Palimpsest Path is currently in its planning and approvals phase. The project requires a permit from Huon Valley Council for ephemeral public art on the boardwalk, and the project will not commence until written approvals are in hand. If you have questions or would like to express support, please use the [contact page](/contact).
 
 ## Why chalk? Why a boardwalk?
 
@@ -39,7 +39,7 @@ The project also draws on neuroscientific research on novelty and social cogniti
 
 ## Who is behind it
 
-The Palimpsest Path is a community wellbeing project led by Peter Shanks, a student in the Bachelor of Creative Arts and Health at the University of Tasmania. It is being conducted as part of FXA301 Arts in the Community, under the supervision of academic staff at UTAS.
+The Palimpsest Path is a community wellbeing project led by Peter Shanks, a student in the Bachelor of Creative Arts and Health at the University of Tasmania. 
 
 The project has been developed in consultation with Huon Valley Council and local community members. It is supported by the National Centre for Creative Health's *A Creative Health Strategy for Australia* (2023) and aligns with the Huon Valley Health and Wellbeing Strategy's action area on Inclusion and Interaction.
 

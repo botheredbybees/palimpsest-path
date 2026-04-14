@@ -37,8 +37,6 @@ This philosophy also shapes the ethics framework. Participants are not subjects 
 | **Social: Offensive/non-prosocial chalk** | Trauma/distress to patrons; complaints | 9 (Mod/Mod) | **Daily Audit:** morning inspection includes "Clean Sweep." **Wet-Wipe Protocol:** chalk instantly removable with damp cloth. **Positive Priming:** prosocial prompts. | 2 (Low) |
 | **Technological: Sensor unit failure** | Data loss; vandalism | 9 (Mod/Mod) | **Enclosures:** IP65-rated ABS with cable glands. **Maintenance:** weekly hardware check and SD swap. **Contingency:** budget covers one full replacement. | 3 (Low) |
 | **Ethics: Privacy misunderstanding** | Misunderstood as surveillance | 12 (High/Mod) | **Privacy by Design:** no cameras, no Wi-Fi, no facial recognition. **Transparency:** QR signage explicitly states sensor methodology. Full tech spec on website. | 4 (Mod) |
-| **Ethics: UTAS HREC review delay** | Inability to begin data collection | 16 (Cat/Significant) | **Early Engagement:** confirm ethics pathway with supervisor in Week 1. Initiate immediately if formal HREC required. **Constraint:** do not begin collection until confirmed. | 8 (Mod) |
-
 ---
 
 ## 7.4 Community Stewardship Protocols

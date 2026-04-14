@@ -9,7 +9,7 @@ order: 1
 
 **An asychronous community chalk art project on the Port Cygnet Boardwalk**
 
-> **Project status: pending approvals.** The Palimpsest Path is currently in its planning phase. The project will proceed once Huon Valley Council permit approval and University of Tasmania (FXA301) academic oversight confirmation are in hand. Both are expected to be granted. This page will be updated as soon as a start date is confirmed.
+> **Project status: pending approvals.** The Palimpsest Path is currently in its planning phase. The project will proceed once Huon Valley Council permit approval is in hand. This page will be updated as soon as a start date is confirmed.
 
 Join me in a community art experiment.
 
@@ -27,7 +27,7 @@ There will be no pressure to make something permanent or beautiful. What you add
 
 ## Coming soon
 
-The project has not yet started. Once council and university approvals are confirmed, a start date will be announced here. If you'd like to be notified when the project launches, please [get in touch](/contact).
+The project has not yet started. Once council approval is confirmed, a start date will be announced here. If you'd like to be notified when the project launches, please [get in touch](/contact).
 
 ---
 

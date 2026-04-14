@@ -1,6 +1,6 @@
 # References & Citation Guide
 
-**The Palimpsest Path | FXA301 Arts in the Community, University of Tasmania**
+**The Palimpsest Path**
 
 This document serves two purposes:
 

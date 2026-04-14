@@ -77,7 +77,6 @@ The project's growth model is organic, radiating outward from an existing local 
 | **Cygnet Community Arts Council** | Invite as a co-presenter in name if they are willing — this adds legitimacy for the Council permit conversation and gives them something low-effort to champion publicly. At minimum, ask for a mention in their newsletter or social media at launch (Week 3) and at the midpoint (Week 5). |
 | **Cygnet Library** | From Week 4: ask the library to host a small rotating display of printed gallery screenshots. Update fortnightly with the best new contributions. The library gives the project a second physical home and reaches community members who may not walk the boardwalk regularly. |
 | **Huon Valley Arts** | Brief by email or phone in Phase 0 (see Section 2). From Week 3, ask them to share the sidewalkcircus.org gallery link via their channels. A second mention at the Week 7 Grand Palimpsest peak is well-timed — the surface will be at its most visually rich. |
-| **UTAS / FXA301** | Ask the FXA301 supervisor whether UTAS promotes community-engaged student projects through faculty newsletters or social media. A single mention at launch costs nothing and may reach unexpected audiences. |
 
 ---
 

@@ -7,7 +7,7 @@ order: 5
 
 # Birdlife
 
-> **Project status: pending approvals.** The chalk station is not yet open. The Palimpsest Path is awaiting Huon Valley Council permit approval and University of Tasmania academic oversight confirmation before the project can begin. This page describes how the birdlife feature will work once those approvals are in place.
+> **Project status: pending approvals.** The chalk station is not yet open. The Palimpsest Path is awaiting Huon Valley Council permit approval before the project can begin. This page describes how the birdlife feature will work once those approvals are in place.
 
 ## Another kind of palimpsest
 

@@ -135,4 +135,4 @@ Now bring everything together: sky, water, one bird, one boat, one text element.
 
 ---
 
-*The Palimpsest Path is a community chalk art installation on the Cygnet Boardwalk in southern Tasmania, part of the FXA301 Arts in the Community programme at the University of Tasmania. It uses temporary chalk marks — drawings, stories, dance step trails — to transform a transient walkway into a site of layered social connection. The project is funded by no one and owned by everyone. Tasmanian rain is the curator. Come back tomorrow — it will be different.*
+*The Palimpsest Path is a community chalk art installation on the Cygnet Boardwalk in southern Tasmania. It uses temporary chalk marks — drawings, stories, dance step trails — to transform a transient walkway into a site of layered social connection. The project is funded by no one and owned by everyone. Tasmanian rain is the curator. Come back tomorrow — it will be different.*

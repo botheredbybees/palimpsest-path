@@ -37,7 +37,7 @@ If you are looking at a participant photograph and wondering what drew someone t
 
 ---
 
-*The project has not yet started — it is currently awaiting Huon Valley Council permit approval and University of Tasmania academic oversight confirmation. The gallery will be populated once the project begins.*
+*The project has not yet started — it is currently awaiting Huon Valley Council permit approval The gallery will be populated once the project begins.*
 
 *Check back here for updates, or [get in touch](/contact) if you'd like to be notified at launch.*
 
