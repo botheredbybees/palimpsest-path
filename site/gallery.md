@@ -51,4 +51,8 @@ You are also welcome to [write a few words](/ideas) to go with your photo — a 
 
 ---
 
-*The gallery and community posts will be live once the project begins. [Get in touch](/contact) if you'd like to be notified at launch.*
+## Submit your photograph
+
+[contact-form-7 id="7a85d02" title="Add an image"]
+
+*Community photographs are reviewed before publication. Nothing is posted without your consent. You can request removal at any time via the [contact page](/contact).*
