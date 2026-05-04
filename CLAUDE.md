@@ -82,6 +82,10 @@ Raw sensor data (`data/raw/`) is gitignored. Copy SD card directories manually b
 
 Run `firmware/test_sensors.py` via USB REPL before sealing each unit. It tests the DS3231 RTC, both IR sensors, and SD card read/write.
 
+## Available skills
+
+- `/forecast-think` — structured decision/forecasting tool (Six Thinking Hats + superforecasting). Use when thinking through a decision, risk, or uncertain outcome. Saves a dated markdown document to `~/forecasts/`.
+
 ## Key constraints
 
 - The GitHub Actions deploy is **manual-trigger only** — do not change `on:` to `push` triggers.
