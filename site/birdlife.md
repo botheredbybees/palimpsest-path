@@ -7,7 +7,7 @@ order: 5
 
 # Birdlife
 
-> **Project status: pending approvals.** The chalk station is not yet open. The Palimpsest Path is awaiting Huon Valley Council permit approval before the project can begin. This page describes how the birdlife feature will work once those approvals are in place.
+> **Back for the Cygnet Folk Festival — Friday 8 to Sunday 10 January 2027.** The birds are here all year. This page is a field guide to what you are likely to see from the boardwalk.
 
 ## Another kind of palimpsest
 
@@ -375,63 +375,15 @@ Like the house sparrow, the goldfinch was introduced to Australia in the ninetee
 
 ## The chalk invitation
 
-The boardwalk bannister is already a surface for shared marks — chalk prompts change weekly, and the surface resets with rain, just as the rest of the palimpsest does. Birds can be part of that record too.
+The boardwalk bannister is already a surface for shared marks — chalk prompts change from day to day, and the surface resets with rain, just as the rest of the palimpsest does. Birds can be part of that record too.
 
 If you spot a bird while you're walking, you are welcome to chalk its name on the bannister. Write it anywhere there is space. If the name is already there from a previous walker, add a tally mark beside it — a simple vertical stroke — to record that you saw it too. If you'd rather sketch than write, the drawing guides in each species entry above will get you there in a few minutes.
 
 None of this is required. It is simply one more way of leaving a trace of what you noticed.
 
-**This week's bird to watch for (Week 1):** *Black Swan — look for them on the channel, often in pairs, upending to feed in the shallows at low tide. The town is named for them. See if you can count how many are in view at once.*
+**A bird to watch for over the festival:** *Black Swan — look for them on the channel, often in pairs, upending to feed in the shallows at low tide. The town is named for them. See if you can count how many are in view at once.*
 
-This prompt changes each week and is posted on the chalk station board. The full eight-week schedule is below.
-
----
-
-## Eight weeks of birds
-
-The project runs from late May through July — Tasmanian autumn into early winter. The prompts below are sequenced to start with the most visible species and move toward birds that reward slower, more patient looking. Each week's prompt is posted at the chalk station.
-
-**Week 1 — Black Swan**
-Look for them on the channel, often in pairs, upending to feed in the shallows at low tide. The town is named for them: *Port des Cygnes*, named by French navigator Bruni D'Entrecasteaux in 1793. See how many are in view at once — the count changes with the tide.
-
-**Week 2 — Masked Lapwing**
-Listen for it before you look for it. Its rattling alarm call carries a long way, and it will tell you exactly where it is. Once you've found it, watch how it holds its ground as people pass — it almost never retreats. In autumn pairs are often defending a territory around grassy edges near the water.
-
-**Week 3 — Superb Fairywren**
-Look for small groups moving through the low scrub beside the boardwalk. The male's electric blue head is unmistakable even in a quick glimpse between branches. In May and June some males are still in non-breeding plumage — brown like the females — so look for the cocked tail and the family group moving together as a unit.
-
-**Week 4 — White-faced Heron**
-Find one on the mudflats or rocks and watch it for two minutes without moving. Notice how it stills itself completely — not resting, but attending. The strike, when it comes, is faster than it looks possible. In June the mudflats at low tide are good heron territory.
-
-**Week 5 — Pied Oystercatcher**
-If the tide is low enough, look for the pied oystercatcher working the exposed rocks and mud. Watch what it does with its bill: it levers open shellfish, hammers through shells, and probes for worms — three different techniques, sometimes in the space of a few minutes. The orange bill is visible from a surprising distance.
-
-**Week 6 — European Goldfinch**
-Look for goldfinches in flocks on any seedy or weedy vegetation near the boardwalk. In June and July they cluster on thistles and seed heads, sometimes ten or more at once. The flash of yellow across the wing as they lift off is unmistakable, and the liquid twittering call often gives them away before you see them.
-
-**Week 7 — Tasmanian Native Hen**
-Watch how it navigates the boardwalk margins entirely on foot — running rather than retreating when disturbed, legs built for speed rather than flight. Listen for its harsh, mechanical call: it sounds more like machinery than birdsong. You will not find this bird anywhere else on earth.
-
-**Week 8 — Hoary-headed Grebe**
-Watch the open water for a bird smaller than a duck, sitting very low, diving and resurfacing in unexpected places. Time how long it stays underwater. In winter the silvery-streaked head is most visible in good morning light. Patience is the whole technique with grebes.
-
----
-
-## iNaturalist
-
-iNaturalist is a global platform for recording wildlife observations, with a strong Australian presence through the [Atlas of Living Australia](https://www.inaturalist.ala.org.au). Observations are submitted with photographs and location data, and the community helps confirm identifications. The result is a searchable, growing record of what has been seen where.
-
-The Cygnet area already has a body of iNaturalist observations. If you log a sighting on the boardwalk — with a photo and a location pin — it becomes part of that record. You don't need to be an expert. An unconfirmed observation is still a data point, and the community will help with identification if you're unsure what you saw.
-
-[View the Palimpsest Path birdlife project on iNaturalist →](https://www.inaturalist.org/projects/palimpsest-path-project)
-
----
-
-## Share a bird photo
-
-If you photograph a bird on or near the Cygnet Boardwalk — or the trace of one: a footprint in the mud, a feather caught on the railing, the ripple where something just dove — you are welcome to submit it to the community gallery. Scan the QR code at the chalk station or visit the [Participate](/participate) page for the submission form.
-
-As always, take the photo for yourself first. Share it only if you want to add it to the community essay.
+This prompt is posted on the chalk station board.
 
 ---
 
