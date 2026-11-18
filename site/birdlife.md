@@ -387,6 +387,28 @@ This prompt is posted on the chalk station board.
 
 ---
 
+## Every bird recorded so far
+
+Seventy bird species have been logged in the [Palimpsest Path project on iNaturalist](https://www.inaturalist.org/projects/palimpsest-path-project?tab=species), from around 900 sightings. Here they all are, grouped by how often they have turned up. **Bold** names have a field guide entry above.
+
+This is a record of what people have photographed, not a census. A bird that is rarely logged may simply be hard to photograph, and a festival weekend in January could well turn up something that isn't on this list. If you see one, you could be the first to log it.
+
+**Logged often (10 or more sightings)**
+
+**White-faced Heron**, **Superb Fairywren**, **Tasmanian Native Hen**, **Masked Lapwing**, **Pied Oystercatcher**, **Black Swan**, **Great Egret**, Galah, **New Holland Honeyeater**, **Little Pied Cormorant**, **Hoary-headed Grebe**, Chestnut Teal, Little Wattlebird, Forest Raven, **European Goldfinch**, Eurasian Blackbird, **Grey Fantail**, Dusky Woodswallow, European Starling, **Silver Gull**, Great Cormorant, **Kelp Gull**, Yellow-tailed Black Cockatoo, **Little Black Cormorant**, **Sooty Oystercatcher**, Australian Wood Duck, Grey Shrikethrush, Yellow Wattlebird.
+
+**Logged sometimes (3 to 9 sightings)**
+
+Black-headed Honeyeater, **House Sparrow**, Green Rosella, European Greenfinch, Grey Goshawk, Laughing Kookaburra, **Greater Crested Tern**, Mallard, Little Corella, Silvereye, Yellow-throated Honeyeater, Grey Currawong, Tree Martin, Grey Butcherbird, Swamp Harrier, **Welcome Swallow**, Brown Thornbill, Striated Pardalote, Swift Parrot.
+
+**Logged once or twice**
+
+Brush Bronzewing, Australian Pelican, Grey Teal, Black-faced Cuckooshrike, Sulphur-crested Cockatoo, Pacific Black Duck × Mallard, Musk Lorikeet, Fan-tailed Cuckoo, Wedge-tailed Eagle, Pacific Black Duck, Greylag Goose, Australian Shelduck, Muscovy Duck, Willie Wagtail, Black Currawong, Australian Magpie, Tasmanian Thornbill, Scarlet Robin, Golden Whistler, Rainbow Lorikeet, White-bellied Sea-Eagle, Brown Goshawk, Pallid Cuckoo.
+
+*List current as of 18 November 2026. See the iNaturalist project for the live version.*
+
+---
+
 ## Haven't found your bird?
 
 This field guide covers the species most commonly seen from the boardwalk, but the full list of what's been recorded in the project is longer and growing. Perhaps it's one of these — [browse all species observed in the Palimpsest Path project on iNaturalist](https://www.inaturalist.org/projects/palimpsest-path-project?tab=species).
