@@ -1,7 +1,7 @@
 ---
 title: About
 slug: about
-status: draft
+status: publish
 order: 2
 ---
 
@@ -15,17 +15,17 @@ The Cygnet Boardwalk is a palimpsest. Every day, hundreds of people walk the sam
 
 ## What happens on the boardwalk
 
-A chalk trail evolves along the 60-metre boardwalk section over the first two weeks: simple footprints leading toward the water's edge, then a tightrope line with some prints facing backward, then a hopscotch court, and finally a full box waltz sequence — each layer added every few days, building in complexity and playfulness. A chalk station at the midpoint offers coloured chalk and a weekly prompt. Walkers are invited to follow the steps, respond to the prompt, or add their own mark: a word, a drawing, a ribbon of chalk connecting their story to someone else's.
+A chalk trail evolves along the 60-metre boardwalk section over the first two weeks: simple footprints leading toward the water's edge, then a tightrope line with some prints facing backward, then a hopscotch court, and finally a full box waltz sequence — each layer added every few days, building in complexity and playfulness. A chalk station at the midpoint offers coloured chalk and a question on a small chalkboard. Walkers are invited to follow the steps, respond to the question, or add their own mark: a word, a drawing, a hand traced onto the rail, a ribbon of chalk connecting their story to someone else's.
 
 Rain washes the surface clean. Within 24 hours, the dance steps are re-seeded, and the cycle begins again. This is not a failure — it is the design. The ephemeral nature of chalk reduces the stakes of participation. You cannot make a permanent mistake. You cannot ruin anything. You can only add to a surface that is always already in the process of becoming something new.
 
-## Project status
+## Where it's up to
 
-The Palimpsest Path is currently in its planning and approvals phase. The project requires a permit from Huon Valley Council for ephemeral public art on the boardwalk, and the project will not commence until written approvals are in hand. If you have questions or would like to express support, please use the [contact page](/contact).
+The path has been chalked on the boardwalk once already, and it's returning for the Cygnet Folk Festival, Friday 8 to Sunday 10 January 2027. If you have questions or would like to express support, please use the [contact page](/contact).
 
 ## Why chalk? Why a boardwalk?
 
-Community arts interventions that target public outdoor spaces are rare, partly because of the regulatory complexity of permanent installation and partly because of the perceived risk of vandalism or conflict. Chalk on a boardwalk sidesteps both problems. It is non-toxic, non-permanent, and leaves no residue. The rain takes care of removal. There is nothing to damage, because impermanence is built in.
+Community arts interventions that target public outdoor spaces are rare, partly because of the regulatory complexity of permanent installation and partly because of the perceived risk of vandalism or conflict. Chalk on a boardwalk sidesteps both problems. The chalk is a non-hazardous mineral product (its safety data sheet classifies it as not hazardous, and the sheet is available on request), and it is non-permanent. The rain takes care of removal. There is nothing to damage, because impermanence is built in.
 
 The boardwalk is ideal because it is a linear space with a clear entry and exit, a regular population of walkers who use it habitually, and a natural dwell point — the view of the river — that already encourages people to pause. The project works with these existing behaviours rather than trying to impose new ones.
 
@@ -39,15 +39,14 @@ The project also draws on neuroscientific research on novelty and social cogniti
 
 ## Who is behind it
 
-The Palimpsest Path is a community wellbeing project led by Peter Shanks, a student in the Bachelor of Creative Arts and Health at the University of Tasmania. 
+The Palimpsest Path is a community wellbeing project led by Peter Shanks, a student in the Diploma of Creative Arts and Health at the University of Tasmania.
 
-The project has been developed in consultation with Huon Valley Council and local community members. It is supported by the National Centre for Creative Health's *A Creative Health Strategy for Australia* (2023) and aligns with the Huon Valley Health and Wellbeing Strategy's action area on Inclusion and Interaction.
+The project is supported by the National Centre for Creative Health's *A Creative Health Strategy for Australia* (2023) and aligns with the Huon Valley Health and Wellbeing Strategy's action area on Inclusion and Interaction.
 
 ## References
 
 Daykin, N., Mansfield, L., Meads, C., Julier, G., Tomlinson, A., Payne, A., Grigsby Duffy, L., Lane, J., D'Innocenzo, G., Burnett, A., Kay, T., Dolan, P., Testoni, S., & Victor, C. (2018). What works for wellbeing? A systematic review of arts interventions in health and social care. *Health Promotion International*, *33*(1), 11–26. https://doi.org/10.1093/heapro/daw074
 
 Fancourt, D., & Finn, S. (2019). *What is the evidence on the role of the arts in improving health and well-being? A scoping review*. World Health Organization Regional Office for Europe. https://www.euro.who.int/en/publications/abstracts/what-is-the-evidence-on-the-role-of-the-arts-in-improving-health-and-well-being-a-scoping-review-2019
-
 
 National Centre for Creative Health. (2023). *A creative health strategy for Australia*. NCCH. https://www.ncch.org.au

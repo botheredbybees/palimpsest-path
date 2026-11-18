@@ -1,21 +1,27 @@
 ---
 title: Participate
 slug: participate
-status: draft
+status: publish
 order: 3
 ---
 
 # Participate
 
-> **Project status: pending approvals.** The chalk station is not yet open. The Palimpsest Path is awaiting Huon Valley Council permit approval before the project can begin. This page describes how participation will work once those approvals are in place.
-
 ## On the boardwalk
 
-When the project launches, the chalk station will be located on the Cygnet Boardwalk at the midpoint of the marked 60-metre section. Look for the timber box on the bannister and the chalk dance steps on the boardwalk.
+The chalk station is at the midpoint of the marked 60-metre section of the Cygnet Boardwalk. Look for the timber box on the bannister and the chalk dance steps on the boards.
 
-To participate, pick up a piece of chalk from the station box, follow the dance steps on the boards — or invent your own — and respond to that week's prompt, or just add what's on your mind. Put the chalk back when you're done.
+To participate, pick up a piece of chalk from the station box, follow the dance steps on the boards — or invent your own — and respond to the question on the chalkboard, or just add what's on your mind. Put the chalk back when you're done.
 
 There are no rules beyond that. You don't need to be an artist. A line, a colour, a footprint — it all counts. The surface resets with rain, so if you come back and your contribution is gone, that's the palimpsest at work — not an ending.
+
+---
+
+## Along the boardwalk
+
+- **Hopscotch.** A court drawn on the boards. Hop it, shade in a square with the coloured chalk, or add a rule for square 7.
+- **The Hand-Chain.** On the rail, lay your hand flat and trace around it with the side of the chalk so your wrist overlaps the last hand in the chain, which someone left before you arrived. Add a word or a date inside your hand if you like. Names are optional.
+- **The Happiness Index.** See below.
 
 ---
 
@@ -47,10 +53,10 @@ There is no obligation to submit anything. The photo you take and keep is just a
 
 ## The Happiness Index
 
-Near the chalk station there will be a simple chalk bar graph on the bannister rail. The scale runs from 😞 at one end to 😊 at the other, with 😐 in the middle — five positions total. Each day, draw a bar to show where you're at right now. The graph is wiped clean each morning and re-drawn fresh. You don't have to explain it. You don't have to sign it. Just draw the bar.
+Near the chalk station there is a simple chalk bar graph on the bannister rail. The scale runs from 😞 at one end to 😊 at the other, with 😐 in the middle — five positions total. Each day, draw a bar to show where you're at right now. The graph is wiped clean each morning and re-drawn fresh. You don't have to explain it. You don't have to sign it. Just draw the bar.
 
 ---
 
-## Get notified at launch
+## Hear about next time
 
-If you'd like to know when the project begins, please [get in touch](/contact) and mention you'd like a launch notification.
+If you'd like to know when the path is next chalked, please [get in touch](/contact) and mention you'd like to be notified.
