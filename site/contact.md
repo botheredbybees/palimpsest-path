@@ -1,7 +1,7 @@
 ---
 title: Contact
 slug: contact
-status: draft
+status: publish
 order: 7
 ---
 
@@ -9,9 +9,9 @@ order: 7
 
 ## Get in touch
 
-The Palimpsest Path is currently in its planning and approvals phase, pending a Huon Valley Council permit. The project is expected to proceed once this is in hand.
+The Palimpsest Path returns for the Cygnet Folk Festival, Friday 8 to Sunday 10 January 2027.
 
-I am happy to hear from walkers, curious neighbours, journalists, researchers, or anyone who has a question, a concern, or would like to express support for the project. Community expressions of support are genuinely useful for the council permit process, so please don't hesitate to get in touch.
+I am happy to hear from walkers, curious neighbours, journalists, researchers, or anyone who has a question, a concern, or would like to express support for the project.
 
 **Response time:** I check messages every few days. If your matter is urgent, please indicate that in your message.
 
@@ -19,10 +19,10 @@ I am happy to hear from walkers, curious neighbours, journalists, researchers, o
 
 ## What you can contact me about
 
-- Questions about the project or how it will work
+- Questions about the project or how it works
 - Expressions of community support for the project
-- Requests to be notified when the project launches
-- Concerns about the proposed chalk station or boardwalk installation
+- Requests to hear about the next time the path is chalked
+- Concerns about the chalk station or the chalk on the boardwalk
 - Requests to remove a submitted photo from the gallery
 - Privacy questions
 - Media enquiries

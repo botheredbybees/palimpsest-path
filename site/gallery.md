@@ -1,7 +1,7 @@
 ---
 title: Gallery
 slug: gallery
-status: draft
+status: publish
 order: 4
 ---
 
@@ -11,7 +11,7 @@ order: 4
 
 This gallery is not an archive in the usual sense — it is a photo essay, and it has a narrative arc.
 
-The story begins with an empty boardwalk and a chalk station waiting to be discovered. It moves through the first tentative marks, the layered accumulation of weeks of community contribution, the inevitable rain resets that return the surface to something close to blank, and the strange beauty of what survives. It ends, tentatively, eight weeks after the project begins — though the boardwalk will continue to be walked long after the chalk station is packed away.
+The story begins with an empty boardwalk and a chalk station waiting to be discovered. It moves through the first tentative marks, the layered accumulation of weeks of community contribution, the inevitable rain resets that return the surface to something close to blank, and the strange beauty of what survives. It ends, tentatively, when the festival is over — though the boardwalk will continue to be walked long after the chalk station is packed away.
 
 If you are visiting the gallery for the first time, we invite you to scroll from the beginning rather than dipping in at random. The essay rewards chronological reading. You will notice things — a recurring motif, a response to a previous week's prompt, the way the surface accumulates and then clears — that are easy to miss if you browse.
 
@@ -37,9 +37,9 @@ If you are looking at a participant photograph and wondering what drew someone t
 
 ---
 
-*The project has not yet started — it is currently awaiting Huon Valley Council permit approval The gallery will be populated once the project begins.*
+*The path ran on the boardwalk once already and returns for the Cygnet Folk Festival, 8–10 January 2027. Photos will be added here after the festival.*
 
-*Check back here for updates, or [get in touch](/contact) if you'd like to be notified at launch.*
+*Check back here for updates, or [get in touch](/contact) if you'd like to hear about the next time the path is chalked.*
 
 ---
 
